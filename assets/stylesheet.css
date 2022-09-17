@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("fonts/SourceSansPro-Regular.ttf");
+}
+
+body {
+    font-family: "Source Sans Pro", Georgia;
+    background-color: #aaa;
+}
+h1 {
+    text-align: center;
+}
+
+#content, #top-matter {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#filters, #intro {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#filters form {
+    margin-block-end: 0;
+}
+#filters form h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+}
+#filters button:hover {
+    cursor: pointer;
+}
+#filters .nofilter {
+    background-color: #999;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* .post:nth-child(2n+1) {
+    background-color: #ddd;
+} */
+.post a.post-number {
+    color: red;
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 1em;
+    text-decoration: none;
+}
+.post a.post-number:hover {
+    text-decoration: underline;
+}
+
+.post .post-date {
+    display: inline-block;
+    padding-right: 1em;
+    color: gray;
+}
+.post .post-tags {
+    display: inline-block;
+}
+.tag {
+    border-radius: 8px;
+    font-size: 90%;
+    background-color: yellowgreen;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.tag.type {
+    background-color: red;
+    color: white;
+}
+button.tag {
+    border: none;
+    font-family: "Source Sans Pro", Georgia;
+}
+.post .post-target {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.post .post-target a {
+    color: blue;
+    text-decoration: none;
+}
+.post .post-target a:hover {
+    text-decoration: underline;
+}
+.post p {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.post cite {
+    display: block;
+    font-style: italic;
+}
+.post cite::before {
+    content: "—";
+}
+.post a.brktlink {
+    padding-left: 0.5em;
+    float: right;
+    font-style: normal;
+    color: blue;
+    text-decoration: none;
+}
+.post a.brktlink:hover {
+    text-decoration: underline;
+}

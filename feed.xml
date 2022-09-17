@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soren Bjornstad</title>
+    <link>https://ap.sorenbjornstad.com</link>
+    <atom:link href="http://ap.sorenbjornstad.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Soren Bjornstad's attopublish feed</description>
+    <language>en-us</language>
+    <copyright>Copyright 2022 Soren Bjornstad</copyright>
+    <generator>attopublish</generator>
+    <managingEditor>contact@sorenbjornstad.com (Soren Bjornstad)</managingEditor>
+    <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
+
+    <item>
+    <title>[6] Quote</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Fri, 16 Sep 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#6</link>
+    <guid>https://pp.sorenbjornstad.com/#6</guid>
+    <description>
+      &lt;p&gt;
+        One way I often like to think about behavioral questions is this: if everyone
+followed in these footsteps, would it make the whole organization (or community)
+overall better or worse?
+      &lt;/p&gt;
+        
+      &lt;cite&gt;Sophie Alpert, “Yak Shaving and Fixing”, https://sophiebits.com/2018/12/03/yak-shaving-fixing.html&lt;/cite&gt;
+    </description>
+  </item>
+  <item>
+    <title>[5] Published: Effective Flashcard Writing: Decomposing half a chapter of Thinking, Fast and Slow</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sun, 11 Sep 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#5</link>
+    <guid>https://pp.sorenbjornstad.com/#5</guid>
+    <description>I find it is often helpful to simply &lt;a
+href=&quot;https://zettelkasten.sorenbjornstad.com/#WatchingExpertsUseSoftware&quot;&gt;watch
+experts do things&lt;/a&gt;, whether they explain their thought process or not. In
+this video, I make some spaced-repetition flashcards in RemNote and explain why
+I&#x27;m making the choices I&#x27;m making.</description>
+  </item>
+  <item>
+    <title>[4] Story</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sun, 11 Sep 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#4</link>
+    <guid>https://pp.sorenbjornstad.com/#4</guid>
+    <description>
+      &lt;p&gt;
+        I believe I have reached peak Minnesota Nice after living here for 9 years.  I
+was walking across the parking lot of a gas station today, and some dingbat
+nearly backed up into me.  Normally I wouldn&#x27;t mind too much since I was cutting
+across a parking lot, which is after all shared space between cars and
+pedestrians, but this dude was literally looking straight forward out of his
+windshield while backing up. I stepped over to his open window and said
+cheerfully through it, “Excuse me, could you look behind you while you&#x27;re
+backing up, please?”
+      &lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[3] Quote</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sat, 10 Sep 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#3</link>
+    <guid>https://pp.sorenbjornstad.com/#3</guid>
+    <description>
+      &lt;p&gt;
+        Has someone tried unplugging the United States and plugging it back in?
+      &lt;/p&gt;
+        
+      &lt;cite&gt;sign in front of an independent computer shop in Lindstrom, &lt;/cite&gt;
+    </description>
+  </item>
+  <item>
+    <title>[2] Quote</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Thu, 25 Aug 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#2</link>
+    <guid>https://pp.sorenbjornstad.com/#2</guid>
+    <description>
+      &lt;p&gt;
+        This is not a conversation with someone you love.
+This is a conversation with someone who is trying to scam you.
+      &lt;/p&gt;
+        
+      &lt;cite&gt;from a hilarious series of dramatized dating-app conversations between bots and scammers, https://www.getfilteroff.com/scammer-bot-series/555-1234&lt;/cite&gt;
+    </description>
+  </item>
+  <item>
+    <title>[1] Published: Understanding the Long-Term Risks of Contraceptive Failure</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Mon, 15 Aug 2022 00:00:00 -0000</pubDate>
+    <link>https://pp.sorenbjornstad.com/#1</link>
+    <guid>https://pp.sorenbjornstad.com/#1</guid>
+    <description>Most people don&#x27;t have an intuitive understanding of how small risks add up over time.
+    When sex, bad statistics, and bad public-health messaging are thrown into the mix,
+    people end up making bad decisions.
+    In this article, spreadsheet simulator, and demo video,
+    we explore your chances of unintended pregnancy over a lifetime
+    and what you can do to reduce them.
+    (I got interested in this topic on a whim after reading a history of AIDS
+     had me thinking constantly about sexual health messaging for about a solid week.)</description>
+  </item>
+  </channel>
+</rss>
