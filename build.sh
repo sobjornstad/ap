@@ -7,6 +7,7 @@ die() {
 }
 
 ap posts.txt || die "attopublish build failed."
+git commit -am "update"
 
 tmp_location="/tmp/build-ap"
 pages_branch="gh-pages"
@@ -14,7 +15,6 @@ pages_branch="gh-pages"
 # Precondition check.
 git diff-index --quiet HEAD || die "Working directory is dirty. Please commit changes before continuing."
 [ -f "posts.txt" ] || die "Please run this script from the project root."
-#[ "$(git rev-parse --abbrev-ref HEAD)" = "master" ] || die "Please merge your changes to and check out master before publishing to Pages."
 git rev-parse "$pages_branch" >/dev/null 2>/dev/null || die "The gh-pages branch does not exist."
 
 revision=$(git rev-parse HEAD)
