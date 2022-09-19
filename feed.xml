@@ -12,12 +12,22 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[9] Fuck: A thing</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sun, 18 Sep 2022 20:35:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#9</link>
+    <guid>https://ap.sorenbjornstad.com/#9</guid>
+    <description>Here&#x27;s a fucking thing in which I swear a bit.</description>
+  </item>
+
+  <item>
     <title>[8] Published: Short Posts and Short URLs</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Sun, 18 Sep 2022 17:50:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#8</link>
-    <guid>https://pp.sorenbjornstad.com/#8</guid>
+    <link>https://ap.sorenbjornstad.com/#8</link>
+    <guid>https://ap.sorenbjornstad.com/#8</guid>
     <description>Control-Alt-Backspace post announcing the creation of this microblog, as well
 as a move to short URLs on CAB.</description>
   </item>
@@ -26,8 +36,8 @@ as a move to short URLs on CAB.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Article</category>
     <pubDate>Sun, 18 Sep 2022 17:45:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#7</link>
-    <guid>https://pp.sorenbjornstad.com/#7</guid>
+    <link>https://ap.sorenbjornstad.com/#7</link>
+    <guid>https://ap.sorenbjornstad.com/#7</guid>
     <description>&lt;em&gt;Pro tip:&lt;/em&gt; don&#x27;t start a date by insulting the other person&#x27;s interests
 (this may also end the date). Also, I&#x27;ve spent a grand total of ten hours in
 New York, most of them asleep, and I was able to pinpoint 35th Street and 8th
@@ -38,8 +48,8 @@ Avenue on Google Maps in fifteen seconds.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Article</category>
     <pubDate>Sat, 17 Sep 2022 18:50:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#6</link>
-    <guid>https://pp.sorenbjornstad.com/#6</guid>
+    <link>https://ap.sorenbjornstad.com/#6</link>
+    <guid>https://ap.sorenbjornstad.com/#6</guid>
     <description>As explained in the popular consciousness by Nassim Nicholas Taleb, some things
 are more or less evenly distributed and you can think about them in averages,
 while other things are very unevenly distributed, to the point where only the
@@ -55,8 +65,8 @@ heavy-tailed distributions in your life.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Sat, 17 Sep 2022 17:00:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#5</link>
-    <guid>https://pp.sorenbjornstad.com/#5</guid>
+    <link>https://ap.sorenbjornstad.com/#5</link>
+    <guid>https://ap.sorenbjornstad.com/#5</guid>
     <description>
       &lt;p&gt;
         One way I often like to think about behavioral questions is this: if everyone
@@ -72,8 +82,8 @@ overall better or worse?
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Sat, 17 Sep 2022 17:00:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#4</link>
-    <guid>https://pp.sorenbjornstad.com/#4</guid>
+    <link>https://ap.sorenbjornstad.com/#4</link>
+    <guid>https://ap.sorenbjornstad.com/#4</guid>
     <description>I find it is often helpful to &lt;a
 href=&quot;https://zettelkasten.sorenbjornstad.com/#WatchingExpertsUseSoftware&quot;&gt;watch
 experts do things&lt;/a&gt;, whether they explain their thought process or not. In
@@ -85,8 +95,8 @@ I&#x27;m making the choices I&#x27;m making.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Sat, 17 Sep 2022 17:00:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#3</link>
-    <guid>https://pp.sorenbjornstad.com/#3</guid>
+    <link>https://ap.sorenbjornstad.com/#3</link>
+    <guid>https://ap.sorenbjornstad.com/#3</guid>
     <description>
       &lt;p&gt;
         Has someone tried unplugging the United States and plugging it back in?
@@ -100,8 +110,8 @@ I&#x27;m making the choices I&#x27;m making.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Sat, 17 Sep 2022 17:00:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#2</link>
-    <guid>https://pp.sorenbjornstad.com/#2</guid>
+    <link>https://ap.sorenbjornstad.com/#2</link>
+    <guid>https://ap.sorenbjornstad.com/#2</guid>
     <description>Most people don&#x27;t have an intuitive understanding of how small risks add up over time.
     When sex, bad statistics, and bad public-health messaging are thrown into the mix,
     people end up making bad decisions.
@@ -117,8 +127,8 @@ I&#x27;m making the choices I&#x27;m making.</description>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Article</category>
     <pubDate>Sat, 17 Sep 2022 17:00:00 -0000</pubDate>
-    <link>https://pp.sorenbjornstad.com/#1</link>
-    <guid>https://pp.sorenbjornstad.com/#1</guid>
+    <link>https://ap.sorenbjornstad.com/#1</link>
+    <guid>https://ap.sorenbjornstad.com/#1</guid>
     <description>Since I quit regularly using most social media, I haven&#x27;t missed the ads or
 political screaming one bit, but I have found I miss being able to easily share
 random interesting things with the world. I&#x27;m hoping to resolve this and
