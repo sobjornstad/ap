@@ -132,3 +132,33 @@ button.tag {
 .post a.brktlink:hover {
     text-decoration: underline;
 }
+
+/* not currently used in any built-in templates, but handy! */
+.dashboard {
+    /* surprisingly, this achieves centering when the contained elements are inline-block, cool trick! */
+    text-align: center;
+}
+
+.dashboard-tile {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 8em;
+    height: 8em;
+    margin-right: 1em;
+    background-color: #eee;
+    border: 2px solid #bbb;
+}
+
+.dashboard-tile div.count {
+    font-size: 500%;
+    color: blue;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.dashboard-tile div.label {
+    font-size: 150%;
+    color: gray;
+    text-align: center;
+}
