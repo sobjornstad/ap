@@ -1,0 +1,117 @@
+#9 Quote
+    :date: 2022-09-19 21:15
+    :attr: “The Cathedral of Statistical Control”, Dynomight
+    :source: https://dynomight.net/control/
+    :rt: 12645
+    :tags: Statistics
+
+There is no secret math. The biggest mistake people make with statistics is to
+distrust their intuition. In reality, once you do all the math, the things that
+seemed like they’d be problems are in fact problems. If anything, the math just
+turns up more things to worry about.
+
+
+#8 Published
+    :date: 2022-09-18 17:50
+    :title: Short Posts and Short URLs
+    :source: https://controlaltbackspace.org/short
+    :tags: Blog
+
+Control-Alt-Backspace post announcing the creation of this microblog, as well
+as a move to short URLs on CAB.
+
+
+#7 Article
+    :date: 2022-09-18 17:45
+    :title: Shortest date, and ketchup
+    :author: Derek Sivers
+    :source: https://sive.rs/ketchup
+
+<em>Pro tip:</em> don't start a date by insulting the other person's interests
+(this may also end the date). Also, I've spent a grand total of ten hours in
+New York, most of them asleep, and I was able to pinpoint 35th Street and 8th
+Avenue on Google Maps in fifteen seconds.
+
+
+#6 Article
+    :date: 2022-09-17 18:50
+    :title: Searching for outliers
+    :source: https://www.benkuhn.net/outliers/
+    :author: Ben Kuhn
+    :tags: Statistics | Life
+
+As explained in the popular consciousness by Nassim Nicholas Taleb, some things
+are more or less evenly distributed and you can think about them in averages,
+while other things are very unevenly distributed, to the point where only the
+outliers matter. Kuhn usefully terms these “light-tailed” and “heavy-tailed”
+distributions and points out that many if not most of the important
+distributions in an individual’s life are heavy-tailed (jobs, romantic
+relationships, business ideas, leisure activities, etc.). Then he explores
+strategies for improving your chances of obtaining a good outcome from
+heavy-tailed distributions in your life.
+
+
+#5 Quote
+    :date: 2022-09-17 17:00
+    :attr: Sophie Alpert, “Yak Shaving and Fixing”
+    :source: https://sophiebits.com/2018/12/03/yak-shaving-fixing.html
+    :rt: 12638
+    :tags: Life
+
+One way I often like to think about behavioral questions is this: if everyone
+followed in these footsteps, would it make the whole organization (or community)
+overall better or worse?
+
+
+#4 Published
+    :date: 2022-09-17 17:00
+    :title: Effective Flashcard Writing: Decomposing half a chapter of Thinking, Fast and Slow
+    :source: https://www.youtube.com/watch?v=YTVkseFNb2M
+    :tags: Video | Spaced repetition
+
+I find it is often helpful to <a
+href="https://zettelkasten.sorenbjornstad.com/#WatchingExpertsUseSoftware">watch
+experts do things</a>, whether they explain their thought process or not. In
+this video, I make some spaced-repetition flashcards in RemNote and explain why
+I'm making the choices I'm making.
+
+
+#3 Quote
+    :date: 2022-09-17 17:00
+    :rt: 12628
+    :attr: sign in front of an independent computer shop in Lindstrom
+
+Has someone tried unplugging the United States and plugging it back in?
+
+
+#2 Published
+    :date: 2022-09-17 17:00
+    :title: Understanding the Long-Term Risks of Contraceptive Failure
+    :source: https://controlaltbackspace.org/contraception
+    :tags: Blog | Statistics
+
+    Most people don't have an intuitive understanding of how small risks add up over time.
+    When sex, bad statistics, and bad public-health messaging are thrown into the mix,
+    people end up making bad decisions.
+    In this article, spreadsheet simulator, and demo video,
+    we explore the chances of unintended pregnancy over a person's lifetime
+    – which are almost certainly higher than you think if you're never looked into it –
+    and what you can do to reduce them.
+    (I got interested in this topic on a whim after reading a history of AIDS
+     had me thinking constantly about sexual health messaging for about a solid week.)
+
+
+#1 Announcement
+    :date: 2022-09-17 17:00
+
+Since I quit regularly using most social media, I haven't missed the ads or
+political screaming one bit, but I have found I miss being able to easily share
+random interesting things with the world. I'm hoping to resolve this and
+recapture a bit of the energy of Web 1.0 by posting on a simple website
+instead; perhaps a few people will still be interested enough to follow a
+website or RSS feed (remember those? I still use them!). This weekend, I wrote
+a tiny, <a
+href="https://controlaltbackspace.org/likable/">likable</a>
+tool called attopublish to manage the posts, and I'll tweak it as needed.
+attopublish will also be available as an open-source tool sooner or later for
+anyone who's interested.
