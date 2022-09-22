@@ -12,8 +12,8 @@ h1 {
 }
 
 #content, #top-matter {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 #filters, #intro {
@@ -22,10 +22,10 @@ h1 {
     max-width: 45rem;
     margin: 0 auto;
     margin-bottom: 10px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #filters form {
     margin-block-end: 0;
@@ -44,6 +44,9 @@ h1 {
 #filters .nofilter {
     background-color: #999;
 }
+#filters .tag {
+    margin-bottom: 5px;
+}
 
 .post {
     background-color: white;
@@ -51,10 +54,10 @@ h1 {
     max-width: 45rem;
     margin: 0 auto;
     margin-bottom: 10px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /* .post:nth-child(2n+1) {
     background-color: #ddd;
@@ -138,7 +141,6 @@ button.tag {
     /* surprisingly, this achieves centering when the contained elements are inline-block, cool trick! */
     text-align: center;
 }
-
 .dashboard-tile {
     display: inline-block;
     margin-top: 10px;
@@ -149,16 +151,25 @@ button.tag {
     background-color: #eee;
     border: 2px solid #bbb;
 }
-
 .dashboard-tile div.count {
     font-size: 500%;
     color: blue;
     text-align: center;
     margin-bottom: -10px;
 }
-
 .dashboard-tile div.label {
     font-size: 150%;
     color: gray;
     text-align: center;
+}
+
+.recommendations-blurb {
+    margin-top: 10px;
+    background-color: aliceblue;
+    border: 2px solid lightblue;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
 }

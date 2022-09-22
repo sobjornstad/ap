@@ -1,10 +1,11 @@
-window.onload = function() {
-    var filterTags = document.querySelectorAll("#filters .tag");
-    for (var i = 0; i < filterTags.length; i++) {
-        filterTags[i].addEventListener("click", function() {
-            applyTagFilter(this.innerText);
-        });
-    }
+var SELECTED_TAG_STYLE = '2px solid blue';
+
+function onTagSelected() {
+    document.querySelectorAll("#filters .tag").forEach(function(tag) {
+        tag.style['border'] = '';
+    });
+    this.style['border'] = SELECTED_TAG_STYLE;
+    applyTagFilter(this.innerText);
 }
 
 function applyTagFilter(clickedTag) {
@@ -24,4 +25,12 @@ function applyTagFilter(clickedTag) {
             post.style.display = "block";
         }
     }
+}
+
+window.onload = function() {
+    var filterTags = document.querySelectorAll("#filters .tag");
+    for (var i = 0; i < filterTags.length; i++) {
+        filterTags[i].addEventListener("click", onTagSelected);
+    }
+    document.querySelector("#filters .nofilter").style['border'] = SELECTED_TAG_STYLE;
 }
