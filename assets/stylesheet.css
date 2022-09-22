@@ -5,10 +5,15 @@
 
 body {
     font-family: "Source Sans Pro", Georgia;
+    font-size: large;
     background-color: #aaa;
 }
 h1 {
     text-align: center;
+}
+ul {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
 }
 
 #content, #top-matter {
@@ -50,18 +55,12 @@ h1 {
 
 .post {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 45rem;
     margin: 0 auto;
     margin-bottom: 10px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 1.5rem;
 }
-/* .post:nth-child(2n+1) {
-    background-color: #ddd;
-} */
 .post a.post-number {
     color: red;
     display: inline-block;
@@ -80,6 +79,7 @@ h1 {
 }
 .post .post-tags {
     display: inline-block;
+    margin-bottom: 5px;
 }
 .tag {
     border-radius: 8px;
@@ -134,6 +134,23 @@ button.tag {
 }
 .post a.brktlink:hover {
     text-decoration: underline;
+}
+.post .recommendation-request {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+    font-size: 80%;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
 }
 
 /* not currently used in any built-in templates, but handy! */
