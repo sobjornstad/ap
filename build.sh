@@ -6,17 +6,30 @@ die() {
     exit $ret
 }
 
-ap posts.ap || die "attopublish build failed."
-git commit -am "update"
-
 tmp_location="/tmp/build-ap"
 pages_branch="gh-pages"
 
-# Precondition check.
+
+echo "Sanity check..."
 git diff-index --quiet HEAD || die "Working directory is dirty. Please commit changes before continuing."
 [ -f "posts.ap" ] || die "Please run this script from the project root."
 git rev-parse "$pages_branch" >/dev/null 2>/dev/null || die "The gh-pages branch does not exist."
+hash ap || die "ap not found on system path"
 
+
+echo "Updating comments file..."
+python3 /home/soren/cabinet/Me/Software/Active/attopublish/ap/comment_parser.py
+
+
+echo "Rebuilding site..."
+ap posts.ap || die "attopublish build failed."
+
+
+echo "Committing changes..."
+git commit -am "update"
+
+
+echo "Publishing site..."
 revision=$(git rev-parse HEAD)
 rm -rf "$tmp_location"
 
