@@ -142,6 +142,94 @@ button.tag {
     margin-bottom: 10px;
 }
 
+.post .comments h2 {
+    text-align: center;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.post .comments {
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: smaller;
+}
+
+.post .comments .comment {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-block-end: 5px;
+    padding-block-start: 5px;
+}
+.post .comments .comment:nth-child(2n) {
+    background-color: #fafafa;
+}
+.post .comments .comment:nth-child(2n+1) {
+    background-color: #eeeeee;
+}
+.post .comments .comment .author {
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+}
+.post .comments .comment .date {
+    color: gray;
+    display: inline-block;
+    margin-left: 1em;
+}
+.post .comments button.suggest {
+    background: none;
+    border: none;
+    color: blue;
+    font-family: "Source Sans Pro", Georgia;
+    font-size: 100%;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+form.suggestion-form {
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+form.suggestion-form label.left {
+    padding-left: 1px;
+    float: left;
+}
+form.suggestion-form .suggestion-element {
+    width: 100%;
+}
+form.suggestion-form input, form.suggestion-form textarea {
+    margin-block-end: 5px;
+}
+form.suggestion-form input[type="submit"] {
+    margin-top: 10px;
+    display: block;
+}
+form.suggestion-form input[type="checkbox"] {
+    margin-left: 0;
+}
+form.suggestion-form input[type="text"], form.suggestion-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", Georgia; 
+}
+form.suggestion-form input[type="text"] {
+    display: inline-block;
+}
+form.suggestion-form textarea {
+    display: block;
+}
+form.suggestion-form span.leftify {
+    overflow: hidden;
+    display: block;
+    padding-left: 0.5em;
+}
+
+
 #footer {
     width: 80%;
     margin: 2em auto;
@@ -181,7 +269,7 @@ button.tag {
 }
 
 .recommendations-blurb {
-    margin-top: 10px;
+    margin: 1em;
     background-color: aliceblue;
     border: 2px solid lightblue;
     padding: 10px;
