@@ -11,7 +11,6 @@ pages_branch="gh-pages"
 
 
 echo "Sanity check..."
-git diff-index --quiet HEAD || die "Working directory is dirty. Please commit changes before continuing."
 [ -f "posts.ap" ] || die "Please run this script from the project root."
 git rev-parse "$pages_branch" >/dev/null 2>/dev/null || die "The gh-pages branch does not exist."
 hash ap || die "ap not found on system path"
@@ -26,7 +25,9 @@ ap posts.ap || die "attopublish build failed."
 
 
 echo "Committing changes..."
+git add *.ap
 git commit -am "update"
+git diff-index --quiet HEAD || die "Working directory is still dirty after committing *.ap files. Please review and commit changes before continuing."
 
 
 echo "Publishing site..."
