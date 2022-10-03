@@ -61,6 +61,10 @@ ul {
     margin-bottom: 10px;
     padding: 1.5rem;
 }
+.post img {
+    max-width: 100%;
+    height: auto;
+}
 .post a.post-number {
     color: red;
     display: inline-block;
