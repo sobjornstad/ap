@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 die() {
     ret=$?
     printf "%s\\n" "$@" >&2
