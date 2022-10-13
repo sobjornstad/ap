@@ -81,6 +81,12 @@ ul {
     padding-right: 1em;
     color: gray;
 }
+.post .post-description {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+    font-weight: 600;
+}
 .post .post-tags {
     display: inline-block;
     margin-bottom: 5px;
