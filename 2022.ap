@@ -22,9 +22,7 @@ breaking.
 
 </p>
 
-<center>
-    <img src="assets/images/sponges.jpg">
-</center>
+<img class="center" src="assets/images/sponges.jpg" alt="The sponges in their safely packed box">
 
 
 #19 Misc
@@ -44,9 +42,7 @@ in the system tray for the headphones; my keyboard doesn't have volume
 controls).
 </p>
 
-<center>
-<img src="assets/images/volume.jpg" width=400>
-</center>
+<img class="center" src="assets/images/volume.jpg" width=400 alt="Volume control knob, splitter switch, and webcam switch on a desk.">
 
 <p>
 The upper-right box is a USB switch that I use to disconnect the power to my
@@ -178,7 +174,7 @@ Here's me in my boat,
 on the lake:
 </p>
 
-<img src="assets/images/soren-annie.jpg">
+<img src="assets/images/soren-annie.jpg" alt="Soren rowing Awkward Annie">
 
 
 #14 Quote
