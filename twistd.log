@@ -1,0 +1,18 @@
+2022-10-15T08:22:27-0500 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 21.7.0 (/usr/bin/python 3.10.7) starting up.
+2022-10-15T08:22:27-0500 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2022-10-15T08:22:27-0500 [-] Site starting on 8888
+2022-10-15T08:22:27-0500 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7feccfcd31c0>
+2022-10-15T08:22:40-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:39 +0000] "GET / HTTP/1.1" 200 32727 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/stylesheet.css HTTP/1.1" 200 5697 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/images/sponges.jpg HTTP/1.1" 200 76963 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/filter.js HTTP/1.1" 200 1151 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/images/soren-annie.jpg HTTP/1.1" 200 379924 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/images/volume.jpg HTTP/1.1" 200 773153 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /assets/fonts/SourceSansPro-Regular.ttf HTTP/1.1" 200 248132 "https://2efd-206-55-177-222.ngrok.io/assets/stylesheet.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:41-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:40 +0000] "GET /favicon.ico HTTP/1.1" 404 145 "https://2efd-206-55-177-222.ngrok.io/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+2022-10-15T08:22:46-0500 [twisted.python.log#info] "127.0.0.1" - - [15/Oct/2022:13:22:45 +0000] "GET / HTTP/1.1" 200 32727 "-" "Validator.nu/LV http://validator.w3.org/services"
+2022-10-15T08:23:03-0500 [-] Received SIGTERM, shutting down.
+2022-10-15T08:23:03-0500 [-] (TCP Port 8888 Closed)
+2022-10-15T08:23:03-0500 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site object at 0x7feccfcd31c0>
+2022-10-15T08:23:03-0500 [-] Main loop terminated.
+2022-10-15T08:23:03-0500 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.

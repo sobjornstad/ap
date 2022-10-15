@@ -33,9 +33,7 @@ When I got back and opened the box, I found it was double-boxed, with
 twenty-four air packs around the inner box, to protect the fragile sponges from
 breaking.
 &lt;/p&gt;
-&lt;center&gt;
-    &lt;img src=&quot;assets/images/sponges.jpg&quot;&gt;
-&lt;/center&gt;
+&lt;img class=&quot;center&quot; src=&quot;assets/images/sponges.jpg&quot; alt=&quot;The sponges in their safely packed box&quot;&gt;
     </description>
   </item>
   <item>
@@ -57,9 +55,7 @@ remote control a gazillion times for the stereo, and go click on the audio icon
 in the system tray for the headphones; my keyboard doesn&#x27;t have volume
 controls).
 &lt;/p&gt;
-&lt;center&gt;
-&lt;img src=&quot;assets/images/volume.jpg&quot; width=400&gt;
-&lt;/center&gt;
+&lt;img class=&quot;center&quot; src=&quot;assets/images/volume.jpg&quot; width=400 alt=&quot;Volume control knob, splitter switch, and webcam switch on a desk.&quot;&gt;
 &lt;p&gt;
 The upper-right box is a USB switch that I use to disconnect the power to my
 webcam when I&#x27;m not working, to make sure nobody can see and hear in my
@@ -196,7 +192,7 @@ Here&#x27;s me in my boat,
 &lt;a href=&quot;https://zettelkasten.sorenbjornstad.com/#AwkwardAnnie&quot;&gt;Awkward Annie&lt;/a&gt;,
 on the lake:
 &lt;/p&gt;
-&lt;img src=&quot;assets/images/soren-annie.jpg&quot;&gt;
+&lt;img src=&quot;assets/images/soren-annie.jpg&quot; alt=&quot;Soren rowing Awkward Annie&quot;&gt;
     </description>
   </item>
   <item>

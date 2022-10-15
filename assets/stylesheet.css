@@ -19,6 +19,11 @@ img {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #content, #top-matter {
     padding-left: 1.5rem;

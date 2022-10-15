@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="utf-8"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta property="og:title" content="Soren Bjornstad's attopublish feed"></meta>
-        <meta property="og:type" content="website"></meta>
-        <meta property="og:url" content="https://ap.sorenbjornstad.com"></meta>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Soren Bjornstad's attopublish feed">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ap.sorenbjornstad.com">
         <title>Soren Bjornstad's attopublish feed</title>
         <link rel="stylesheet" href="assets/stylesheet.css">
     </head>
@@ -46,23 +47,24 @@
                     which has similar content but a different audience (the audience is me, and I publish it in case it's useful to someone),
                     my <a href="https://zettelkasten.sorenbjornstad.com">Zettelkasten</a>,
                     and my formal blog, <a href="https://controlaltbackspace.org">Control-Alt-Backspace</a>.
-                </p><p>
-                    Housekeeping:
-                    <ul>
-                        <li>
-                            You can subscribe to an <a href="feed.xml">RSS/Atom feed</a> of this page if you still use RSS
-                            (<a href="https://controlaltbackspace.org/rss">which you should!</a>).
-                        </li>
-                        <li>
-                            Thoughts or questions on something you read here?
-                            <a href="mailto:contact@sorenbjornstad.com">Send me an email.</a>
-                        </li>
-                        <li>
-                            This site is powered by <a href="https://github.com/sobjornstad/attopublish">attopublish</a>, a proudly minimalist microsite generator.
-                            (The software isn't available yet, so that's a 404, but it will resolve sooner or later!)
-                        </li>
-                    </ul>
                 </p>
+                <p>
+                    Housekeeping:
+                </p>
+                <ul>
+                    <li>
+                        You can subscribe to an <a href="feed.xml">RSS/Atom feed</a> of this page if you still use RSS
+                        (<a href="https://controlaltbackspace.org/rss">which you should!</a>).
+                    </li>
+                    <li>
+                        Thoughts or questions on something you read here?
+                        <a href="mailto:contact@sorenbjornstad.com">Send me an email.</a>
+                    </li>
+                    <li>
+                        This site is powered by <a href="https://github.com/sobjornstad/attopublish">attopublish</a>, a proudly minimalist microsite generator.
+                        (The software isn't available yet, so that's a 404, but it will resolve sooner or later!)
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -89,9 +91,7 @@ When I got back and opened the box, I found it was double-boxed, with
 twenty-four air packs around the inner box, to protect the fragile sponges from
 breaking.
 </p>
-<center>
-    <img src="assets/images/sponges.jpg">
-</center>
+<img class="center" src="assets/images/sponges.jpg" alt="The sponges in their safely packed box">
 </div>
 <div class="post" id="post-19">
     <a class="post-number" href="#post-19">#19</a>
@@ -112,9 +112,7 @@ remote control a gazillion times for the stereo, and go click on the audio icon
 in the system tray for the headphones; my keyboard doesn't have volume
 controls).
 </p>
-<center>
-<img src="assets/images/volume.jpg" width=400>
-</center>
+<img class="center" src="assets/images/volume.jpg" width=400 alt="Volume control knob, splitter switch, and webcam switch on a desk.">
 <p>
 The upper-right box is a USB switch that I use to disconnect the power to my
 webcam when I'm not working, to make sure nobody can see and hear in my
@@ -250,7 +248,7 @@ Here's me in my boat,
 <a href="https://zettelkasten.sorenbjornstad.com/#AwkwardAnnie">Awkward Annie</a>,
 on the lake:
 </p>
-<img src="assets/images/soren-annie.jpg">
+<img src="assets/images/soren-annie.jpg" alt="Soren rowing Awkward Annie">
 </div>
 <div class="post" id="post-14">
     <a class="post-number" href="#post-14">#14</a>
@@ -389,19 +387,19 @@ close to it? Or can you think of a clever way to describe it?
         <form class="suggestion-form" method="POST" action="https://urh8718crg.execute-api.us-east-1.amazonaws.com/default/AcceptAttopublishComment">
             <input type="hidden" name="id" value="11">
 
-            <label class="left" for="author">Name:</label>
+            <label class="left" for="authorform11">Name:</label>
             <span class="leftify">
-                <input type="text" name="author" placeholder="Who you want to appear as in the comments" required>
+                <input type="text" name="author" id="authorform11" placeholder="Who you want to appear as in the comments" required>
             </span>
 
-            <label class="left" for="email">Email:</label>
+            <label class="left" for="emailform11">Email:</label>
             <span class="leftify">
-                <input type="text" name="email" placeholder="Never made public. So I can write you back." required>
+                <input type="text" name="email" id="emailform11" placeholder="Never made public. So I can write you back." required>
             </span>
 
             <textarea name="text" placeholder="Your suggestion" rows="6" required></textarea>
 
-            <input type="checkbox" id="privateform11" name="private" value="0" placeholder="Private">
+            <input type="checkbox" id="privateform11" name="private" value="0">
             <label for="privateform11">Keep suggestion private (send only to author)</label>
 
             <input type="submit" value="Post">
@@ -488,19 +486,19 @@ https://elfquest.com/read/digitalEQ.html
         <form class="suggestion-form" method="POST" action="https://urh8718crg.execute-api.us-east-1.amazonaws.com/default/AcceptAttopublishComment">
             <input type="hidden" name="id" value="10">
 
-            <label class="left" for="author">Name:</label>
+            <label class="left" for="authorform10">Name:</label>
             <span class="leftify">
-                <input type="text" name="author" placeholder="Who you want to appear as in the comments" required>
+                <input type="text" name="author" id="authorform10" placeholder="Who you want to appear as in the comments" required>
             </span>
 
-            <label class="left" for="email">Email:</label>
+            <label class="left" for="emailform10">Email:</label>
             <span class="leftify">
-                <input type="text" name="email" placeholder="Never made public. So I can write you back." required>
+                <input type="text" name="email" id="emailform10" placeholder="Never made public. So I can write you back." required>
             </span>
 
             <textarea name="text" placeholder="Your suggestion" rows="6" required></textarea>
 
-            <input type="checkbox" id="privateform10" name="private" value="0" placeholder="Private">
+            <input type="checkbox" id="privateform10" name="private" value="0">
             <label for="privateform10">Keep suggestion private (send only to author)</label>
 
             <input type="submit" value="Post">
@@ -716,7 +714,7 @@ anyone who's interested.
 
         <script src="assets/filter.js" async></script>
         <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-        <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+        <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
     </body>
 </html>
 
