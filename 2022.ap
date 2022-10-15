@@ -3,9 +3,7 @@
     :shortdes: Precious sponges
     :tags: Story
 
-<p>
-
-My small urban grocery store doesn't carry the kind of sponges I like, so I
+.My small urban grocery store doesn't carry the kind of sponges I like, so I
 ordered a $20 box of them on Amazon. Yesterday I got a message indicating that
 they were unable to deliver the sponges – the kind you get when the package
 requires a signature and you aren't there. Then today, they came back while I
@@ -13,14 +11,9 @@ was out, and the driver called me to ask where he should leave it, as if it was
 some expensive piece of equipment that would get stolen and create a disaster
 if it was left out.
 
-</p>
-<p>
-
-When I got back and opened the box, I found it was double-boxed, with
+.When I got back and opened the box, I found it was double-boxed, with
 twenty-four air packs around the inner box, to protect the fragile sponges from
 breaking.
-
-</p>
 
 <img class="center" src="assets/images/sponges.jpg" alt="The sponges in their safely packed box">
 
@@ -30,8 +23,7 @@ breaking.
     :shortdes: Physical audio controls
     :tags: Tech
 
-<p>
-One of the best minor quality-of-life upgrades I've found lately has been
+.One of the best minor quality-of-life upgrades I've found lately has been
 buying a physical volume knob for my desktop computer. I ran the outputs for my
 headphones and my stereo system through a splitter switch, then through the
 volume knob on the way to the computer's output, so the volume knob can be used
@@ -40,25 +32,20 @@ knob is vastly superior to my previous methods (press a fiddly button on a
 remote control a gazillion times for the stereo, and go click on the audio icon
 in the system tray for the headphones; my keyboard doesn't have volume
 controls).
-</p>
 
 <img class="center" src="assets/images/volume.jpg" width=400 alt="Volume control knob, splitter switch, and webcam switch on a desk.">
 
-<p>
-The upper-right box is a USB switch that I use to disconnect the power to my
+.The upper-right box is a USB switch that I use to disconnect the power to my
 webcam when I'm not working, to make sure nobody can see and hear in my
 living room at off hours accidentally. I used putty to easily affix all the
 controls to the desk so they don't slide around.
-</p>
 
-<p>
-This whole setup was about $75, which might seem a little steep, but I'm
+.This whole setup was about $75, which might seem a little steep, but I'm
 playing music, podcasts, work calls, or something else through the computer
 pretty much anytime I'm in my office or kitchen (which also covers large
 portions of my off hours), and I often have to adjust the volume multiple times
 an hour, so it's approximately $0 per annoyance point removed once you multiply
 it out over a few weeks.
-</p>
 
 #18 Quote
     :date: 2022-10-09 21:15
@@ -73,8 +60,7 @@ In a series of daring experiments, Lockheed test pilots (wearing parachutes and 
     :tags: Tech
     :shortdes: Braided cables are worth checking out
 
-<p>
-I'm a convert to the new style of
+.I'm a convert to the new style of
 <a href="https://www.amazon.com/gp/product/B087CLK6Q5/ref=ox_sc_act_title_6?smid=A1F4MO8CLOOQSY&psc=1">braided</a>
 <a href="https://www.amazon.com/AmazonBasics-Braided-Gigabit-Ethernet-Internet/dp/B089MG32YL/">cable</a>
 that's become popular lately.
@@ -89,57 +75,42 @@ and they're less susceptible to electromagnetic interference
 (though I can't say I've ever had trouble with interference on a cable in my home,
  even a 20-foot audio cable).
 Give them a try next time you see one as an option!
-</p>
 
 #16 Misc
     :date: 2022-10-03 16:20
     :tags: Joke
     :shortdes: Meta-theft of services
 
-<p>
-Three Microsoft engineers and three Apple engineers are taking a train to a
+.Three Microsoft engineers and three Apple engineers are taking a train to a
 conference. At the ticket office, the three Microsoft engineers each buy a
 ticket as usual, but the Apple engineers, after conferring for a moment to
 decide how minimalist they can be, only buy one ticket among the three of them.
 The Microsoft engineers ask, “How are three people going to travel on one
 ticket?”
-</p>
 
-<p>
-“Watch and you'll see,” say the Apple engineers.
-</p>
+.“Watch and you'll see,” say the Apple engineers.
 
-<p>
-So they board their train, the Microsoft engineers take their seats, and the
+.So they board their train, the Microsoft engineers take their seats, and the
 Apple engineers squeeze into a restroom. The train starts moving, and shortly
 the conductor comes through the train taking tickets. When he arrives at the
 door of the restroom where the Apple engineers are hiding, he stops and knocks
 on the door and says, “Ticket, please!” One of the Apple engineers opens the
 door a tiny crack and hands the conductor the ticket.
-</p>
 
-<p>
-The Microsoft engineers are watching this and think it's pretty brilliant, so
+.The Microsoft engineers are watching this and think it's pretty brilliant, so
 as usual they decide to copy it on the way back. But this time the Apple
 engineers don't buy any tickets at all.
-</p>
 
-<p>
-“How are three people going to travel without a ticket?” the Microsoft
+.“How are three people going to travel without a ticket?” the Microsoft
 engineers ask.
-</p>
 
-<p>
-“Watch and you'll see,” the Apple engineers say.
-</p>
+.“Watch and you'll see,” the Apple engineers say.
 
-<p>
-So they board the return train, the Microsoft engineers squeeze into a
+.So they board the return train, the Microsoft engineers squeeze into a
 restroom, and the Apple engineers squeeze into another restroom further down
 the train. The train starts moving, and one of the Apple engineers comes out of
 the restroom, walks to the restroom where the Microsoft engineers are hiding,
 knocks on the door, and says, “Ticket, please!”
-</p>
 
 
 #15 Misc
@@ -147,9 +118,7 @@ knocks on the door, and says, “Ticket, please!”
     :tags: Story | Personal
     :shortdes: Back from hiding
 
-<p>
-
-Back from a week alone at an off-grid cabin in northern Minnesota (no
+.Back from a week alone at an off-grid cabin in northern Minnesota (no
 electricity or running water, but with gaslights, a wood stove, and a hand pump
 in the kitchen drawing mostly palatable water, the only thing I missed was a
 hot shower on the cold days). Passed the time hiking, boating, thinking, and
@@ -160,19 +129,13 @@ notifications and daily life and do that. More thoughts on <a
 href="https://zettelkasten.sorenbjornstad.com/#CampingAndBoredom">boredom-conducive
 contexts</a> in my Zettelkasten.
 
-</p>
-
-<p>
-I wish I could tell a funny story here,
+.I wish I could tell a funny story here,
 but almost nothing unexpected happened, good or bad.
 That means the trip served its purpose, I suppose.
-</p>
 
-<p>
-Here's me in my boat,
+.Here's me in my boat,
 <a href="https://zettelkasten.sorenbjornstad.com/#AwkwardAnnie">Awkward Annie</a>,
 on the lake:
-</p>
 
 <img src="assets/images/soren-annie.jpg" alt="Soren rowing Awkward Annie">
 
@@ -227,17 +190,13 @@ chances of unintended pregnancy well past those of an average person.
     :shortdes: A word or phrase for this maladaptive pattern of motivation
     :tags: Words
 
-<p>
-I'm searching for a concise way to describe a pattern I've started noticing, in
+.I'm searching for a concise way to describe a pattern I've started noticing, in
 which someone wants to achieve a particular goal A, or likes a particular
 process or activity in total, but is incapable of, scared of, or strongly
 dislikes a necessary component or step of that goal/process/activity A&prime;,
 creating an infuriating tension and an obstacle to progress.
-</p>
 
-<p>
-For example:
-</p>
+.For example:
 
 <ul>
     <li>
@@ -260,15 +219,12 @@ For example:
     </li>
 </ul>
 
-<p>
-This could conceivably be phrased as an emotional condition of the person, or
+.This could conceivably be phrased as an emotional condition of the person, or
 as an attribute of step A&prime;: Alice, Bob, and Carol are experiencing
 ________ —<em>or</em>—  The draft is a ________ for Alice's enjoyment of
 fantasy football.
-</p>
 
-<p>
-This concept is distinct from <em>laziness</em> in that the reason is much
+.This concept is distinct from <em>laziness</em> in that the reason is much
 more deep-seated than not wanting to put in work; it's not that the task
 requires more effort or time than one wants to expend, it's that it's somehow
 distasteful. It's closer to <em>akrasia</em>, in which one acts against one's
@@ -277,12 +233,9 @@ components to the mystery concept; in akrasia one knows one should do A and
 doesn't want to do it, while here one knows one should do A <em>and actively
 wants to do it</em>, perhaps desperately, but doesn't want to do A&prime;, which
 is a necessary component or dependency of A.
-</p>
 
-<p>
-Is there an existing term or concept representing this idea or something
+.Is there an existing term or concept representing this idea or something
 close to it? Or can you think of a clever way to describe it?
-</p>
 
 
 #10 Seeking_Recommendations
@@ -290,23 +243,20 @@ close to it? Or can you think of a clever way to describe it?
     :shortdes: Fiction involving shared consciousness
     :tags: Fiction
 
-<p>
-I'm fascinated by fiction about or involving telepathy or sharing of
+.I'm fascinated by fiction about or involving telepathy or sharing of
 consciousness between characters, especially when used creatively or to
 enjoy/strengthen a relationship with someone. Looking for leads on
 more stories fitting this description!
-</p>
-<p>
-Doesn't have to be exclusively humans, can also involve supernatural beings,
+
+.Doesn't have to be exclusively humans, can also involve supernatural beings,
 aliens, alters, computers, or something weirder I haven't imagined yet; but the
 motivations of at least one participant should ideally be recognizable as
 human-ish. I'm hoping for a significant part of the story to involve the
 personal experience and/or interpersonal or sociological consequences of such
 capabilities/contacts. Stories merely including the trope in some corner are
 probably not what I'm looking for.
-</p><p>
-A few examples:
-</p>
+
+.A few examples:
 
 <ul>
 <li><em>His Dark Materials</em>, Philip Pullman
@@ -321,14 +271,12 @@ A few examples:
     (people can temporarily join John Malkovich inside his head)</li>
 </ul>
 
-<p>
-(Not sure about <em>Ender's Game</em>. I've only read the first novel, which
+.(Not sure about <em>Ender's Game</em>. I've only read the first novel, which
 hints at interesting ideas but doesn't yield up much on the personal experience
 or interpersonal/sociological consequences; the consequences for the plot of
 the Buggers'/Formics' collective consciousness are also entirely predictable.
 Is there enough in later books to be worth reading with this theme in mind? If
 so, which ones?)
-</p>
 
 
 #9 Quote
