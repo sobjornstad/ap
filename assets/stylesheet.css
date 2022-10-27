@@ -25,6 +25,21 @@ img.center {
     margin-right: auto;
 }
 
+pre {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #eee;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+code {
+    background-color: #eee;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 #content, #top-matter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
