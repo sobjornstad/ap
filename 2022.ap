@@ -1,3 +1,120 @@
+#22 Misc
+    :date: 2022-10-26 20:50
+    :shortdes: Sometimes Copilot is amazing
+    :tags: Programming | Tech
+
+.<a href="https://github.com/features/copilot">GitHub Copilot</a> is often
+stupid, making incredibly basic mistakes like referencing variables that don't
+exist (I'm surprised they haven't figured out how to integrate it with the IDE
+autocomplete – although maybe it does and the model just likes to ignore it
+sometimes). At other times, it instantly figures things out that a human would
+need some significant domain knowledge to work out, to the point that it's hard
+to believe it's just a fancy language model.
+
+.In my roguelike recently, moving up against the edge of the map was doing
+nothing. I wanted to add a message that said “You are at the edge of the world”
+when you did this. Here's what I got after adding a conditional for whether
+there is no adjacent tile in the specified direction:
+
+<img class="center" src="assets/images/copilot-edge-of-world.png" alt="you bump into the edge of the world">
+
+.(Incidentally, my experience has been that Copilot works noticeably better
+with Python than with TypeScript. I suspect this is because I use docstrings
+extensively in Python and it's remarkably good at interpreting them.)
+
+
+#21 Misc
+    :date: 2022-10-26 20:00
+    :shortdes: Required optional types and non-covariate unions
+    :tags: Programming | Tech
+
+.I sometimes find myself wanting a “required optional” type in MyPy or
+TypeScript. That is, the variable can be either null or some type, but the code
+shouldn't compile if there's no way for the parameter or return type to be
+non-null; there has to be some code path in which it could have a value (to
+figure this out without actually running the code, a true
+<code>Optional[T]</code> would have to be illegal to assign to a
+<code>RequiredOptional[T]</code>, but a <code>RequiredOptional[T]</code> could
+be assigned to an <code>Optional[T]</code> – this is nothing new, just as a
+<code>T</code> can be assigned to an <code>Optional[T]</code> but an
+<code>Optional[T]</code> can't be assigned to a <code>T</code>).
+
+.Here's a recent example of an error this could catch: I'm working on writing a
+toy roguelike, and a common need throughout is for various NPCs to move around.
+To handle this, I have functions called <em>travel behaviors</em> that are
+assigned to each NPC and can be changed at any time; the behavior function is
+called to determine where the NPC should move. Here's a generic one that tries
+to move to a specific tile:
+
+<pre><code>def travel_towards_target(
+        soul: Soul,
+        target: Tile,
+        when_target_reached: Callable[[Soul], Optional[Tile]]
+        ) -> Optional[Tile]:
+    if soul.tile == target:
+        return when_target_reached(soul)
+    path = shortest_path(soul.tile, target)
+    return path[0] if shortest_path is not None else None
+</code></pre>
+
+.When the NPC gets a move, it (the <code>soul</code> parameter) tries to move
+to the next tile along the shortest path from its current tile to the target
+tile. If the target is unreachable, it returns <code>None</code> to indicate it
+won't move at all (in reality we'd probably also want to change behaviors here,
+but this is an example). This results in a return type of
+<code>Optional[Tile]</code>, that is, either a <code>Tile</code> or
+<code>None</code> (Python's null value).
+
+.Of course, without some intervention, when an NPC reached the target tile, it
+would just get stuck there forever, so if it's already there, a callback
+function <code>when_target_reached()</code> is called. This function resets the
+NPC's travel behavior in some way, perhaps shows the player a message, and then
+returns the first action it's going to take under the new behavior (since it
+still has a turn). It does this by calling <code>swap_travel_behavior()</code>,
+which both changes the travel behavior function and <em>returns</em> it so that
+we can call it once immediately to get this turn's action.
+
+<pre><code>def on_target_reached(soul: Soul) -> Optional[Tile]:
+    # ...change the target
+    say("Changed target.")
+    return swap_travel_behavior(soul, my_new_behavior)()
+</code></pre>
+
+.But today, I inadvertently left off the return statement, resulting in an
+implicit return value of <code>None</code>:
+
+<pre><code>def on_target_reached(soul: Soul) -> Optional[Tile]:
+    # ...change the target
+    say("Changed target.")
+</code></pre>
+
+.This is clearly wrong, and not just because I obviously forgot a statement. It
+doesn't make any sense for the body of this function to be incapable of
+returning anything other than <code>None</code>; if that was what I had wanted,
+I would have just set the return type to <code>None</code>. In other words, the
+return type of this function should be not “either a <code>Tile</code> or
+<code>None</code>, or both”, as it currently is, but specifically
+<em>both</em>, a union of <code>None</code> and something else
+(<code>Optional[Tile]</code> being essentially an alias of <code>Union[Tile,
+None]</code>), with both possibilities obtainable from the code inside the
+behavior function.
+
+.However, as far as I'm aware, there's no way to define such a type, which
+means this (actually fairly common) error can never be caught by the type
+checker. This is, I suppose, a more general limitation of unions; in both MyPy
+and TypeScript they're implicitly covariant as return types.
+
+.Ultimately, though, I doubt this would actually be a worthwhile feature! It's
+already
+<a href="https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/">
+hard enough to think about nullable types</a> without adding a different kind of
+nullable type, and I suspect in most places this kind of checking would be
+perceived as overly pedantic rather than helpful. (Witness PowerShell's
+“<a href="https://powershellexplained.com/2018-12-23-Powershell-null-everything-you-wanted-to-know/#empty-null">empty null</a>.”
+Choice quote: “There is one special type of <code>$null</code> that acts
+differently than the others.”)
+
+
 #20 Misc
     :date: 2022-10-14 12:50
     :shortdes: Precious sponges
