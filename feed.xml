@@ -12,12 +12,25 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
-    <title>[22] The problem with outlining</title>
+    <title>[24] Sometimes Copilot…suggests animal abuse?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 28 Oct 2022 18:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-24</link>
+    <guid>https://ap.sorenbjornstad.com/#24</guid>
+    <description>
+      &lt;p&gt;(Previously: &lt;a href=&quot;#post-22&quot;&gt;#22&lt;/a&gt;)&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; src=&quot;assets/images/copilot-cat.png&quot; alt=&quot;Copilot suggests that housecats &#x27;can be carried around in a sack&#x27;&quot;&gt;
+    </description>
+  </item>
+  <item>
+    <title>[23] The problem with outlining</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Fri, 28 Oct 2022 11:45:00 -0000</pubDate>
-    <link>https://ap.sorenbjornstad.com/#post-22</link>
-    <guid>https://ap.sorenbjornstad.com/#22</guid>
+    <link>https://ap.sorenbjornstad.com/#post-23</link>
+    <guid>https://ap.sorenbjornstad.com/#23</guid>
     <description>
       &lt;p&gt;Many people seem to recommend making an outline, or some kind of prepared
 description of what one is going to write, before starting to write it.&lt;/p&gt;
@@ -62,7 +75,7 @@ later. But unlike traditional outlines, it encourages iterating in place,
 rather than trying to get the structure right the first time without any
 details. Here&#x27;s an example of an earlier version of this post:&lt;/p&gt;
 
-&lt;img src=&quot;assets/images/unfinished-outline.png&quot; &gt;
+&lt;img loading=&quot;lazy&quot; src=&quot;assets/images/unfinished-outline.png&quot;&gt;
 
 &lt;p&gt;This whole thing strikes me as a manifestation of the
 &lt;a href=&quot;http://562.nz/#BrokenAcademicWritingProcess&quot;&gt;waterfall writing process problem&lt;/a&gt;,
@@ -98,7 +111,7 @@ nothing. I wanted to add a message that said “You are at the edge of the world
 when you did this. Here&#x27;s what I got after adding a conditional for whether
 there is no adjacent tile in the specified direction:&lt;/p&gt;
 
-&lt;img class=&quot;center&quot; src=&quot;assets/images/copilot-edge-of-world.png&quot; alt=&quot;you bump into the edge of the world&quot;&gt;
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; src=&quot;assets/images/copilot-edge-of-world.png&quot; alt=&quot;you bump into the edge of the world&quot;&gt;
 
 &lt;p&gt;(Incidentally, my experience has been that Copilot works noticeably better
 with Python than with TypeScript. I suspect this is because I use docstrings
@@ -220,7 +233,7 @@ if it was left out.&lt;/p&gt;
 twenty-four air packs around the inner box, to protect the fragile sponges from
 breaking.&lt;/p&gt;
 
-&lt;img class=&quot;center&quot; src=&quot;assets/images/sponges.jpg&quot; alt=&quot;The sponges in their safely packed box&quot;&gt;
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; src=&quot;assets/images/sponges.jpg&quot; alt=&quot;The sponges in their safely packed box&quot;&gt;
     </description>
   </item>
   <item>
@@ -241,7 +254,7 @@ remote control a gazillion times for the stereo, and go click on the audio icon
 in the system tray for the headphones; my keyboard doesn&#x27;t have volume
 controls).&lt;/p&gt;
 
-&lt;img class=&quot;center&quot; src=&quot;assets/images/volume.jpg&quot; width=400 alt=&quot;Volume control knob, splitter switch, and webcam switch on a desk.&quot;&gt;
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; src=&quot;assets/images/volume.jpg&quot; width=400 alt=&quot;Volume control knob, splitter switch, and webcam switch on a desk.&quot;&gt;
 
 &lt;p&gt;The upper-right box is a USB switch that I use to disconnect the power to my
 webcam when I&#x27;m not working, to make sure nobody can see and hear in my
@@ -363,7 +376,7 @@ That means the trip served its purpose, I suppose.&lt;/p&gt;
 &lt;a href=&quot;https://zettelkasten.sorenbjornstad.com/#AwkwardAnnie&quot;&gt;Awkward Annie&lt;/a&gt;,
 on the lake:&lt;/p&gt;
 
-&lt;img src=&quot;assets/images/soren-annie.jpg&quot; alt=&quot;Soren rowing Awkward Annie&quot;&gt;
+&lt;img src=&quot;assets/images/soren-annie.jpg&quot; loading=&quot;lazy&quot; alt=&quot;Soren rowing Awkward Annie&quot;&gt;
     </description>
   </item>
   <item>
