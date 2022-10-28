@@ -1,4 +1,67 @@
 #22 Misc
+    :date: 2022-10-28 11:45
+    :shortdes: The problem with outlining
+    :tags: Writing
+
+.Many people seem to recommend making an outline, or some kind of prepared
+description of what one is going to write, before starting to write it.
+
+.This has never worked for me. I've tried many times, because it <em>seems</em>
+like it ought to be helpful, and many people say it helps keep them focused,
+but I've never found it helpful. In fact, I'm rarely able to make a useful
+outline to begin with, and that has always made me feel like a sloppy thinker –
+but I seem to get good results flying by the seat of my pants, and it's hard to
+argue with results.
+
+.As I was refilling the soap dispenser in my bathroom this morning, I suddenly
+identified the fundamental problem for me: the way I normally write, I don't
+know what I think about a topic, and thus what I want to say about it, until I
+finish writing – and not just a few words about each of the ideas of that
+topic, the actual, final form. If I already knew what I was going to say, in
+many cases I wouldn't bother to write it (it's handy that writing can be so
+easily shared and both help other people and generate new connections for the
+author, but the main reason I write is to figure out what I think). So too,
+there wouldn't be much point in outlining anyway, because if I already knew
+what I was going to say, why not just…write it down?
+
+.Or put another way, it almost <em>never</em> happens that I sit down to write
+something and end up getting up from the keyboard thinking something
+substantially different – and much more expansive – than I did when I sat down;
+and this is true even when I am pretty sure I know what I think. I certainly
+did not, for example, expect this post to be seven paragraphs long, or to talk
+about my penchant for leaving sentences unfinished or the way people are taught
+to write in school; I only discovered many of the important ideas here as I
+started describing my soap-dispenser revelation.
+
+.If I'm writing something much longer than an essay, I do routinely note down
+ideas that I think I want to include later so that I don't forget about them.
+But I wouldn't call this an <em>outline</em>; it's more like a to-do list,
+because I don't make any attempt to figure out how the structure fits together
+at this point, and I'm not necessarily planning to include all of the ideas. I
+also, in writing of all lengths, often leave sentences hanging and unfinished
+and go write something different on another line or in another paragraph, when
+I suddenly think of a new idea I should mention. In a way this is <em>kind
+of</em> like outlining in that I leave placeholders for things I want to expand
+later. But unlike traditional outlines, it encourages iterating in place,
+rather than trying to get the structure right the first time without any
+details. Here's an example of an earlier version of this post:
+
+<img src="assets/images/unfinished-outline.png" >
+
+.This whole thing strikes me as a manifestation of the
+<a href="http://562.nz/#BrokenAcademicWritingProcess">waterfall writing process problem</a>,
+where the way one is encouraged or required to write actively discourages
+changing one's mind or restructuring one's argument later. The way people are
+taught to write in school targets, essentially, content-farm writing, rather
+than writing that follows natural curiosity and leads to real insights and
+worthwhile output (I would call this <em>creative writing</em>, but that's an
+established term that means something different).
+
+.Maybe I'm just weird here? I do seem to think in language more naturally and
+preferentially than some people.
+
+
+#22 Misc
     :date: 2022-10-26 20:50
     :shortdes: Sometimes Copilot is amazing
     :tags: Programming | Tech
