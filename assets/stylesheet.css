@@ -40,6 +40,14 @@ code {
     padding-right: 3px;
 }
 
+blockquote {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-left: 0.25em solid #ccc;
+    padding-left: 0.5em;
+    font-style: italic;
+}
+
 #content, #top-matter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
