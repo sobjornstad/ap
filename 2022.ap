@@ -1,3 +1,32 @@
+#31 Misc
+    :date: 2022-11-11 17:45
+    :shortdes: Lazy-loading images on websites
+    :tags: Programming | Tech
+
+.As I started adding images to this microblog, I realized I had a problem:
+since the entire thing is a single page, after a while the page was going to
+start downloading dozens or eventually maybe <em>hundreds</em> of images every
+time someone browsed to it, most of which the reader would never look at unless
+they decided to go through the archives for all of time – hardly the
+lightweight site I'm aspiring to create. I could have written some JavaScript
+to load them when the reader came to them, but this also seemed ugly and not in
+keeping with the philosophy of the site.
+
+.Happily, it turns out HTML5 added an image attribute,
+<code>loading="lazy"</code>, that causes exactly the right behavior here. The
+precise way the browser decides when to load images is up to the browser, but
+essentially it grabs the images for only the first couple of screens of
+content, and then as you scroll down it starts pre-requesting images that are
+1–2 screens away. So unless you start scrolling really fast or have a really
+slow network connection, you'll never know the images aren't being loaded
+up-front, they'll just be there when they scroll into view.
+
+.This is <a href="https://caniuse.com/?search=loading%3Dlazy">supported on all
+major browsers</a> except Internet Explorer, and if you're still using Internet
+Exploder in 2022 for anything except an old and broken enterprise website,
+I'm gonna say you deserve to download a bunch of useless images.
+
+
 #30 Misc
     :date: 2022-11-11 13:00
     :shortdes: When you're broke but still need some tea...
@@ -6,6 +35,7 @@
 .…you can now pay for your tea in installments.
 
 <img loading="lazy" class="center" width="400" src="assets/images/bigelow-installments.png" alt="The Bigelow website showing that you can buy tea in 4 installment payments">
+
 
 #29 Misc
     :date: 2022-11-10 11:15
@@ -39,7 +69,7 @@ and etymology; <em>iaceo</em> is an intransitive and
 ends up lying where it was cast. Which makes a neat metaphor: Jesus was sent
 forth, down from heaven, to lie in the aforementioned manger.
 
-.Incidentally, the correct translation is:
+.In full:
 
 <blockquote>
     <p>Psallite unigenito Christo Dei filio, Redemptori Domino, puerulo iacenti in praesepio!</p>
