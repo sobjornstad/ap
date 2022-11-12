@@ -12,6 +12,38 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[31] Lazy-loading images on websites</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 11 Nov 2022 17:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-31</link>
+    <guid>https://ap.sorenbjornstad.com/#31</guid>
+    <description>
+      &lt;p&gt;As I started adding images to this microblog, I realized I had a problem:
+since the entire thing is a single page, after a while the page was going to
+start downloading dozens or eventually maybe &lt;em&gt;hundreds&lt;/em&gt; of images every
+time someone browsed to it, most of which the reader would never look at unless
+they decided to go through the archives for all of time – hardly the
+lightweight site I&#x27;m aspiring to create. I could have written some JavaScript
+to load them when the reader came to them, but this also seemed ugly and not in
+keeping with the philosophy of the site.&lt;/p&gt;
+
+&lt;p&gt;Happily, it turns out HTML5 added an image attribute,
+&lt;code&gt;loading=&quot;lazy&quot;&lt;/code&gt;, that causes exactly the right behavior here. The
+precise way the browser decides when to load images is up to the browser, but
+essentially it grabs the images for only the first couple of screens of
+content, and then as you scroll down it starts pre-requesting images that are
+1–2 screens away. So unless you start scrolling really fast or have a really
+slow network connection, you&#x27;ll never know the images aren&#x27;t being loaded
+up-front, they&#x27;ll just be there when they scroll into view.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;a href=&quot;https://caniuse.com/?search=loading%3Dlazy&quot;&gt;supported on all
+major browsers&lt;/a&gt; except Internet Explorer, and if you&#x27;re still using Internet
+Exploder in 2022 for anything except an old and broken enterprise website,
+I&#x27;m gonna say you deserve to download a bunch of useless images.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[30] When you&#x27;re broke but still need some tea...</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -59,7 +91,7 @@ and etymology; &lt;em&gt;iaceo&lt;/em&gt; is an intransitive and
 ends up lying where it was cast. Which makes a neat metaphor: Jesus was sent
 forth, down from heaven, to lie in the aforementioned manger.&lt;/p&gt;
 
-&lt;p&gt;Incidentally, the correct translation is:&lt;/p&gt;
+&lt;p&gt;In full:&lt;/p&gt;
 
 &lt;blockquote&gt;
     &lt;p&gt;Psallite unigenito Christo Dei filio, Redemptori Domino, puerulo iacenti in praesepio!&lt;/p&gt;

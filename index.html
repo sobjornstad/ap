@@ -75,7 +75,39 @@
         </div>
 
         <div id="content">
-            <div class="post" id="post-30">
+            <div class="post" id="post-31">
+    <a class="post-number" href="#post-31">#31</a>
+    <div class="post-date">2022-11-11 17:45</div>
+    <div class="post-tags">
+        <span class="tag type">Misc</span>
+        <span class="tag">Programming</span>
+<span class="tag">Tech</span>
+    </div>
+    <div class="post-description">Lazy-loading images on websites</div>
+    <p>As I started adding images to this microblog, I realized I had a problem:
+since the entire thing is a single page, after a while the page was going to
+start downloading dozens or eventually maybe <em>hundreds</em> of images every
+time someone browsed to it, most of which the reader would never look at unless
+they decided to go through the archives for all of time – hardly the
+lightweight site I'm aspiring to create. I could have written some JavaScript
+to load them when the reader came to them, but this also seemed ugly and not in
+keeping with the philosophy of the site.</p>
+
+<p>Happily, it turns out HTML5 added an image attribute,
+<code>loading="lazy"</code>, that causes exactly the right behavior here. The
+precise way the browser decides when to load images is up to the browser, but
+essentially it grabs the images for only the first couple of screens of
+content, and then as you scroll down it starts pre-requesting images that are
+1–2 screens away. So unless you start scrolling really fast or have a really
+slow network connection, you'll never know the images aren't being loaded
+up-front, they'll just be there when they scroll into view.</p>
+
+<p>This is <a href="https://caniuse.com/?search=loading%3Dlazy">supported on all
+major browsers</a> except Internet Explorer, and if you're still using Internet
+Exploder in 2022 for anything except an old and broken enterprise website,
+I'm gonna say you deserve to download a bunch of useless images.</p>
+</div>
+<div class="post" id="post-30">
     <a class="post-number" href="#post-30">#30</a>
     <div class="post-date">2022-11-11 13:00</div>
     <div class="post-tags">
@@ -123,7 +155,7 @@ and etymology; <em>iaceo</em> is an intransitive and
 ends up lying where it was cast. Which makes a neat metaphor: Jesus was sent
 forth, down from heaven, to lie in the aforementioned manger.</p>
 
-<p>Incidentally, the correct translation is:</p>
+<p>In full:</p>
 
 <blockquote>
     <p>Psallite unigenito Christo Dei filio, Redemptori Domino, puerulo iacenti in praesepio!</p>
