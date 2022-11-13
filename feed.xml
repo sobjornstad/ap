@@ -12,6 +12,30 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[32] Copilot recommends self-immolation</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sat, 12 Nov 2022 20:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-32</link>
+    <guid>https://ap.sorenbjornstad.com/#32</guid>
+    <description>
+      &lt;p&gt;Gnome scrollkeepers, in my roguelike, are mischievous little creatures
+generated with 1-3 magical scrolls that do irritating things. A balance problem
+created by this (not that the game is far enough along to have meaningful
+balance yet!) is that if one doesn&#x27;t find a use for all of its scrolls before
+you kill it, you get to pick up the extras, and if a lot of scrollkeepers show
+up, you get more scrolls than you probably should. To counter this, I decided
+to make scrollkeepers have a chance of successfully lighting their scrolls on
+fire as they died, to avoid their species&#x27; magic getting out and all.&lt;/p&gt;
+
+&lt;p&gt;Copilot had a…&lt;em&gt;different&lt;/em&gt; idea:&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/copilot-suicide.png&quot; alt=&quot;The gnomish scrollkeeper lights himself on fire&quot;&gt;
+
+&lt;p&gt;(Previously: &lt;a href=&quot;#post-24&quot;&gt;#24&lt;/a&gt;, &lt;a href=&quot;#post-22&quot;&gt;#22&lt;/a&gt;.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[31] Lazy-loading images on websites</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
