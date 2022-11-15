@@ -1,10 +1,46 @@
+#33 Misc
+    :date: 2022-11-14 20:45
+    :shortdes: The fundamentality of metaphor
+    :tags: Learning | Life
+
+.When I was in sixth grade, I, like many people, was tricked into believing
+that metaphors were some kind of obscure figure found mostly in fancy poetry.
+Nowadays, I believe that metaphors are the most important – and simultaneously
+among the most unrecognized – cognitive tools available to humanity.
+
+.How do you learn things? By relating them to things you already know. When you
+learn an unfamiliar concept, you find a concept you're familiar with, pretend
+they're the same thing, and then add corrections for the things that you notice
+actually aren't the same. Similarly, even once you know things, you often
+reduce problems to easier ones or ideas to ones you're more comfortable with.
+This happens both linguistically (the most traditional use of the word
+<em>metaphor</em>) and conceptually.
+
+.Incidentally, I also believe this is a prime reason that fiction and friends
+(legend, anecdote, etc.) are effective tools for communicating truth, or, on
+the flip side, for creating untrue and/or maladaptive beliefs. Nonfiction is
+honest about its metaphors, which makes it easy for the reader to accept or
+reject them. Fiction just creates them and lets your brain make its own
+connections while you aren't looking. Fiction is also free to use much more
+creative metaphors, which are more powerful and harder to predict the effects
+of.
+
+.Much smarter people than me have explored these ideas in much more detail
+(perhaps most notably Julian Jaynes; the
+<a href="https://en.wikipedia.org/wiki/Conceptual_metaphor"> Conceptual
+metaphor</a> article on Wikipedia provides an interesting overview of some
+modern ideas), so I won't blab on any longer, but I was struck today by how
+undertaught this fundamental feature of the world is and wanted to make sure my
+readers had thought about this at some point!
+
+
 #32 Misc
     :date: 2022-11-12 20:45
     :shortdes: Copilot recommends self-immolation
-    :tags: Humor | Programming | Tech
+    :tags: Humor | Programming
 
-.Gnome scrollkeepers, in my roguelike, are mischievous little creatures
-generated with 1-3 magical scrolls that do irritating things. A balance problem
+.Gnomish scrollkeepers, in my roguelike, are mischievous little creatures
+generated with 1–3 magical scrolls that do irritating things. A balance problem
 created by this (not that the game is far enough along to have meaningful
 balance yet!) is that if one doesn't find a use for all of its scrolls before
 you kill it, you get to pick up the extras, and if a lot of scrollkeepers show
@@ -17,6 +53,7 @@ fire as they died, to avoid their species' magic getting out and all.
 <img loading="lazy" class="center" src="assets/images/copilot-suicide.png" alt="The gnomish scrollkeeper lights himself on fire">
 
 .(Previously: <a href="#post-24">#24</a>, <a href="#post-22">#22</a>.)
+
 
 #31 Misc
     :date: 2022-11-11 17:45
@@ -67,7 +104,7 @@ I'm gonna say you deserve to download a bunch of useless images.
 which contained the temporarily puzzling Latin phrase:
 
 <blockquote>
-    Christo Dei filio…puerulo iacenti in praesepio!
+    <p>Christo Dei filio…puerulo iacenti in praesepio!</p>
 </blockquote>
 
 .Which the Latin-reading part of my brain decided to interpret as “baby Jesus,
@@ -134,6 +171,7 @@ addition to being uncomfortable, condoms that are too small are substantially
 more likely to break. Congrats to the FDA. (Previously: <a
 href="#post-12">#12</a>, <a href="#post-12">#2</a>.)
 
+
 #26 Published
     :date: 2022-10-31 22:10
     :title: Polish
@@ -145,6 +183,7 @@ detail, and an uncompromising insistence on doing exactly what is supposed to
 be done the best it can be done. It's about getting all of the details right in
 a way that creates a great impression. More on my definition of the concept at
 the link.
+
 
 #25 Misc
     :date: 2022-10-30 21:30
@@ -199,7 +238,7 @@ couple of days. This is hard to achieve on any other instrument I've played.
 #24 Misc
     :date: 2022-10-28 18:45
     :shortdes: Sometimes Copilot…suggests animal abuse?
-    :tags: Humor | Programming | Tech
+    :tags: Humor | Programming
 
 .(Previously: <a href="#post-22">#22</a>)
 
@@ -506,10 +545,10 @@ knocks on the door, and says, “Ticket, please!”
     :tags: Story | Personal
     :shortdes: Back from hiding
 
-.Back from a week alone at an off-grid cabin in northern Minnesota (no
+.Back from a week alone at a lakeside off-grid cabin in northern Minnesota (no
 electricity or running water, but with gaslights, a wood stove, and a hand pump
 in the kitchen drawing mostly palatable water, the only thing I missed was a
-hot shower on the cold days). Passed the time hiking, boating, thinking, and
+hot shower on the cold days). Passed the time hiking, rowing, thinking, and
 reading by the fire. Aside from relaxing and enjoying the outdoors, I find that
 in today's world, I can't disconnect enough during my daily life to get all the
 reflecting I need done, so it's important to wander off out of reach of my
@@ -736,7 +775,7 @@ overall better or worse?
     :date: 2022-09-17 17:00
     :title: Effective Flashcard Writing: Decomposing half a chapter of Thinking, Fast and Slow
     :source: https://www.youtube.com/watch?v=YTVkseFNb2M
-    :tags: Video | Spaced repetition
+    :tags: Video | Learning
 
 I find it is often helpful to <a
 href="https://zettelkasten.sorenbjornstad.com/#WatchingExpertsUseSoftware">watch
