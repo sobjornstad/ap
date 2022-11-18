@@ -20,11 +20,30 @@ function applyTagFilter(clickedTag) {
             }
         }
         if (!hasTag) {
+            post.dataset.tagVisible = false;
+            post.style.display = "none";
+        } else {
+            post.dataset.tagVisible = true;
+            post.style.display = "block";
+        }
+    }
+
+    // Must call onSearchChanged() after updating because the search box
+    // sub-filters the tag list, so we didn't take the search into account when
+    // deciding what to show above.
+    onSearchChanged();
+}
+
+function onSearchChanged() {
+    var searchFor = document.getElementById("search-query").value;
+    var docs = document.querySelectorAll('.post[data-tag-visible=true]');
+    docs.forEach(function(post) {
+        if (post.innerText.toLowerCase().indexOf(searchFor.toLowerCase()) === -1) {
             post.style.display = "none";
         } else {
             post.style.display = "block";
         }
-    }
+    });
 }
 
 window.onload = function() {
@@ -33,4 +52,11 @@ window.onload = function() {
         filterTags[i].addEventListener("click", onTagSelected);
     }
     document.querySelector("#filters .nofilter").style['border'] = SELECTED_TAG_STYLE;
+
+    document.getElementById("search-query").addEventListener("input", onSearchChanged);
+
+    var posts = document.getElementsByClassName("post");
+    for (var i = 0; i < posts.length; i++) {
+        posts[i].dataset.tagVisible = true;
+    }
 }
