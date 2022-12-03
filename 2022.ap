@@ -1,3 +1,104 @@
+#50 Misc
+    :date: 2022-12-02 22:45
+    :shortdes: The restroom account
+    :tags: Story
+
+.The other night I dreamed that I was at a public restroom which required me to
+create an account in order to use the toilet. This seems like the epitome of
+technological bureaucracy in 2022, and is entirely believable!
+
+
+#49 Misc
+    :date: 2022-12-02 22:30
+    :shortdes: New stuff: Tea shop
+    :tags: New Stuff Experiment
+
+.I missed yesterday because I was busy working and writing a bunch of stuff in
+my Zettelkasten, but today I got back on the bandwagon with a visit to a little
+tiny tea store which I've passed by a few times and never gone into. You just
+stand in front of the counter and tell the lady what you're interested in, and
+she finds something to recommend and sells it to you.
+
+.I haven't actually tried the tea yet (I would do it now, but I don't need more
+caffeine at 10:30 pm), so I'll come back and update this when I have a report
+on whether it's any good! (I'm guessing loose tea from a store that sells only
+tea and that's about $0.50 per cup is going to be pretty good, but you never
+know.)
+
+
+#48 Misc
+    :date: 2022-11-30 21:00
+    :shortdes: Copilot almost groks awk
+    :tags: Programming | Tech
+
+.While I was writing examples for the on-line help of a new feature of <a
+href="https://github.com/sobjornstad/dreamdir">Dreamdir</a>, Copilot (quite
+remarkably) recognized what I was trying to do with the rather hackish awk
+pattern <code>patsplit($4, arr, /,/) == 1 { print $0 }</code> (split a string
+on commas, and use this operation's return value, informing us how many splits
+were made and thus how many commas were in the line, to decide whether to show
+the line or not – completely ignoring the actual split values). It even drily
+noted that “this is a contrived example,” which it certainly is!
+
+<img loading="lazy" class="center" src="assets/images/copilot-awk-groker.png" alt="Copilot can read awk commands!">
+
+.Only, it's not <em>quite</em> right! The return value of <code>patsplit</code>
+here is 1 not if there is exactly one person in the column, but if there are
+exactly two people in the column, because there would be no comma at all, and
+hence zero splits, if there was only a single comma-separated value. It's
+interesting that it made exactly the sort of mistake that a human programmer
+would make here – I didn't even notice the error until I actually ran the
+command and looked at the output to be sure I hadn't made any syntax errors.
+Indeed, there's no particular reason <code>awk</code> would have to return 0 if
+there are no splits; it could easily have chosen to define the return value as
+the number of elements in the resulting array, in which case Copilot's
+explanation would be right; it just doesn't. (0 does have the benefit that the
+return value becomes falsy if the delimiter wasn't found, though, which could
+be convenient on occasion.)
+
+.(Incidentally, the <code>{ print $0 }</code> isn't actually necessary: if an
+awk program consists of only one pattern with no body, the body is assumed to
+be <code>{ print $0 }</code>. I left it in here in case people reading the
+examples don't know this!)
+
+.(Previously: <a href="#post-32">#32</a>, <a href="#post-24">#24</a>,
+<a href="#post-22">#22</a>.)
+
+
+#47 Misc
+    :date: 2022-11-30 18:00
+    :shortdes: New stuff: Lowry Hill
+    :tags: New Stuff Experiment
+
+.Today I went for a walk in the Lowry Hill neighborhood, as prompted by a nifty
+iPhone app called Randonautica which I use occasionally. This lets you select a
+radius around your current location, then randomly picks a spot you're supposed
+to go explore somewhere within it (using some amusingly woo-woo method).
+Inevitably, you find something interesting in the area it instructs you to
+visit, not of course because its “method” actually knows where interesting
+things are, but because interesting things are all around us, and we usually
+aren't paying attention.
+
+.There was a surprisingly nice view of the skyline right at the spot it pointed
+me to, although my phone camera didn't do the best job of capturing it:
+
+<img loading="lazy" class="center" src="assets/images/minneapolis-lr-randonautica-skyline.jpg" alt="Downtown Minneapolis seen from a high spot in the Lowry Hill neighborhood">
+
+.On the way back, I went through Thomas Lowry Park, named after the streetcar
+magnate who made huge contributions to Minneapolis's transportation system (the
+streetcar tracks have been long since paved over, to the eternal regret of
+Minneapolis urbanists). I had not been there before, and had read the other day
+that it has a fountain made up of a series of cascading pools. Presumably these
+are them, though it was a wee bit cold for any fountain action today:
+
+<img width="400" loading="lazy" class="center" src="assets/images/minneapolis-thomas-lowry-snow.jpg" alt="What is presumably the pools, covered in snow">
+
+.And a little further on, in the middle of some really cool historic apartment
+blocks, was this nifty carved lamppost in front of a random house:
+
+<img width="400" loading="lazy" class="center" src="assets/images/minneapolis-lamppost.jpg" alt="This nifty lamppost with animal heads in front of a random house">
+
+
 #46 Misc
     :date: 2022-11-29 12:00
     :shortdes: New stuff: fancy soup
