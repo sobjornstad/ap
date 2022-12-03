@@ -12,6 +12,119 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[50] The restroom account</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 02 Dec 2022 22:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-50</link>
+    <guid>https://ap.sorenbjornstad.com/#50</guid>
+    <description>
+      &lt;p&gt;The other night I dreamed that I was at a public restroom which required me to
+create an account in order to use the toilet. This seems like the epitome of
+technological bureaucracy in 2022, and is entirely believable!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[49] New stuff: Tea shop</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 02 Dec 2022 22:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-49</link>
+    <guid>https://ap.sorenbjornstad.com/#49</guid>
+    <description>
+      &lt;p&gt;I missed yesterday because I was busy working and writing a bunch of stuff in
+my Zettelkasten, but today I got back on the bandwagon with a visit to a little
+tiny tea store which I&#x27;ve passed by a few times and never gone into. You just
+stand in front of the counter and tell the lady what you&#x27;re interested in, and
+she finds something to recommend and sells it to you.&lt;/p&gt;
+
+&lt;p&gt;I haven&#x27;t actually tried the tea yet (I would do it now, but I don&#x27;t need more
+caffeine at 10:30 pm), so I&#x27;ll come back and update this when I have a report
+on whether it&#x27;s any good! (I&#x27;m guessing loose tea from a store that sells only
+tea and that&#x27;s about $0.50 per cup is going to be pretty good, but you never
+know.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[48] Copilot almost groks awk</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 30 Nov 2022 21:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-48</link>
+    <guid>https://ap.sorenbjornstad.com/#48</guid>
+    <description>
+      &lt;p&gt;While I was writing examples for the on-line help of a new feature of &lt;a
+href=&quot;https://github.com/sobjornstad/dreamdir&quot;&gt;Dreamdir&lt;/a&gt;, Copilot (quite
+remarkably) recognized what I was trying to do with the rather hackish awk
+pattern &lt;code&gt;patsplit($4, arr, /,/) == 1 { print $0 }&lt;/code&gt; (split a string
+on commas, and use this operation&#x27;s return value, informing us how many splits
+were made and thus how many commas were in the line, to decide whether to show
+the line or not – completely ignoring the actual split values). It even drily
+noted that “this is a contrived example,” which it certainly is!&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/copilot-awk-groker.png&quot; alt=&quot;Copilot can read awk commands!&quot;&gt;
+
+&lt;p&gt;Only, it&#x27;s not &lt;em&gt;quite&lt;/em&gt; right! The return value of &lt;code&gt;patsplit&lt;/code&gt;
+here is 1 not if there is exactly one person in the column, but if there are
+exactly two people in the column, because there would be no comma at all, and
+hence zero splits, if there was only a single comma-separated value. It&#x27;s
+interesting that it made exactly the sort of mistake that a human programmer
+would make here – I didn&#x27;t even notice the error until I actually ran the
+command and looked at the output to be sure I hadn&#x27;t made any syntax errors.
+Indeed, there&#x27;s no particular reason &lt;code&gt;awk&lt;/code&gt; would have to return 0 if
+there are no splits; it could easily have chosen to define the return value as
+the number of elements in the resulting array, in which case Copilot&#x27;s
+explanation would be right; it just doesn&#x27;t. (0 does have the benefit that the
+return value becomes falsy if the delimiter wasn&#x27;t found, though, which could
+be convenient on occasion.)&lt;/p&gt;
+
+&lt;p&gt;(Incidentally, the &lt;code&gt;{ print $0 }&lt;/code&gt; isn&#x27;t actually necessary: if an
+awk program consists of only one pattern with no body, the body is assumed to
+be &lt;code&gt;{ print $0 }&lt;/code&gt;. I left it in here in case people reading the
+examples don&#x27;t know this!)&lt;/p&gt;
+
+&lt;p&gt;(Previously: &lt;a href=&quot;#post-32&quot;&gt;#32&lt;/a&gt;, &lt;a href=&quot;#post-24&quot;&gt;#24&lt;/a&gt;,
+&lt;a href=&quot;#post-22&quot;&gt;#22&lt;/a&gt;.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[47] New stuff: Lowry Hill</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 30 Nov 2022 18:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-47</link>
+    <guid>https://ap.sorenbjornstad.com/#47</guid>
+    <description>
+      &lt;p&gt;Today I went for a walk in the Lowry Hill neighborhood, as prompted by a nifty
+iPhone app called Randonautica which I use occasionally. This lets you select a
+radius around your current location, then randomly picks a spot you&#x27;re supposed
+to go explore somewhere within it (using some amusingly woo-woo method).
+Inevitably, you find something interesting in the area it instructs you to
+visit, not of course because its “method” actually knows where interesting
+things are, but because interesting things are all around us, and we usually
+aren&#x27;t paying attention.&lt;/p&gt;
+
+&lt;p&gt;There was a surprisingly nice view of the skyline right at the spot it pointed
+me to, although my phone camera didn&#x27;t do the best job of capturing it:&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/minneapolis-lr-randonautica-skyline.jpg&quot; alt=&quot;Downtown Minneapolis seen from a high spot in the Lowry Hill neighborhood&quot;&gt;
+
+&lt;p&gt;On the way back, I went through Thomas Lowry Park, named after the streetcar
+magnate who made huge contributions to Minneapolis&#x27;s transportation system (the
+streetcar tracks have been long since paved over, to the eternal regret of
+Minneapolis urbanists). I had not been there before, and had read the other day
+that it has a fountain made up of a series of cascading pools. Presumably these
+are them, though it was a wee bit cold for any fountain action today:&lt;/p&gt;
+
+&lt;img width=&quot;400&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/minneapolis-thomas-lowry-snow.jpg&quot; alt=&quot;What is presumably the pools, covered in snow&quot;&gt;
+
+&lt;p&gt;And a little further on, in the middle of some really cool historic apartment
+blocks, was this nifty carved lamppost in front of a random house:&lt;/p&gt;
+
+&lt;img width=&quot;400&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/minneapolis-lamppost.jpg&quot; alt=&quot;This nifty lamppost with animal heads in front of a random house&quot;&gt;
+    </description>
+  </item>
+  <item>
     <title>[46] New stuff: fancy soup</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
