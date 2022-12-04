@@ -1,9 +1,39 @@
+#53 Article
+    :date: 2022-12-04 17:00
+    :title: Math's Fundamental Flaw
+    :author: Veritasium
+    :source: https://www.youtube.com/watch?v=HeQX2HjkcNo
+    :tags: Math | Video
+
+This 30-minute video provides a fantastic and accessible overview of the
+limitations of provability, including self-referential paradoxes, Gödel's
+Incompleteness Theorem, and the halting problem. Highly recommended, even if
+you're familiar with some or all of these ideas.
+
+
 #52 Misc
-    :date: 2022-12-04 16:15
-    :shortdes: 
-    :tags:
+    :date: 2022-12-04 17:00
+    :shortdes: New stuff: Church lock-in
+    :tags: New Stuff Experiment
 
+.Today I helped supervise a bunch of high-schoolers at an overnight youth event
+at my church, which I have not done before. This was equal parts chaos and fun
+and consisted mostly of (1) staying up until 2 AM and (2) telling the kids not
+to touch things that weren't theirs, break things, or disappear on us.
 
+.I felt about 15 years younger (in a good way) when I found myself and the
+youth director (the only adults there) lying on the floor in sleeping bags in
+the dark at 1:30 AM talking. The only difference was that we were talking about
+getting older instead of high-school gossip!
+
+.(<em>Gratuitous pedantic note on the newness of this experience</em>: I was
+technically a chaperone once before, at an event where anyone over 18 had to be
+registered as one and I was 18 years and 2 months. But this feels like claiming
+you've been to a country because you connected through an international airport
+there; <em>technically</em> you were on the ground within the country's
+borders, but realistically, for any reason you might care about whether you had
+been there, it makes no sense to count it. Very different experience this
+time.)
 
 
 #51 Misc
@@ -13,19 +43,21 @@
 
 .Today I went to the state park and historic site at Fort Snelling, located
 next to the airport just southeast of Minneapolis, at the confluence of the
-Mississippi and Minnesota Rivers. First I hiked a couple of miles. The trails
-were very nice and I'll definitely come back here; the only major drawback is
-that it's pretty noisy, as it's right next to both the airport and several
-major highways; indeed, the historic area was almost demolished for Highway 5,
-and they ended up routing the highway through a tunnel underneath it. (A
-substantial part of Fort Snelling was demolished for the airport as well, but
-it was an area with very little historic value, made up mostly of barracks for
-temporary residents who were going through training or processing, some of them
-made of little more than tar paper on frames.)
+Mississippi and Minnesota Rivers.
 
-<img width="500" loading="lazy" class="center" src="assets/images/snelling-location.png" alt="The location of Fort Snelling">
+<img width="600" loading="lazy" class="center" src="assets/images/snelling-location.png" alt="The location of Fort Snelling">
 
-<img width="600" loading="lazy" class="center" src="assets/images/snelling-tunnel.png" alt="The highway tunnel discussed above">
+.First I hiked a couple of miles. The trails were nice, many running next to
+one of the rivers, and I'll definitely come back here; the only major drawback
+is that it's pretty noisy, as it's right next to both the airport and several
+major highways. Indeed, the historic area was almost demolished for Highway 5 –
+after public outcry, they ended up routing the highway through a tunnel
+underneath it instead. (A substantial part of Fort Snelling was demolished for
+the airport as well, but it was an area with very little historic value, made
+up mostly of barracks for temporary residents who were going through training
+or processing, some of them made of little more than tar paper on frames.)
+
+<img loading="lazy" class="center" src="assets/images/snelling-tunnel.png" alt="The highway tunnel discussed above">
 
 .Because it's midwinter, a lot of the historic site was closed, including the
 main fort building, but the side museum was open, with a number of volunteers
@@ -35,9 +67,9 @@ you're forced to context-switch all the time between a carefully designed
 exhibit and some random person who's telling you stuff. But these folks were
 good and the exhibits were actually pretty boring without them, so I ended up
 appreciating it (special shout-out to the woman who had just started yesterday
-but was somehow already able to talk in great detail for 20 minutes to me and
-two other people about the complete chronology and function of the buildings on
-a completely unlabeled birds-eye diorama of the fort).
+but was already able to talk in great detail for 20 minutes to me and two other
+people about the complete chronology and function of the buildings on an
+unlabeled birds-eye diorama of the fort).
 
 .I'll have to stop back up next summer to see the rest; they just redid the
 whole place a couple of years ago and all of it is supposed to be really good.
@@ -48,7 +80,7 @@ whole place a couple of years ago and all of it is supposed to be really good.
     :shortdes: The restroom account
     :tags: Story
 
-.The other night I dreamed that I was at a public restroom which required me to 
+.The other night I dreamed that I was at a public restroom which required me to
 create an account in order to use the toilet. This seems like the epitome of
 technological bureaucracy in 2022, and is entirely believable!
 
