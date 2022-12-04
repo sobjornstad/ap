@@ -12,14 +12,43 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
-    <title>[52] </title>
+    <title>[53] Article: Math&#x27;s Fundamental Flaw (Veritasium)</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Article</category>
+    <pubDate>Sun, 04 Dec 2022 17:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-53</link>
+    <guid>https://ap.sorenbjornstad.com/#53</guid>
+    <description>This 30-minute video provides a fantastic and accessible overview of the
+limitations of provability, including self-referential paradoxes, Gödel&#x27;s
+Incompleteness Theorem, and the halting problem. Highly recommended, even if
+you&#x27;re familiar with some or all of these ideas.</description>
+  </item>
+  <item>
+    <title>[52] New stuff: Church lock-in</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
-    <pubDate>Sun, 04 Dec 2022 16:15:00 -0000</pubDate>
+    <pubDate>Sun, 04 Dec 2022 17:00:00 -0000</pubDate>
     <link>https://ap.sorenbjornstad.com/#post-52</link>
     <guid>https://ap.sorenbjornstad.com/#52</guid>
     <description>
-      
+      &lt;p&gt;Today I helped supervise a bunch of high-schoolers at an overnight youth event
+at my church, which I have not done before. This was equal parts chaos and fun
+and consisted mostly of (1) staying up until 2 AM and (2) telling the kids not
+to touch things that weren&#x27;t theirs, break things, or disappear on us.&lt;/p&gt;
+
+&lt;p&gt;I felt about 15 years younger (in a good way) when I found myself and the
+youth director (the only adults there) lying on the floor in sleeping bags in
+the dark at 1:30 AM talking. The only difference was that we were talking about
+getting older instead of high-school gossip!&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;Gratuitous pedantic note on the newness of this experience&lt;/em&gt;: I was
+technically a chaperone once before, at an event where anyone over 18 had to be
+registered as one and I was 18 years and 2 months. But this feels like claiming
+you&#x27;ve been to a country because you connected through an international airport
+there; &lt;em&gt;technically&lt;/em&gt; you were on the ground within the country&#x27;s
+borders, but realistically, for any reason you might care about whether you had
+been there, it makes no sense to count it. Very different experience this
+time.)&lt;/p&gt;
     </description>
   </item>
   <item>
@@ -32,19 +61,21 @@
     <description>
       &lt;p&gt;Today I went to the state park and historic site at Fort Snelling, located
 next to the airport just southeast of Minneapolis, at the confluence of the
-Mississippi and Minnesota Rivers. First I hiked a couple of miles. The trails
-were very nice and I&#x27;ll definitely come back here; the only major drawback is
-that it&#x27;s pretty noisy, as it&#x27;s right next to both the airport and several
-major highways; indeed, the historic area was almost demolished for Highway 5,
-and they ended up routing the highway through a tunnel underneath it. (A
-substantial part of Fort Snelling was demolished for the airport as well, but
-it was an area with very little historic value, made up mostly of barracks for
-temporary residents who were going through training or processing, some of them
-made of little more than tar paper on frames.)&lt;/p&gt;
+Mississippi and Minnesota Rivers.&lt;/p&gt;
 
-&lt;img width=&quot;500&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/snelling-location.png&quot; alt=&quot;The location of Fort Snelling&quot;&gt;
+&lt;img width=&quot;600&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/snelling-location.png&quot; alt=&quot;The location of Fort Snelling&quot;&gt;
 
-&lt;img width=&quot;600&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/snelling-tunnel.png&quot; alt=&quot;The highway tunnel discussed above&quot;&gt;
+&lt;p&gt;First I hiked a couple of miles. The trails were nice, many running next to
+one of the rivers, and I&#x27;ll definitely come back here; the only major drawback
+is that it&#x27;s pretty noisy, as it&#x27;s right next to both the airport and several
+major highways. Indeed, the historic area was almost demolished for Highway 5 –
+after public outcry, they ended up routing the highway through a tunnel
+underneath it instead. (A substantial part of Fort Snelling was demolished for
+the airport as well, but it was an area with very little historic value, made
+up mostly of barracks for temporary residents who were going through training
+or processing, some of them made of little more than tar paper on frames.)&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/snelling-tunnel.png&quot; alt=&quot;The highway tunnel discussed above&quot;&gt;
 
 &lt;p&gt;Because it&#x27;s midwinter, a lot of the historic site was closed, including the
 main fort building, but the side museum was open, with a number of volunteers
@@ -54,9 +85,9 @@ you&#x27;re forced to context-switch all the time between a carefully designed
 exhibit and some random person who&#x27;s telling you stuff. But these folks were
 good and the exhibits were actually pretty boring without them, so I ended up
 appreciating it (special shout-out to the woman who had just started yesterday
-but was somehow already able to talk in great detail for 20 minutes to me and
-two other people about the complete chronology and function of the buildings on
-a completely unlabeled birds-eye diorama of the fort).&lt;/p&gt;
+but was already able to talk in great detail for 20 minutes to me and two other
+people about the complete chronology and function of the buildings on an
+unlabeled birds-eye diorama of the fort).&lt;/p&gt;
 
 &lt;p&gt;I&#x27;ll have to stop back up next summer to see the rest; they just redid the
 whole place a couple of years ago and all of it is supposed to be really good.&lt;/p&gt;
@@ -70,7 +101,7 @@ whole place a couple of years ago and all of it is supposed to be really good.&l
     <link>https://ap.sorenbjornstad.com/#post-50</link>
     <guid>https://ap.sorenbjornstad.com/#50</guid>
     <description>
-      &lt;p&gt;The other night I dreamed that I was at a public restroom which required me to 
+      &lt;p&gt;The other night I dreamed that I was at a public restroom which required me to
 create an account in order to use the toilet. This seems like the epitome of
 technological bureaucracy in 2022, and is entirely believable!&lt;/p&gt;
     </description>
