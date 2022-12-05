@@ -33,7 +33,7 @@ you&#x27;re familiar with some or all of these ideas.</description>
     <description>
       &lt;p&gt;Today I helped supervise a bunch of high-schoolers at an overnight youth event
 at my church, which I have not done before. This was equal parts chaos and fun
-and consisted mostly of (1) staying up until 2 AM and (2) telling the kids not
+and consisted mostly of (1) staying up until 2 AM and (2) telling the kids not
 to touch things that weren&#x27;t theirs, break things, or disappear on us.&lt;/p&gt;
 
 &lt;p&gt;I felt about 15 years younger (in a good way) when I found myself and the
@@ -41,14 +41,18 @@ youth director (the only adults there) lying on the floor in sleeping bags in
 the dark at 1:30 AM talking. The only difference was that we were talking about
 getting older instead of high-school gossip!&lt;/p&gt;
 
-&lt;p&gt;(&lt;em&gt;Gratuitous pedantic note on the newness of this experience&lt;/em&gt;: I was
-technically a chaperone once before, at an event where anyone over 18 had to be
-registered as one and I was 18 years and 2 months. But this feels like claiming
-you&#x27;ve been to a country because you connected through an international airport
-there; &lt;em&gt;technically&lt;/em&gt; you were on the ground within the country&#x27;s
-borders, but realistically, for any reason you might care about whether you had
-been there, it makes no sense to count it. Very different experience this
-time.)&lt;/p&gt;
+&lt;div class=&quot;callout&quot;&gt;
+
+    &lt;em&gt;Gratuitous pedantic note on the newness of this experience&lt;/em&gt;: I was
+    technically a chaperone once before, at an event where anyone over 18 had
+    to be registered as one and I was 18 years and 2 months. But this feels
+    like claiming you&#x27;ve been to a country because you connected through an
+    international airport there; &lt;em&gt;technically&lt;/em&gt; you were on the ground
+    within the country&#x27;s borders, but realistically, for any reason you might
+    care about whether you had been there, it makes no sense to count it. Very
+    different experience this time.
+
+&lt;/div&gt;
     </description>
   </item>
   <item>
@@ -160,10 +164,14 @@ explanation would be right; it just doesn&#x27;t. (0 does have the benefit that 
 return value becomes falsy if the delimiter wasn&#x27;t found, though, which could
 be convenient on occasion.)&lt;/p&gt;
 
-&lt;p&gt;(Incidentally, the &lt;code&gt;{ print $0 }&lt;/code&gt; isn&#x27;t actually necessary: if an
-awk program consists of only one pattern with no body, the body is assumed to
-be &lt;code&gt;{ print $0 }&lt;/code&gt;. I left it in here in case people reading the
-examples don&#x27;t know this!)&lt;/p&gt;
+&lt;div class=&quot;callout&quot;&gt;
+
+    Incidentally, the &lt;code&gt;{ print $0 }&lt;/code&gt; isn&#x27;t actually necessary: if an
+    awk program consists of only one pattern with no body, the body is assumed
+    to be &lt;code&gt;{ print $0 }&lt;/code&gt;. I left it in here in case people reading
+    the examples don&#x27;t know this!)
+
+&lt;/div&gt;
 
 &lt;p&gt;(Previously: &lt;a href=&quot;#post-32&quot;&gt;#32&lt;/a&gt;, &lt;a href=&quot;#post-24&quot;&gt;#24&lt;/a&gt;,
 &lt;a href=&quot;#post-22&quot;&gt;#22&lt;/a&gt;.)&lt;/p&gt;

@@ -242,6 +242,15 @@ button.tag {
     text-align: center;
     margin: 0 auto;
 }
+
+.post .callout {
+    background-color: lavender;
+    border-radius: 0.5em;
+    padding: 0.75em 1.0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 form.suggestion-form {
     margin-top: 1em;
     padding-left: 1em;
