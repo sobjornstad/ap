@@ -12,6 +12,75 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[56] Traffic Control Hall of Shame: sign overload and combined YIELD and STOP signs</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 27 Dec 2022 08:25:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-56</link>
+    <guid>https://ap.sorenbjornstad.com/#56</guid>
+    <description>
+      &lt;p&gt;Among the most confusing intersections I&#x27;ve ever seen:&lt;/p&gt;
+
+&lt;img width=&quot;600&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/traffic-yield-confusion.jpg&quot; alt=&quot;A yield sign combined with a stop sign because of railroad tracks&quot;&gt;
+
+&lt;p&gt;These train tracks in Southwest Minneapolis (Linden Hills, next to Lake
+Harriet) are used only for &lt;a href=&quot;https://trolleyride.org&quot;&gt;a low-speed
+tourist attraction&lt;/a&gt;, so there are no crossing arms, and they put a YIELD
+sign in front of them. So far so good. But then there&#x27;s an intersection
+&lt;em&gt;immediately&lt;/em&gt; after it, with not even enough space to stop your car past
+the tracks…and cross traffic has a STOP sign. But only on the right, not on the
+left, because that street is one-way. Plus there&#x27;s the post on the corner with
+4 extra signs that draw away your attention and can block your view of the STOP
+sign if you look over there while you&#x27;re in your car.&lt;/p&gt;
+
+&lt;p&gt;Of course, this isn&#x27;t &lt;em&gt;technically&lt;/em&gt; wrong – the YIELD sign is only
+meant to apply to the train tracks, and then there is no sign controlling the
+actual intersection, so you can go through and cross traffic has to stop for
+you. But it&#x27;s confusing as heck and they definitely should have picked a
+different approach.&lt;/p&gt;
+
+&lt;p&gt;What happened to me, coming up to the intersection from the direction the
+camera is looking: I yielded to (nonexistent) rail traffic, then started across
+the tracks and was about to go through the intersection when I saw someone
+coming from the right and went “Whoa, I had a YIELD sign!” and slammed on the
+brakes, only to see they had a STOP sign. I had to walk back and look at the
+intersection again after I parked to figure out what happened.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[55] New stuff update</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 27 Dec 2022 08:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-55</link>
+    <guid>https://ap.sorenbjornstad.com/#55</guid>
+    <description>
+      I stopped updating on new stuff because I got busy, including a new and very
+important thing covering several weeks that I don&#x27;t want to share with the
+internet. Hoping to get back to regular updates here shortly!
+    </description>
+  </item>
+  <item>
+    <title>[54] The “not actually polite” sign</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 13 Dec 2022 08:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-54</link>
+    <guid>https://ap.sorenbjornstad.com/#54</guid>
+    <description>
+      Someone needs to invent a hand gesture for driving that means “I know you
+thought that was polite, but it was actually rude, cut it out.” There are times
+when you can&#x27;t really flip someone off or act affronted because they weren&#x27;t
+trying to be rude (so they would just conclude &lt;em&gt;you&#x27;re&lt;/em&gt; rude instead of
+realizing they did something wrong), but if you wave or even do nothing,
+they&#x27;ll continue to think they&#x27;re being nice.
+
+The number-one use case would be when people yield even though they aren&#x27;t
+supposed to, creating unnecessary confusion, but now that I&#x27;ve had this idea, I
+keep finding other moments I&#x27;d like to use it!
+    </description>
+  </item>
+  <item>
     <title>[53] Article: Math&#x27;s Fundamental Flaw (Veritasium)</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Article</category>
@@ -19,9 +88,9 @@
     <link>https://ap.sorenbjornstad.com/#post-53</link>
     <guid>https://ap.sorenbjornstad.com/#53</guid>
     <description>This 30-minute video provides a fantastic and accessible overview of the
-limitations of provability, including self-referential paradoxes, Gödel&#x27;s
-Incompleteness Theorem, and the halting problem. Highly recommended, even if
-you&#x27;re familiar with some or all of these ideas.</description>
+limitations of provability and decidability, including self-referential
+paradoxes, Gödel&#x27;s Incompleteness Theorem, and the halting problem. Highly
+recommended, even if you&#x27;re familiar with some or all of these ideas.</description>
   </item>
   <item>
     <title>[52] New stuff: Church lock-in</title>
