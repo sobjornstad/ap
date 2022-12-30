@@ -550,8 +550,8 @@ I did under the “New Stuff Experiment” tag.&lt;/p&gt;
     <pubDate>Sun, 27 Nov 2022 22:00:00 -0000</pubDate>
     <link>https://ap.sorenbjornstad.com/#post-41</link>
     <guid>https://ap.sorenbjornstad.com/#41</guid>
-    <description>&lt;p&gt;As of today, I&#x27;ve been living in Minneapolis for one year and one day. I wrote
-up some thoughts on what&#x27;s been different about living here.&lt;/p&gt;</description>
+    <description>As of today, I&#x27;ve been living in Minneapolis for one year and one day. I wrote
+up some thoughts on what&#x27;s been different about living here.</description>
   </item>
   <item>
     <title>[40] The McCollough effect</title>
@@ -987,7 +987,7 @@ later. But unlike traditional outlines, it encourages iterating in place,
 rather than trying to get the structure right the first time without any
 details. Here&#x27;s an example of an earlier version of this post:&lt;/p&gt;
 
-&lt;img loading=&quot;lazy&quot; src=&quot;assets/images/unfinished-outline.png&quot;&gt;
+&lt;img loading=&quot;lazy&quot; src=&quot;assets/images/unfinished-outline.png&quot; alt=&quot;A partially written post, demonstrating how I leave sentences half-finished.&quot;&gt;
 
 &lt;p&gt;This whole thing strikes me as a manifestation of the
 &lt;a href=&quot;http://562.nz/#BrokenAcademicWritingProcess&quot;&gt;waterfall writing process problem&lt;/a&gt;,
