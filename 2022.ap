@@ -483,7 +483,7 @@ I did under the “New Stuff Experiment” tag.
     :source: https://zettelkasten.sorenbjornstad.com/#YearOfMinneapolis
     :tags: Personal
 
-.As of today, I've been living in Minneapolis for one year and one day. I wrote
+As of today, I've been living in Minneapolis for one year and one day. I wrote
 up some thoughts on what's been different about living here.
 
 
@@ -874,7 +874,7 @@ later. But unlike traditional outlines, it encourages iterating in place,
 rather than trying to get the structure right the first time without any
 details. Here's an example of an earlier version of this post:
 
-<img loading="lazy" src="assets/images/unfinished-outline.png">
+<img loading="lazy" src="assets/images/unfinished-outline.png" alt="A partially written post, demonstrating how I leave sentences half-finished.">
 
 .This whole thing strikes me as a manifestation of the
 <a href="http://562.nz/#BrokenAcademicWritingProcess">waterfall writing process problem</a>,
