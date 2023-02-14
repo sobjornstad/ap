@@ -1,3 +1,51 @@
+#68 Misc
+    :date: 2023-02-13 22:00
+    :shortdes: Windy beach walk
+    :tags: Story
+
+.I tried to go for a walk on the beach today. I did not think to check the wind
+speed, which turned out to be 30mph gusting to 55mph. The Pacific was looking
+pretty majestic, but I basically got low-pressure sandblasted as I walked
+along. I also planned to take a shortcut through what looked on Google Maps
+like a public park but turned out to be a heavily fenced private golf course,
+and ended up having to walk along the median of a four-lane highway and then
+vault over a jersey barrier to get to the beach (there wasn't too much traffic
+and it felt pretty safe, but it wasn't exactly pleasant!).
+
+.You know it's windy when your <s>windsock</s>ponytail sits at the side of your
+head pointing forward:
+
+<img width="300" loading="lazy" class="center" src="assets/images/soren-wind-sf.jpg" alt="ttt">
+
+.(This is my "trying not to lose my balance in the wind or have dust blown in
+my eyes" face.)
+
+.Not a bad day though. Travel is always more fun when unexpected things
+happen...like the time I
+<a href="https://www.controlaltbackspace.org/blizzard/">got stranded at a
+stranger's house in Austin, MN for two days without my glasses or phone</a>.
+
+
+#67 Misc
+    :date: 2023-02-13 19:30
+    :shortdes: Appointment clock
+    :tags: Design | Tech
+
+.This is a brilliant option on the latest iOS:
+
+<img width="400" loading="lazy" class="center" src="assets/images/appointment-clock.jpg" alt="iOS showing your next appointment next to the date.">
+
+.I didn't realize I needed this until I found the option and tried it out of
+curiosity. Frequently, what you want to know when you check the time and date
+is really how long you have until the next thing you need to do. This option
+inconspicuously shows the name and time of the next item on your calendar (or
+the current item, if it's in progress, as you can see here) next to the date.
+
+.You can configure this by long-pressing in the middle of the lock screen,
+tapping "Customize", then the lock screen thumbnail, then the date, and
+selecting the "Next Event" widget.
+
+
 #66 Misc
     :date: 2023-01-30 21:00
     :shortdes: The Harrow and the Harvest
