@@ -101,23 +101,25 @@ I feel like I should be spending many more days on this problem;
 
 <hr>
 
-.<strong>TiddlyWiki</strong> is like a spreadsheet extended to long-form prose.
-It has a highly flexible structure,
-    so you can match the organization of your content
-    exactly to the way you think about it.
+.<strong>TiddlyWiki</strong> is a tool that helps you think in new ways
+    by extending the fundamental ideas of the spreadsheet
+    so that they work effectively with long-form prose.
+Information in TiddlyWiki has a flexible structure,
+    so you can match the shape of your content within the wiki
+    to the way you think about it.
 Things can be organized strictly,
     in tables like a spreadsheet
         or in hierarchies like an outline,
-    or loosely, in webs of vaguely related components that change frequently,
+    or loosely, in webs of related components with nebulous relationships,
     and you can show the same data in different formats at different times.
 You split your facts and ideas into little pieces called <em>tiddlers</em>
     (much like rows of a spreadsheet)
     and the tiddlers into fields (much like columns),
-    then link related tiddlers together.
-Then you can use formulas and formatting options
-    to automatically search, filter, sort,
+    then add links and tags to describe the relationships between tiddlers.
+Then you can use custom formulas and formatting options
+    to search, filter, sort,
         answer questions about the relationships between things,
-        and change the appearance of your wiki.
+        and change the appearance of your wiki to look like almost anything at all.
 
 .The amount of flexibility TiddlyWiki affords makes it challenging to learn or even explain
     – you have to develop a few new ways of thinking to make effective use of the tool –
