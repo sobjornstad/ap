@@ -12,6 +12,143 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[71] Metaphor Systems</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 28 Feb 2023 16:20:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-71</link>
+    <guid>https://ap.sorenbjornstad.com/#71</guid>
+    <description>
+      &lt;p&gt;&lt;a href=&quot;https://metaphor.systems&quot;&gt;Metaphor&lt;/a&gt; is an experimental new kind of
+search engine based on an LLM. Rather than typing in keywords describing what
+you&#x27;re looking for, you pretend you already have the link you want and are
+sending it to a friend, and write a brief introduction explaining what it is.
+Then it supplies a list of predictions for what link you might be talking about.&lt;/p&gt;
+
+&lt;p&gt;This works surprisingly well. I find it especially useful if I am thinking of an
+article I know exists somewhere on the web, but can&#x27;t remember what it was
+called; it&#x27;s challenging to find effective keywords for a traditional search
+engine in this case, but usually easy to describe the article in enough detail
+that Metaphor can find it.&lt;/p&gt;
+
+&lt;p&gt;Metaphor is currently free and open to the public.
+Give it a try:
+&lt;a href=&quot;https://metaphor.systems&quot;&gt;https://metaphor.systems&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not to be confused with &lt;a href=&quot;#post-33&quot;&gt;The fundamentality of metaphor&lt;/a&gt;.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[70] What the heck is TiddlyWiki, actually?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 28 Feb 2023 16:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-70</link>
+    <guid>https://ap.sorenbjornstad.com/#70</guid>
+    <description>
+      &lt;p&gt;The other day I was on a first date
+    and we were talking about our experiences of the early COVID-19 pandemic,
+    and I mentioned that I had used much of my excessive free time to write
+    a textbook called &lt;a href=&quot;https://groktiddlywiki.com&quot;&gt;Grok TiddlyWiki&lt;/a&gt;.
+Naturally, she asked what TiddlyWiki was,
+    and I realized, somewhat to my alarm, that I had no effective way to explain it.
+If anyone in the entire world
+    should be able to give a good elevator pitch for TiddlyWiki,
+    surely it ought to be me,
+    seeing as I recently spent a year and a half writing a book to teach people how to use it!
+My first reach was “&lt;a href=&quot;https://www.notion.so&quot;&gt;Notion&lt;/a&gt;, but more customizable,”
+    but she hadn&#x27;t heard of Notion,
+    so that didn&#x27;t help at all,
+    and this seems like a cop-out anyway;
+    it just moves the question to, what the heck is Notion, actually?&lt;/p&gt;
+
+&lt;p&gt;Once you get over the immediate absurdity of the fact that
+    I just wrote a book about this tool and I still can&#x27;t concisely explain what it is,
+    that this is challenging isn&#x27;t actually all that surprising:
+    a general problem with researching, developing, and promoting
+    tools for thought like TiddlyWiki
+    is that they
+    &lt;a href=&quot;https://zettelkasten.sorenbjornstad.com/#ToolsForThinkingDontWow&quot;&gt;don&#x27;t wow&lt;/a&gt;.
+That is, because the really revolutionary ones allow you to think in new ways,
+    the problem of understanding why the tool is useful
+    and the problem of learning the tool
+    are necessarily intertwined;
+    without the habits of thought developed by learning and using the tool,
+    the tool in some way &lt;em&gt;can&#x27;t&lt;/em&gt; make sense.
+(Paul Graham popularized this line of thought back in 2001
+ when he wrote about &lt;a href=&quot;http://www.paulgraham.com/avg.html&quot;&gt;Blub programmers&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;This said, surely I can at least do better than “Notion, but more customizable.”
+A good start is the front page of &lt;em&gt;Grok&lt;/em&gt; itself:&lt;/p&gt;
+
+&lt;blockquote&gt;
+TiddlyWiki is a human-shaped tool for organizing information and taking notes. It stores and relates information in a non-linear but structured way, just like your brain, and it doesn&#x27;t forget things.
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&#x27;s helpful to add some use cases, like I do a bit lower down:&lt;/p&gt;
+
+&lt;blockquote&gt;
+People use TiddlyWiki for keeping notes at their jobs, collecting their ideas, keeping track of what they read, drafting books, building static websites, storing recipes, managing genealogical databases, planning tabletop role-playing campaigns, and much more.
+&lt;/blockquote&gt;
+
+&lt;p&gt;The big problem here is that, reading this description,
+    you still don&#x27;t know anything
+    about &lt;em&gt;how&lt;/em&gt; one uses TiddlyWiki to do this.
+This is not really a problem for &lt;em&gt;Grok TiddlyWiki&lt;/em&gt;,
+    since the entire rest of the book is about this,
+    but it&#x27;s a big problem if you&#x27;re trying to educate and/or hook
+    people who aren&#x27;t already interested.
+It&#x27;s like we&#x27;ve explained what a car is
+    but not talked about how one uses the steering wheel
+    and pedals to make it move around.
+If you&#x27;ve never heard of a car or seen someone drive one,
+    it&#x27;s going to be tough to imagine someone using one without those details,
+    and I find it&#x27;s difficult to understand the value or purpose of software
+    if you can&#x27;t imagine the experience of using it.&lt;/p&gt;
+
+&lt;p&gt;Here&#x27;s my best shot at a version that incorporates most of the ideas above.
+It starts by comparing to a tool almost everyone will know,
+    but doesn&#x27;t rely on that comparison;
+    it incorporates the “human-shaped” idea
+    and the example use cases,
+    and it tries to give a picture of the actions one takes
+    when working with a TiddlyWiki.
+Its biggest weakness is that it tends on the formal and dense side.
+I feel like I should be spending many more days on this problem;
+    it&#x27;s hard to imagine how the field of tools for thought in general
+    is going to succeed unless we find a way to explain why it&#x27;s important!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;TiddlyWiki&lt;/strong&gt; is a tool that helps you think in new ways
+    by extending the fundamental ideas of the spreadsheet
+    so that they work effectively with long-form prose.
+Information in TiddlyWiki has a flexible structure,
+    so you can match the shape of your content within the wiki
+    to the way you think about it.
+Things can be organized strictly,
+    in tables like a spreadsheet
+        or in hierarchies like an outline,
+    or loosely, in webs of related components with nebulous relationships,
+    and you can show the same data in different formats at different times.
+You split your facts and ideas into little pieces called &lt;em&gt;tiddlers&lt;/em&gt;
+    (much like rows of a spreadsheet)
+    and the tiddlers into fields (much like columns),
+    then add links and tags to describe the relationships between tiddlers.
+Then you can use custom formulas and formatting options
+    to search, filter, sort,
+        answer questions about the relationships between things,
+        and change the appearance of your wiki to look like almost anything at all.&lt;/p&gt;
+
+&lt;p&gt;The amount of flexibility TiddlyWiki affords makes it challenging to learn or even explain
+    – you have to develop a few new ways of thinking to make effective use of the tool –
+    so that&#x27;s what my book is designed to help with.
+I use my primary TiddlyWiki as a sort of topically organized journal,
+    keeping track of things I&#x27;ve learned about myself, my life, and the world
+    in a form where I can easily build on previous insights.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[69] Signs of San Francisco</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -31,7 +168,7 @@ ferry or something (Angel Island):
 and would never do anything illegal with spray paint or Sharpies (Muni M line):
 &lt;img width=&quot;400&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/sf-sign-graffiti.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;And when children gather, it&#x27;s &quot;congregating&quot;. When adults gather, it&#x27;s &quot;loitering&quot; and illegal (Nob Hill):
+&lt;p&gt;And when children gather, it&#x27;s “congregating”. When adults gather, it&#x27;s “loitering” and illegal (Nob Hill):
 &lt;img width=&quot;300&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/sf-sign-no-loitering.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Non-binary people, just come right in (Mendocino Botanical Gardens):
@@ -41,7 +178,7 @@ and would never do anything illegal with spray paint or Sharpies (Muni M line):
 &lt;img width=&quot;400&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/sf-sign-profanity.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Above the toilet at a group house in Berkeley. Dreadful spelling and grammar
-aside, I&#x27;m so confused by &quot;whenever possib&quot;. Did the person who wrote this
+aside, I&#x27;m so confused by “whenever possib”. Did the person who wrote this
 forget to finish the word, or figure everyone would get it even though it
 didn&#x27;t fit? When would it not be possible to avoid flushing kitchen paper
 towels down the toilet? When &lt;em&gt;would&lt;/em&gt; it be considered possible in
@@ -71,8 +208,8 @@ head pointing forward:&lt;/p&gt;
 
 &lt;img width=&quot;300&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/soren-wind-sf.jpg&quot; alt=&quot;Me standing with the wind at my back, ponytail flying forward in disarray on one side of my face.&quot;&gt;
 
-&lt;p&gt;(This is my &quot;trying not to lose my balance in the wind or have dust blown in
-my eyes&quot; face.)&lt;/p&gt;
+&lt;p&gt;(This is my “trying not to lose my balance in the wind or have dust blown in
+my eyes” face.)&lt;/p&gt;
 
 &lt;p&gt;Not a bad day though. Travel is always more fun when unexpected things
 happen...like the time I
@@ -99,8 +236,8 @@ inconspicuously shows the name and time of the next item on your calendar (or
 the current item, if it&#x27;s in progress, as you can see here) next to the date.&lt;/p&gt;
 
 &lt;p&gt;You can configure this by long-pressing in the middle of the lock screen,
-tapping &quot;Customize&quot;, then the lock screen thumbnail, then the date, and
-selecting the &quot;Next Event&quot; widget.&lt;/p&gt;
+tapping “Customize”, then the lock screen thumbnail, then the date, and
+selecting the “Next Event” widget.&lt;/p&gt;
     </description>
   </item>
   <item>
@@ -118,8 +255,8 @@ rediscovered. As funny as it sounds to say this since this was only five years
 ago, I think I wasn&#x27;t old enough to appreciate it when I heard it for the first
 time, just after graduating college.&lt;/p&gt;
 
-&lt;p&gt;(Although most of the music they make together is under the name &quot;Gillian
-Welch&quot;, Welch&#x27;s partner David Rawlings is as essential a part of it as she is;
+&lt;p&gt;(Although most of the music they make together is under the name “Gillian
+Welch”, Welch&#x27;s partner David Rawlings is as essential a part of it as she is;
 they write the songs together and he plays lead guitar and sings harmony on
 everything.)&lt;/p&gt;
 
@@ -146,13 +283,13 @@ has come in, even though he&#x27;s singing different notes!&lt;/p&gt;
 href=&quot;https://www.youtube.com/watch?v=37u3_659fXk&amp;list=PLnfP0ZfzDtH94lj2KojYlEe5mAKk6qCNo&quot;&gt;The
 Harrow and the Harvest&lt;/a&gt;&lt;/em&gt;, published in 2011. The epitome of everything
 I&#x27;ve said above is the track &lt;a
-href=&quot;https://www.youtube.com/watch?v=k35haKwqY14&amp;list=PLnfP0ZfzDtH94lj2KojYlEe5mAKk6qCNo&amp;index=6&quot;&gt;&quot;Hard
-Times&quot;&lt;/a&gt;, which borrows the title from Stephen Foster but takes the sentiment
+href=&quot;https://www.youtube.com/watch?v=k35haKwqY14&amp;list=PLnfP0ZfzDtH94lj2KojYlEe5mAKk6qCNo&amp;index=6&quot;&gt;“Hard
+Times”&lt;/a&gt;, which borrows the title from Stephen Foster but takes the sentiment
 in a totally different direction. Instead of being comfortable and sparing a
 thought for those worse off than them, the characters are in the thick of it,
 dealing with the hard times, and they don&#x27;t presume to ask for hard times to
-&quot;come again no more,&quot; but simply promise themselves that the hard times &quot;won&#x27;t rule
-their minds no more.&quot; Yet the ploughman, very relatably, fails to take his own
+“come again no more,” but simply promise themselves that the hard times “won&#x27;t rule
+their minds no more.” Yet the ploughman, very relatably, fails to take his own
 advice, falling victim to modernization and ceasing his refrain, even as the
 audience is exhorted to celebrate in the midst of it one more time.&lt;/p&gt;
     </description>
