@@ -1,3 +1,45 @@
+#74 Misc
+    :date: 2023-03-09 21:00
+    :shortdes: In which ChatGPT does chord analysis not even wrong
+    :tags: AI | Music
+
+.A bluesy song I'm learning includes the following progression in the key of D
+major:
+
+<blockquote>
+D – F#7 – G – D – A – D
+</blockquote>
+
+.(Actually, I added the seventh because it sounded better with the mandolin's
+sometimes-awkward voicing; it was a bare F# major in my source.)
+
+.I wasn't, and am still not, sure how to describe the function of the F#
+dominant seventh. When you play it, you can hear that it plainly leads into the
+G, which makes some sense to me given that it's built on the seventh scale
+degree of G and thus acts sort of like a V7/V (D7) would, but I can't quite put
+a name on it. (I initially suspected <a
+href="https://en.wikipedia.org/wiki/Tritone_substitution">tritone
+substitution</a>, but the relationship is off by a whole step.) In a major key,
+it doesn't make sense to talk about the seventh scale degree being major, so it
+must be getting borrowed from some other scale or have some funky name or
+principle all its own. Please enlighten me if you know!
+
+.Anyhow, as part of my search, I decided to see how ChatGPT would do at chord
+analysis. Here's what I got:
+
+<img loading="lazy" class="center" src="assets/images/chord-analysis-1.png" alt="ChatGPT's first response">
+
+.This actually wasn't a horribly bad first attempt; my initial prediction
+before looking at the notes was also that the chord was a V/V or something
+similar. But when I pointed out that this couldn't be correct because the V in
+D major is A, and F# is separated from A by a major sixth, it produced this
+delightfully confident nonsense:
+
+<img loading="lazy" class="center" src="assets/images/chord-analysis-2.png" alt="ChatGPT's second response">
+
+.10/10 on matching the form of a harmonic analysis, 0/10 on forming a logical argument.
+
+
 #73 Misc
     :date: 2023-03-03 11:15
     :shortdes: Temperature-based food preferences
@@ -70,7 +112,7 @@ obvious, can it?
 #71 Misc
     :date: 2023-02-28 16:20
     :shortdes: Metaphor Systems
-    :tags: Research | Tech
+    :tags: AI | Research | Tech
 
 .<a href="https://metaphor.systems">Metaphor</a> is an experimental new kind of
 search engine based on an LLM. Rather than typing in keywords describing what
