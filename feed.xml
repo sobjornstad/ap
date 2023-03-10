@@ -12,6 +12,51 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[74] In which ChatGPT does chord analysis not even wrong</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 09 Mar 2023 21:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-74</link>
+    <guid>https://ap.sorenbjornstad.com/#74</guid>
+    <description>
+      &lt;p&gt;A bluesy song I&#x27;m learning includes the following progression in the key of D
+major:&lt;/p&gt;
+
+&lt;blockquote&gt;
+D – F#7 – G – D – A – D
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Actually, I added the seventh because it sounded better with the mandolin&#x27;s
+sometimes-awkward voicing; it was a bare F# major in my source.)&lt;/p&gt;
+
+&lt;p&gt;I wasn&#x27;t, and am still not, sure how to describe the function of the F#
+dominant seventh. When you play it, you can hear that it plainly leads into the
+G, which makes some sense to me given that it&#x27;s built on the seventh scale
+degree of G and thus acts sort of like a V7/V (D7) would, but I can&#x27;t quite put
+a name on it. (I initially suspected &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Tritone_substitution&quot;&gt;tritone
+substitution&lt;/a&gt;, but the relationship is off by a whole step.) In a major key,
+it doesn&#x27;t make sense to talk about the seventh scale degree being major, so it
+must be getting borrowed from some other scale or have some funky name or
+principle all its own. Please enlighten me if you know!&lt;/p&gt;
+
+&lt;p&gt;Anyhow, as part of my search, I decided to see how ChatGPT would do at chord
+analysis. Here&#x27;s what I got:&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/chord-analysis-1.png&quot; alt=&quot;ChatGPT&#x27;s first response&quot;&gt;
+
+&lt;p&gt;This actually wasn&#x27;t a horribly bad first attempt; my initial prediction
+before looking at the notes was also that the chord was a V/V or something
+similar. But when I pointed out that this couldn&#x27;t be correct because the V in
+D major is A, and F# is separated from A by a major sixth, it produced this
+delightfully confident nonsense:&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/chord-analysis-2.png&quot; alt=&quot;ChatGPT&#x27;s second response&quot;&gt;
+
+&lt;p&gt;10/10 on matching the form of a harmonic analysis, 0/10 on forming a logical argument.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[73] Temperature-based food preferences</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
