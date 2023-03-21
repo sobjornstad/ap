@@ -17,8 +17,8 @@ hash ap || die "ap not found on system path"
 
 
 echo "Updating comments file..."
-echo "WARNING: Comment updates disabled as the email system is not available."
-#python3 /home/soren/cabinet/Me/Software/Active/attopublish/ap/comment_parser.py
+#echo "WARNING: Comment updates disabled as the email system is not available."
+python3 /home/soren/cabinet/Me/Software/Active/attopublish/ap/comment_parser.py
 
 
 echo "Rebuilding site..."
