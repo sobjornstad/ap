@@ -12,6 +12,21 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[86] Published: The SM-2 Algorithm Actually Is Too Aggressive on Substantially Overdue Cards</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Thu, 06 Apr 2023 10:35:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-86</link>
+    <guid>https://ap.sorenbjornstad.com/#86</guid>
+    <description>I did an informal study on my 13 years of Anki spaced-repetition history to
+settle a team question at RemNote: is our “Anki SM-2” algorithm (and Anki’s
+SM-2 algorithm itself) too aggressive when scheduling overdue cards? Somewhat
+to my surprise, and also to my embarrassment because I’ve been defending the
+current behavior without data for many years, the answer appears to be yes;
+more specifically, the more overdue a card is, the more it overestimates how
+much of a bonus that should give the card&#x27;s interval.</description>
+  </item>
+  <item>
     <title>[85] Nuances of the present perfect tense</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
