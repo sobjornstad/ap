@@ -1,3 +1,18 @@
+#86 Published
+    :date: 2023-04-06 10:35
+    :title: The SM-2 Algorithm Actually Is Too Aggressive on Substantially Overdue Cards
+    :source: https://controlaltbackspace.org/overdue-handling
+    :tags: Learning | Statistics
+
+I did an informal study on my 13 years of Anki spaced-repetition history to
+settle a team question at RemNote: is our “Anki SM-2” algorithm (and Anki’s
+SM-2 algorithm itself) too aggressive when scheduling overdue cards? Somewhat
+to my surprise, and also to my embarrassment because I’ve been defending the
+current behavior without data for many years, the answer appears to be yes;
+more specifically, the more overdue a card is, the more it overestimates how
+much of a bonus that should give the card's interval.
+
+
 #85 Misc
     :date: 2023-04-05 17:00
     :shortdes: Nuances of the present perfect tense
