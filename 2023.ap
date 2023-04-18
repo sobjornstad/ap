@@ -1,3 +1,18 @@
+#87 Misc
+    :date: 2023-04-18 10:00
+    :shortdes: Works better when fully assembled
+    :tags: Humor | Life
+
+.My evaporative humidifier hadn't been working very well: normally it's able to
+put a whole tank of water into the air in about a day, and it had been three
+days and the tank still wasn't empty. I was wondering if the wick had become
+too hardened with minerals to suck up the water well.
+
+.So I reached behind to pull it out and take a look, and instead I found...
+
+<img width="400" loading="lazy" class="center" src="assets/images/humifidier-wick.jpg" alt="The humidifier wick sitting behind the humidifier propped up against the wall, instead of actually IN the humidifier where it could work.">
+
+
 #86 Published
     :date: 2023-04-06 10:35
     :title: The SM-2 Algorithm Actually Is Too Aggressive on Substantially Overdue Cards
@@ -88,7 +103,7 @@ demonstrating this.
     </li>
 
     <li>
-        <em>*Mozart was dead for 231 years.</em>
+        <em>*Mozart was dead for 232 years.</em>
 
         <p><span style="font-weight: bold; color: red;">Wrong</span>:
                Semantically invalid because this implies that he came back to life at some subsequent point;
