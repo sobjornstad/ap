@@ -12,6 +12,24 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[87] Works better when fully assembled</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 18 Apr 2023 10:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-87</link>
+    <guid>https://ap.sorenbjornstad.com/#87</guid>
+    <description>
+      &lt;p&gt;My evaporative humidifier hadn&#x27;t been working very well: normally it&#x27;s able to
+put a whole tank of water into the air in about a day, and it had been three
+days and the tank still wasn&#x27;t empty. I was wondering if the wick had become
+too hardened with minerals to suck up the water well.&lt;/p&gt;
+
+&lt;p&gt;So I reached behind to pull it out and take a look, and instead I found...&lt;/p&gt;
+
+&lt;img width=&quot;400&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/humifidier-wick.jpg&quot; alt=&quot;The humidifier wick sitting behind the humidifier propped up against the wall, instead of actually IN the humidifier where it could work.&quot;&gt;
+    </description>
+  </item>
+  <item>
     <title>[86] Published: The SM-2 Algorithm Actually Is Too Aggressive on Substantially Overdue Cards</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
@@ -104,7 +122,7 @@ demonstrating this.
     &lt;/li&gt;
 
     &lt;li&gt;
-        &lt;em&gt;*Mozart was dead for 231 years.&lt;/em&gt;
+        &lt;em&gt;*Mozart was dead for 232 years.&lt;/em&gt;
 
         &lt;p&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;Wrong&lt;/span&gt;:
                Semantically invalid because this implies that he came back to life at some subsequent point;
