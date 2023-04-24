@@ -1,3 +1,54 @@
+#89 Misc
+    :date: 2023-04-24 11:30
+    :shortdes: Press-and-hold keys
+    :tags: Tech
+
+.Some of the better modern keyboard firmware comes with options to give each
+key two separate actions: one when it's tapped, and one when it's held for
+longer than a certain threshold value. Kinesis's firmware actually has a pretty
+cruddy implementation of this that only lets you use it for certain functions
+(no macros allowed, and doesn't work on letter keys) and adds latency, but I've
+still found it remarkably handy. I have three of these mappings:
+
+<ul>
+    <li><strong>The left spacebar</strong>: This being a split keyboard, there are two spacebar keys which can be mapped separately. I've remapped my left spacebar to act as Backspace when tapped and Delete when held. The left thumb is one of your strongest fingers and is almost entirely unused on a standard layout (at least for most right-handed typists), and it's really nice not to have to move your whole hand to make a correction (especially if you're as sloppy a typist as I am). I did find after enabling this that I actually hit the spacebar with my left hand much more often than I thought I did, usually when I have my hand on the mouse (for example, to scroll down on a web page, or to add a missing word space after moving the cursor with the mouse), so I remapped Fn+Spacebar to activate the actual space; now I can still get the effect of a space with one hand by dropping my thumb and pinky into position. There is also the minor annoyance that you can't hold down Backspace to backspace a bunch of letters, but in most cases I use Ctrl+Backspace (or some vim magic if available) if I need to delete a lot of text, so I haven't found this as annoying as I expected. (You could also use the standard Backspace key for this. I wound up remapping mine to toggle between virtual desktops instead because I didn't use this feature enough.)</li>
+    <li><strong>The Enter key</strong>: Tapping sends Enter, holding sends Ctrl+Enter. Ctrl+Enter is like a “stronger Enter” in a lot of applications (for instance, it often sends the message in chat or comment fields that accept Enter to create a new line), and I use it a ton, so it's convenient to be able to type it with one finger.</li>
+    <li><strong>The Tab key</strong>: Tapping sends Tab, holding sends Escape. Since I use vim or vim mode all over the place, having a way to press Escape without moving my hand significantly is delightful.</li>
+</ul>
+
+.If you've never used this feature before, know that you need to spend a while
+tuning the threshold for how many milliseconds you have to hold down the key
+before it switches to the “hold” action; the right value will depend on how
+fast you type and the exact finger motions you use for each key. If you set it
+too high, activating the hold action will slow you down (and if you have crappy
+firmware like me, your keystrokes will all be visibly delayed). If you set it
+too low, you'll accidentally activate the hold action when you mean to activate
+the tap action, which is irritating at best and dangerous at worst (e.g.,
+sending an unfinished message instead of adding a new line can be disastrous!).
+
+
+#88 Misc
+    :date: 2023-04-24 11:20
+    :shortdes: A lesser-known issue with the clickiness of Cherry Blue MX keyswitches
+    :tags: Tech
+
+.I'm a huge fan of the <a
+href="https://www.cherrymx.de/en/cherry-mx/mx-original/mx-blue.html">Cherry MX
+Blue</a> mechanical keyboard switches for general typing; they have a low
+enough activation force to feel very easy to type on but high enough that you
+can rest your hands on the keyboard without pushing them accidentally, and they
+make a delightful clicky noise that makes it easy to tell whether you've
+activated the key or not, as well as making you sound like you're working.
+
+.They are pretty noisy, though. I only use this keyboard in my apartment, so
+there's nobody to bother…but I've recently noticed that they regularly trigger
+the mute warning in video call software when I start typing in the middle of a
+call, sometimes with a passive-aggressive message like “Are you talking?” This
+is actually really annoying because it often steals the focus from the window
+where I'm typing and I have to go manually click in the appropriate field
+again!
+
+
 #87 Misc
     :date: 2023-04-18 10:00
     :shortdes: Works better when fully assembled
