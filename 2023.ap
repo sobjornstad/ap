@@ -1,3 +1,104 @@
+#89 Misc
+    :date: 2023-06-03 11:30
+    :shortdes: The missing 21st and 23rd Streets
+    :tags: Minneapolis
+
+.Living in Uptown Minneapolis, I've often been puzzled by this:
+
+<img width="100%" loading="lazy" class="center" src="assets/images/21st-1.png" alt="Map of Lowry Hill East and Whittier, with east-west streets marked.">
+
+.Pretend Franklin Avenue is labeled “20th St,” as you learn to do if you live
+here for any length of time, and you'll see that the streets are equally spaced
+(an eighth of a mile apart), but 21st and 23rd are missing from the series.
+
+<div class="callout">
+    Why isn't it Franklin <em>Street</em>, since Avenues normally go north-south
+    and Streets go east-west in Minneapolis? I haven't been able to figure this one
+    out. Usually when one appears to be named incorrectly, it's because it goes
+    through a ninety-degree turn at some point, like Washington Avenue, which runs
+    parallel to the streets downtown but goes north-south in North Minneapolis, or
+    Hennepin Avenue, which runs east-west in Northeast but goes north-south in
+    downtown and South Minneapolis. But Franklin doesn't make any turns anywhere
+    until it merges with University Ave in St. Paul, unless you count a tiny little dip
+    it does at the very west end to avoid the tip of Lake of the Isles.
+
+    This is part of the act described below, but they don't explain why:
+
+    <img width="400" loading="lazy" class="center" src="assets/images/21st-4.png" alt="That Franklin street and Grape street shall be known and designated as Franklin avenue.">
+
+    A really irritating fact is that in most of St. Paul, Avenues run east-west
+    and Streets run north-south, exactly the opposite of Minneapolis. I don't
+    think this has anything to do with it, but you never know.
+</div>
+
+.I was able to find
+<a href="https://www.minnpost.com/stroll/2016/01/1873-one-fell-swoop-legions-minneapolis-streets-get-new-names-or-numbers/">this MinnPost article</a>,
+which explains a good chunk of the puzzle. The streets were not numbered at all
+until 1873, when an act was passed that attempted to normalize all the names – a
+tricky undertaking, since the area around Minneapolis had grown pretty
+haphazardly and there were adjacent communities that used the same street names.
+The key is this:
+
+<blockquote>
+    “I don’t know where I live now,” complained a man named “Pushit” to the
+    Minneapolis Tribune before the new nomenclature took effect, “but a friend of
+    mine knows where he lives. He formerly lived on Grape Street, but now he lives
+    on Ninth Street west, and the next street to him is Twenty-First Street west.”
+    This particular friend’s confusing new address came into being because when
+    Grape became Franklin, Franklin also took the place of a 20th Street 10 blocks
+    north of Lake Street, or 30th, and the streets on either side were forced to
+    follow that system, however imperfectly. These were called “adjusters.” The
+    greatest evidence of these “adjusters” today is that, except for a few odd
+    stretches in Phillips, there are no 21st or 23rd Streets in South Minneapolis.
+    Those two were dropped because there were only eight blocks between Franklin
+    and Lake, where ten were required to make the system work.
+</blockquote>
+
+.The need for this “adjuster” is most obvious today when you look on the map at
+how downtown, where the streets are twisted about 35 degrees from the cardinal
+directions to align with the riverfront, transitions into South Minneapolis,
+where the streets are a strict, evenly spaced north-south-east-west grid. It's a
+little harder to see how this works nowadays since the construction of I-35W
+left breaks in many of the streets there, but it's still visible:
+
+<img width="100%" loading="lazy" class="center" src="assets/images/21st-2.png" alt="Map of downtown and the north edge of South Minneapolis.">
+
+.Since these streets have to make a turn to align with the new shape of the grid
+as they proceed south, geometry forces the realigned streets further east to
+have lower numbers at the same latitude if the same number is maintained for the
+entire length of the street.
+
+.You might conclude from this that Minneapolis is unusually poorly suited to
+numbered streets, but actually this weirdness is remarkably invisible unless you
+live in one of the neighborhoods right next to a discontinuity (like Pushit's
+friend above, or Cedar-Riverside today; even Cedar-Riverside is probably less
+confusing than you might think since it's penned in by highways and the area
+across a highway feels discontinuous anyway). They did a surprisingly good job,
+and I think the “south of Franklin Street, restart at 21st Street” (er, “skip
+21st Street and restart at 22nd Street") maneuver is a big part of the reason it
+succeeds.
+
+.What's still not entirely clear to me is exactly why Lake Street was indexed to
+30th Street, which is what results in the missing blocks; once you're south of
+Franklin Street there are no more angled streets to screw up the numbering, and
+there are the same number of streets all the way across. The article claims that
+Franklin Street took the place of a 20th Street “10 blocks north of Lake
+Street,” but as they momentarily point out, there aren't 10 blocks in between
+old 20th Street/new Franklin Street and Lake Street, there are only 8! Maybe the
+streets were already numbered (incorrectly for the new sequence) in that
+section? Or they wanted Lake Street to be a round number? Lake Street isn't
+mentioned at all in the source material; I think it was outside of city limits
+at the time.
+
+.It's worth noting that in Ventura Village, 21st Street and 23rd Street
+get a little cameo, cutting through the middle of the eighth-mile-block pattern:
+
+<img width="100%" loading="lazy" class="center" src="assets/images/21st-3.png" alt="Map of downtown and the north edge of South Minneapolis.">
+
+.I kind of doubt they had keeping these in the sequence in mind when they left
+the space, but you never know!
+
+
 #92 Published
     :date: 2023-05-29 21:25
     :title: Effective Flashcard Writing: “Still no pill for men?”
