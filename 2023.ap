@@ -1,3 +1,128 @@
+#95 Misc
+    :date: 2023-06-07 18:30
+    :shortdes: Save 80% on your Upper Midwest AC costs with one fan and an easy routine
+    :tags: Design | Life
+
+.I finally got my window air-conditioning unit installed yesterday, naturally
+right near the end of the unseasonable heat wave. (Last year I put it in by
+myself and came uncomfortably close to dropping it out the second-story window,
+so I wanted someone over to help.)
+
+.I was also thinking, though – it seems like a lot of folks around here have no
+idea how to make the house comfortable without air conditioning. In a moderate
+summer climate like Minnesota's that usually has large day/night temperature
+swings, you can be totally comfortable without turning on the AC on 80–90% of
+days, which will save a ton of money and energy.
+
+.To be clear, I'm no climate-control cheapskate. If it gets unpleasant with no
+AC, I cheerfully turn it on! But you really don't need it most of the time, and
+this is coming from someone who hates warm weather. So here's the five-minute
+version…because that's all there is to it.
+
+<div class="callout">
+<i>Note:</i> This works reliably in older buildings that were designed before AC
+was common. It still works in a lot of newer buildings, but once in a while you
+get one that was designed so poorly it's very hard to keep cool otherwise. Smart
+architecture has disappeared over the last couple of decades.
+</div>
+
+.The trick here, if you can call it that, is simple: get a window fan, and when
+it gets cooler outside than inside in the evening, open the windows and turn on
+your window fan to draw the cool air inside. Keep them open with the air
+circulating until the temperature starts to rise again in the morning. (I
+usually have enough residual heat in my apartment that the indoor temperature
+doesn't completely equalize overnight, so I instead close up when it gets warmer
+outside than inside, even if the temperature has started rising somewhat before
+that.)
+
+.Don't stop circulating air earlier than you have to just because the temperature
+seems equalized. Keeping cool air moving around will ensure that not just the
+air, but also all the <em>stuff</em> in your home, gets as cool as possible.
+When heavy materials like wood and tile get thoroughly cooled, they essentially
+store cool for the day ahead – the heat that later moves into the space during
+the warm day will warm it up and get trapped in it.
+
+.Around here, on a typical
+day, it usually gets cooler outside at around 8 PM, and warmer again at around 9
+AM the next morning. If you have to leave before the outdoor temperature has
+equalized, close up just before you leave.
+
+.That's all you really need to know, but here are some more tips if you're not
+sure how to accomplish that best:
+
+<ul>
+<li>
+If you have lots of windows that form a great cross-breeze, you might be able
+to get away with circulating air by just opening the windows. You'll still get
+better results with a good window fan, though, and you'll need one for sure in
+buildings that don't have windows on multiple sides. If you don't have one you
+like already, shoot for a high-volume “whole-house” one like
+<a href="https://www.amazon.com/Air-King-9166F-Whole-Window/dp/B0007Q3RQ6/ref=zg_bs_3737641_sccl_14/138-3144119-6653244?psc=1">this</a>;
+these babies cost a couple hundred bucks but will last a lifetime, and one is
+enough for all but the largest houses. Make sure it's reversible
+(intake/exhaust). Mount the fan in, ideally, a central location with good
+airflow to the rest of your house/apartment but that you don't need to be at
+maximum coolness. I put mine in the dining room.
+</li>
+
+<li>
+Set your fan(s) to exhaust mode (pushing air out the window) unless there are
+special circumstances. The fan then creates a vacuum indoors and your airflow
+will come from all windows you have open, so you can for instance open a larger
+proportion of windows in a space that more urgently needs cooling, and you get a
+nice breeze near any open window. If you set the fan to intake mode, then the
+cool air only comes in at that specific point in the house, and you have much
+less control.
+</li>
+
+<li>
+To make it easy to know when to open or close the windows, find a couple of
+indoor thermometers, plus an indoor/outdoor one or just a good weather app. You
+can do perfectly OK just using your own senses, but it's faster and easier when
+you can compare numbers. I've toyed with getting some internet-connected
+sensors so I can get a push notification when it's time to open the windows, but
+it looks too complicated to be fun.
+</li>
+
+<li>
+When you first open the windows and turn on the fan in the evening, the
+crossbreeze makes it instantly feel five degrees cooler, so you get an extra
+boost. If you're uncomfortable in the early evening, you can sacrifice a little
+bit of efficiency and open up before the temperature has quite equalized; there
+will still be plenty of time for things to cool off overnight.
+</li>
+
+<li>
+If I find it's still a touch too hot to sleep as I get ready for bed, I shut the
+door and turn on the window AC unit in my bedroom 15–30 minutes before bedtime,
+while leaving the rest of the apartment to cool naturally. The compressor barely
+has to run at all to cool a 150-square-foot space by the amount that's still
+needed, especially with the outside temperature dropping precipitously at that
+point, so I'll set the thermostat to something luxurious like 70 degrees. I'll
+be perfectly comfortable all night, and everything else will be a nice
+temperature in the morning, too.
+</li>
+
+<li>
+When the sun starts shining directly through any window, close the blinds to
+prevent it from radiantly heating you and your furniture. Then open any that the
+sun has moved away from. You could technically save more cool by keeping
+<em>all</em> the blinds closed during the day, but then you wouldn't have any
+natural light! I'm not so cheap I'll sacrifice my quality of life for two
+dollars in AC use. (That said, if you're not home, it's worth
+keeping everything shut unless your pets or houseplants want the light.)
+</li>
+</ul>
+
+.Using this protocol, on days with highs in the eighties here, it usually
+doesn't get uncomfortably warm inside until four or five in the afternoon even
+with still air, and then switching on a fan pointed at my desk or couch will
+keep me comfortable until evening. I rarely start to need the AC until it hits
+the nineties, or if the nighttime temperature doesn't fall below 70 for a couple
+nights in a row, making it hard to store enough cool for the afternoon.
+
+
+
 #94 Misc
     :date: 2023-06-03 15:25
     :shortdes: Short-lived
@@ -126,7 +251,8 @@ source material; I think it was outside of city limits at the time.
 .In Ventura Village, 21st Street and 23rd Street get a little cameo, cutting
 through the middle of the eighth-mile-block pattern:
 
-<img width="100%" loading="lazy" class="center" src="assets/images/21st-3.png" alt="Map of downtown and the north edge of South Minneapolis.">
+<img width="100%" loading="lazy" class="center" src="assets/images/21st-3.png"
+alt="21st Street and 23rd Street highlighted in a section of Ventura Village.">
 
 .I don't know if these existed at the time. They're oddballs since they show up
 at halfway intervals – maybe they're upgraded alleys? If they did, it's possible
