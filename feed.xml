@@ -12,6 +12,102 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[97] Newcomb&#x27;s Problem</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 13 Jun 2023 17:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-97</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#97</guid>
+    <description>
+      &lt;p&gt;Here&#x27;s a fascinating, infuriating, and unsolved philosophy problem. Suppose you
+are called into a room that has two boxes on the table, which we&#x27;ll call Box A
+and Box B. Box A is clear and you can see that it contains $1,000. Box B is
+opaque, but you know that it contains either $1,000,000 or nothing. You have a
+choice: you can (1) take only box B, or (2) take both boxes. Whatever boxes you
+take, you walk away with any contents, no strings attached.&lt;/p&gt;
+
+&lt;p&gt;Here&#x27;s the catch. The contents of box B were determined yesterday as follows:
+an extremely accurate, although not necessarily infallible, Predictor (this
+could be God, a computer, or whatever you like) made a prediction about which
+option you would choose. You have high confidence in the Predictor&#x27;s ability to
+predict your behavior; you&#x27;ve seen them do this many times before, and they have
+never been wrong. If the Predictor thought you would choose option (1), taking
+only box B, box B contains $1,000,000. If the Predictor thought you would choose
+option (2), taking both boxes, box B contains nothing.&lt;/p&gt;
+
+&lt;p&gt;What should you choose? Most people are sure they know the right answer when
+they first encounter the problem. The only thing is, people are split about
+50/50!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The argument for two-boxing&lt;/strong&gt;: Whether the Predictor put
+$1,000,000 or nothing in the box, you end up $1,000 richer if you take both
+boxes than if you take only box B – so how could it possibly make sense to
+choose only box B? The contents of box B are already fixed by the time you play,
+so which option you select cannot possibly change the outcome. Imagine the back
+of box B is clear and your partner is sitting on the other side of the table; do
+they really want you to leave $1,000 on the table? If you&#x27;re tempted to one-box
+because you might be missing something and $1,000 doesn&#x27;t matter to you but
+$1,000,000 would be life-changing, what if we change the problem so there&#x27;s
+$500,000 in box A and $1,000,000 in box B? This doesn&#x27;t affect the logic or
+causality, but surely you have to take both boxes now?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The argument for one-boxing&lt;/strong&gt;: Consider the four possible
+conditions and their payoffs when you play this game:&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;You one-box and the Predictor predicted you would one-box: $1,000,000&lt;/li&gt;
+    &lt;li&gt;You two-box and the Predictor predicted you would two-box: $1,000&lt;/li&gt;
+    &lt;li&gt;You one-box and the Predictor predicted you would two-box: $0&lt;/li&gt;
+    &lt;li&gt;You two-box and the Predictor predicted you would one-box: $1,001,000&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now you know the Predictor is almost certainly correct, by definition. This
+means cases (3) and (4) are extremely unlikely to happen; unless you lower your
+confidence in the Predictor&#x27;s judgment quite a lot, they won&#x27;t come
+significantly into the calculation. This leaves you with cases (1) and (2) to
+worry about. You exclusively control whether (1) or (2) comes about by selecting
+a box, and (1) has a vastly higher value than (2), so obviously you should
+choose option (1) and take only box B. Even if you change the payout for box A
+so that it&#x27;s, say, $500,000, as suggested above, this logic continues to hold
+for most values of “almost certainly correct.” (If you have low enough
+confidence in the Predictor, or you have an insurance-esque mindset where you&#x27;d
+rather have a certain $500,000 than a nearly-certain $1,000,000, the appropriate
+strategy might change. If you feel like wasting more time on this problem, you
+could calculate the break-even point!)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My best solution:&lt;/strong&gt; The correct strategy depends on whether
+you&#x27;ve seen the problem before. If you&#x27;ve never heard of the problem and you&#x27;re
+invited to play the game with the Predictor having already chosen, you should
+two-box: it&#x27;s too late for one-boxing to buy you anything. But if you&#x27;ve thought
+about the problem, the winning strategy is to &lt;em&gt;be the type of person who
+one-boxes&lt;/em&gt;, and to legitimately and wholeheartedly plan to take only box B,
+because at this point you can influence the Predictor&#x27;s prediction by changing
+your intended strategy. If you can pull that off, you&#x27;re nearly guaranteed to
+become a millionaire should you ever have the opportunity to play this silly
+game. (Simon Burgess &lt;a
+href=&quot;https://link.springer.com/article/10.1007/s11229-010-9816-1&quot;&gt;also makes
+this argument&lt;/a&gt;.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[96] Article: On Having Enough Socks (Gwern)</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Article</category>
+    <pubDate>Tue, 13 Jun 2023 17:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-96</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#96</guid>
+    <description>Our lives are often made more annoying, less fun, and less resilient by
+&lt;em&gt;underexploration&lt;/em&gt;, or failure to notice simple and low-cost tasks or
+experiments we should be doing to improve our lives; how can we change this so
+that we always have enough socks?
+&lt;/p&gt;
+
+&lt;p&gt;
+This is one of my favorite essays. Once you start thinking about
+underexploration, you&#x27;ll see it everywhere, and you might even be able to
+counteract it and do some more low-cost exploration once in a while.</description>
+  </item>
+  <item>
     <title>[95] Save 80% on your Upper Midwest AC costs with one fan and an easy routine</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
