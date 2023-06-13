@@ -23,6 +23,12 @@ option (2), taking both boxes, box B contains nothing.
 they first encounter the problem. The only thing is, people are split about
 50/50!
 
+<div class="callout">
+Note that we make the predictor extremely accurate, rather than infallible, to
+prevent any questions of whether you have free will from affecting the correct
+choice; that isn't the point of the problem.
+</div>
+
 .<strong>The argument for two-boxing</strong>: Whether the Predictor put
 $1,000,000 or nothing in the box, you end up $1,000 richer if you take both
 boxes than if you take only box B – so how could it possibly make sense to
