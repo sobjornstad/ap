@@ -12,6 +12,49 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[98] Does Kavka&#x27;s toxin puzzle refute my solution to Newcomb&#x27;s Problem?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 14 Jun 2023 09:55:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-98</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#98</guid>
+    <description>
+      &lt;p&gt;In &lt;a href=&quot;https://en.wikipedia.org/wiki/Kavka%27s_toxin_puzzle&quot;&gt;Kavka&#x27;s
+toxin puzzle&lt;/a&gt;, an eccentric billionaire gives you a vial of poison. Drinking
+the poison will make you violently ill for a day, but won&#x27;t kill you or cause
+any long-term health effects. She offers you $1,000,000 if, tomorrow at
+midnight, you intend to drink the poison that afternoon.&lt;/p&gt;
+
+&lt;p&gt;Unless you&#x27;re very rich, you presumably think that being ill for a day is
+worth a million dollars, so this seems like a good deal. But the deal is
+potentially even better: you don&#x27;t even have to actually drink the poison to
+get the money, you just have to intend to at midnight. You&#x27;re always free to
+change your mind.&lt;/p&gt;
+
+&lt;p&gt;The problem is, is this game winnable at all? Kavka argues that it&#x27;s
+unwinnable for any rational actor, because you can never legitimately intend to
+drink the poison. After midnight, there is no way that drinking the poison can
+benefit you, so unless you start behaving irrationally after midnight, you will
+never drink it. So unless you don&#x27;t think about it very hard in advance (which
+seems ridiculous given that you&#x27;re being offered a million dollars if you set
+your intention correctly), you &lt;em&gt;know&lt;/em&gt; you&#x27;ll change your mind, so you
+can&#x27;t be said to intend to drink the poison.&lt;/p&gt;
+
+&lt;p&gt;But this suggests my &lt;a href=&quot;#post-97&quot;&gt;solution to Newcomb&#x27;s Problem&lt;/a&gt; might
+have an issue: it seems that “after midnight” is logically equivalent to “after
+the Predictor has made their prediction.” Switching your strategy to two-boxing
+after the prediction has occurred can only benefit you, so can you actually
+intend to one-box, as I say you should?&lt;/p&gt;
+
+&lt;p&gt;I can only say that one-boxing &lt;em&gt;feels&lt;/em&gt; rational to me in a way that
+drinking the poison doesn&#x27;t, although I can&#x27;t quite explain why. And this
+actually seems relevant; the Predictor&#x27;s choice doesn&#x27;t depend on logic, it
+depends on what I will in fact do. If I fully believe I can get myself to
+one-box, I win (and, in fact, I win regardless of whether I stick with it or
+stop believing my strategy and defect at the last minute).&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[97] Newcomb&#x27;s Problem</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
