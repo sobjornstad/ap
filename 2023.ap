@@ -1,3 +1,100 @@
+#99 Misc
+    :date: 2023-06-16 19:55
+    :shortdes: Is it OK to sell more success on dating apps?
+    :tags: Life | Society
+
+.The dating app Hinge recently introduced a new subscription tier which
+essentially gives you priority over other users when it shows profiles to
+potential matches. As always, the details of their algorithm aren't public
+knowledge, but essentially if you pay more, your profile gets shown to more
+people more often, and your messages even get bumped up higher on other
+people's lists.
+
+.I genuinely can't figure out what I think of this.
+
+.<strong>Argument for this being cringey, weird, and unethical:</strong>
+Why, if Alice has more money to throw around than Bob,
+should she have more success meeting people?
+People with less money
+<a href="https://zettelkasten.sorenbjornstad.com/#RelationshipSuccessDivide">
+are already disadvantaged in the success rates of their ongoing relationships</a>;
+now we're also making it even harder for them to meet people in the first place?
+Then, this feels uncomfortably close to patronizing some sort of escort service:
+you're paying extra to get more romantic attention from people.
+
+.Also, any mechanic like this on a dating app feels a bit manipulative.
+Most app makers have to come up with sneaky ways to make their apps feel addictive,
+while dating apps barely have to do anything because they're already working with
+one of the most powerful sources of intrinsic motivation most people have.
+Just pay us a little more and you, too, can find love!
+(On the other hand, this, as a subscription fee,
+ is still much better on that front than other mechanics where you pay per message,
+ or per short attention boost;
+ at least it isn't, essentially, gambling.)
+
+.<strong>Argument for this being totally sensible and normal:</strong> Dating
+apps are in the business of selling you the attention of other people who might
+be interested in you. Essentially, it's just a highly specialized advertising
+platform. If I want to put an advertisement in the newspaper, I can pay less
+for a small ad or more for a large ad; that's as expected, because the large ad
+takes more space and captures more of readers' attention (a limited resource).
+It doesn't really feel unfair that some people can't afford to take out a
+larger ad in the newspaper, or that (at least without more context) you're
+being desperate or taking advantage of other people by taking out a larger ad.
+I certainly don't think the newspaper should only be allowed to sell one size
+of ad!
+
+.To bring this even a little closer to the model under discussion, if I
+advertise online, I typically pay per view (or sometimes per click). By
+purchasing a more expensive subscription, I'm essentially just saying I want to
+pay for more views. Hinge's platform collectively has a certain number of
+profile-views per day among people I might want to advertise to in my area (I
+dunno, a couple hundred thousand?), and by paying more I get a larger chunk of
+those. So unless you think that paying to advertise yourself to others is
+already cringey, weird, or unethical, this mechanic doesn't seem like it ought
+to be either.
+
+.<strong>What about match quality?:</strong> There is one other, perhaps slightly
+darker, thing going on here, though: the highest tier uses a more effective
+algorithm to decide who to show you. To understand this, notice that the
+entire incentive structure for all dating apps is fundamentally misaligned, at
+least if you're looking for something that lasts longer than a hookup.
+Subscription-based (and ad-supported) apps only make money while you're using
+them, so they have an incentive to give you <em>just</em> as much luck as will
+keep you from getting bored and walking away, so you have to spend more time on
+the app. It's to their direct disadvantage to quickly create successful
+relationships! (This is
+<a href="https://controlaltbackspace.org/commodity/#1-the-degradation-of-web-search-and-content">
+the same problem web search has</a>.) So I wouldn't be at all surprised if they
+essentially have a “goodness” parameter to their model where if you pay less,
+it intentionally hobbles the predictions and shows you more people who aren't a
+very good match, so you have to spend more time to get to people you're
+actually interested in.
+
+.On the other hand, is this so bad? Pretend for a moment the highest tier is
+the default, and they offer you a 30% discount (or whatever it winds up being)
+if you agree to spend some of your time rejecting bad matches, and thus
+probably end up spending more time on the platform. This doesn't seem that much
+different from an ad-supported free version, or from clipping coupons, or from
+churning credit cards; you're just choosing to pay with time or attention
+instead of money from your bank account. You can decide you don't like ads, or
+coupons, and buy the more expensive version, and you might have strong feelings
+about ads being a bad way to monetize things given their effects on people's
+attention and happiness – but you probably don't think it's unethical that
+people are simply offering you the opportunity to pay for the product with a
+different kind of resource if you so choose.
+
+.Maybe the confusion comes from this: If we look at the situation from a
+consequentialist viewpoint and consider society-wide equity and the ugliness of
+commercializing intimate relationships (or the effects of omnipresent
+advertising), the situation looks pretty bad. But nobody is trying to cheat
+anyone else here or intentionally offer them a raw deal; if you take the system
+as a given, everyone within it is behaving rationally and even fairly.
+
+.I wish we had a better system, but I guess I'll begrudgingly participate in
+the one we have for the time being!
+
+
 #98 Misc
     :date: 2023-06-14 09:55
     :shortdes: Does Kavka's toxin puzzle refute my solution to Newcomb's Problem?
