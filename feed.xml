@@ -12,6 +12,106 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[99] Is it OK to sell more success on dating apps?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 16 Jun 2023 20:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-99</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#99</guid>
+    <description>
+      &lt;p&gt;The dating app Hinge recently introduced a new subscription tier which
+essentially gives you priority over other users when it shows profiles to
+potential matches. As always, the details of their algorithm aren&#x27;t public
+knowledge, but essentially if you pay more, your profile gets shown to more
+people more often, and your messages even get bumped up higher on other
+people&#x27;s lists.&lt;/p&gt;
+
+&lt;p&gt;I genuinely can&#x27;t figure out what I think of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Argument for this being cringey, weird, and unethical:&lt;/strong&gt;
+Why, if Alice has more money to throw around than Bob,
+should she have more success meeting people?
+People with less money
+&lt;a href=&quot;https://zettelkasten.sorenbjornstad.com/#RelationshipSuccessDivide&quot;&gt;
+are already disadvantaged in the success rates of their ongoing relationships&lt;/a&gt;;
+now we&#x27;re also making it even harder for them to meet people in the first place?
+Then, this feels uncomfortably close to patronizing some sort of escort service:
+you&#x27;re paying extra to get more romantic attention from people.&lt;/p&gt;
+
+&lt;p&gt;Also, any mechanic like this on a dating app feels a bit manipulative.
+Most app makers have to come up with sneaky ways to make their apps feel addictive,
+while dating apps barely have to do anything because they&#x27;re already working with
+one of the most powerful sources of intrinsic motivation most people have.
+Just pay us a little more and you, too, can find love!
+(On the other hand, this, as a subscription fee,
+ is still much better on that front than other mechanics where you pay per message,
+ or per short attention boost;
+ at least it isn&#x27;t, essentially, gambling.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Argument for this being totally sensible and normal:&lt;/strong&gt; Dating
+apps are in the business of selling you the attention of other people who might
+be interested in you. Essentially, it&#x27;s just a highly specialized advertising
+platform. If I want to put an advertisement in the newspaper, I can pay less
+for a small ad or more for a large ad; that&#x27;s as expected, because the large ad
+takes more space and captures more of readers&#x27; attention (a limited resource).
+It doesn&#x27;t really feel unfair that some people can&#x27;t afford to take out a
+larger ad in the newspaper, or that (at least without more context) you&#x27;re
+being desperate or taking advantage of other people by taking out a larger ad.
+I certainly don&#x27;t think the newspaper should only be allowed to sell one size
+of ad!&lt;/p&gt;
+
+&lt;p&gt;To bring this even a little closer to the model under discussion, if I
+advertise online, I typically pay per view (or sometimes per click). By
+purchasing a more expensive subscription, I&#x27;m essentially just saying I want to
+pay for more views. Hinge&#x27;s platform collectively has a certain number of
+profile-views per day among people I might want to advertise to in my area (I
+dunno, a couple hundred thousand?), and by paying more I get a larger chunk of
+those. So unless you think that paying to advertise yourself to others is
+already cringey, weird, or unethical, this mechanic doesn&#x27;t seem like it ought
+to be either.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about match quality?:&lt;/strong&gt; There is one other, perhaps slightly
+darker, thing going on here, though: the highest tier uses a more effective
+algorithm to decide who to show you. To understand this, notice that the
+entire incentive structure for all dating apps is fundamentally misaligned, at
+least if you&#x27;re looking for something that lasts longer than a hookup.
+Subscription-based (and ad-supported) apps only make money while you&#x27;re using
+them, so they have an incentive to give you &lt;em&gt;just&lt;/em&gt; as much luck as will
+keep you from getting bored and walking away, so you have to spend more time on
+the app. It&#x27;s to their direct disadvantage to quickly create successful
+relationships! (This is
+&lt;a href=&quot;https://controlaltbackspace.org/commodity/#1-the-degradation-of-web-search-and-content&quot;&gt;
+the same problem web search has&lt;/a&gt;.) So I wouldn&#x27;t be at all surprised if they
+essentially have a “goodness” parameter to their model where if you pay less,
+it intentionally hobbles the predictions and shows you more people who aren&#x27;t a
+very good match, so you have to spend more time to get to people you&#x27;re
+actually interested in.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, is that so bad? Pretend for a moment the highest tier is
+the default, and they offer you a 30% discount (or whatever it winds up being)
+if you agree to spend some of your time rejecting bad matches, and thus
+probably end up spending more time on the platform. This doesn&#x27;t seem that much
+different from an ad-supported free version, or from clipping coupons, or from
+churning credit cards; you&#x27;re just choosing to pay with time or attention
+instead of money from your bank account. You can decide you don&#x27;t like ads, or
+coupons, and buy the more expensive version, and you might have strong feelings
+about ads being a bad way to monetize things given their effects on people&#x27;s
+attention and happiness – but you probably don&#x27;t think it&#x27;s unethical that
+people are simply offering you the opportunity to pay for the product with a
+different kind of resource if you so choose.&lt;/p&gt;
+
+&lt;p&gt;Maybe the confusion comes from this: If we look at the situation from a
+consequentialist viewpoint and consider society-wide equity and the ugliness of
+commercializing intimate relationships (or the effects of omnipresent
+advertising), the situation looks pretty bad. But nobody is trying to cheat
+anyone else here or intentionally offer them a raw deal; if you take the system
+as a given, everyone within it is behaving rationally and even fairly.&lt;/p&gt;
+
+&lt;p&gt;I wish we had a better system, but I guess I&#x27;ll begrudgingly participate in
+the one we have for the time being!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[98] Does Kavka&#x27;s toxin puzzle refute my solution to Newcomb&#x27;s Problem?</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
