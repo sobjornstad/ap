@@ -12,6 +12,71 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[102] Winning at Kavka&#x27;s and Newcomb&#x27;s Problems by making extra commitments</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sun, 25 Jun 2023 09:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-102</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#102</guid>
+    <description>
+      &lt;p&gt;&lt;a href=&quot;#post-98&quot;&gt;Previously&lt;/a&gt;, I suggested that winning a million dollars
+in Kavka&#x27;s toxin puzzle is impossible because you can never intend to drink
+poison when you know you can change your mind penalty-free at a later time, and
+suggested this might call my &lt;a href=&quot;#post-97&quot;&gt;solution to Newcomb&#x27;s
+Problem&lt;/a&gt; into question as well. (If you haven&#x27;t read those posts, do that
+now, or this one won&#x27;t make much sense.) But could you make it rational to
+actually drink the poison by voluntarily committing yourself to doing so,
+outside of the eccentric billionaire&#x27;s frame? Then you could rationally intend
+to drink it as well.&lt;/p&gt;
+
+&lt;p&gt;For instance, after receiving the poison and before midnight, you could bet a
+friend $1,000 that you&#x27;ll actually drink it. (If you want, you can give
+yourself bad odds so your friend doesn&#x27;t owe you a full $1,000 if you do drink
+it.) Now you&#x27;ll lose $1,000 if you don&#x27;t actually drink it, and it&#x27;s rational
+to drink it the next day, regardless of whether you intended to at midnight.&lt;/p&gt;
+
+&lt;p&gt;There&#x27;s a straightforward objection to this strategy as stated though: is it
+rational to drink poison to avoid losing just 1% of your winnings, when you&#x27;ve
+just won a million dollars? (Another way to frame it: if you have the choice
+between $999,000 with no strings attached, or $1,000,000 but you have to be
+horribly sick for a day, would you really choose the second option?) One school
+of thought says of course, because you wouldn&#x27;t win anything if you didn&#x27;t do
+this, but if you&#x27;re going to make that argument I&#x27;m not sure you&#x27;ve
+fundamentally gained anything by applying this betting strategy – it&#x27;s more or
+less the same as arguing that you can intend to drink the poison because that
+makes you win, which might be true but is basically circular and doesn&#x27;t
+address the problem of being free to change your mind.&lt;/p&gt;
+
+&lt;p&gt;You could try to address this objection by betting enough to bankrupt yourself
+if you didn&#x27;t drink it – say, $200,000 – but you might run into practical
+problems getting anyone to take the other side of this bet. If you make the
+odds anywhere close to fair, probably nobody would take it. If you make them,
+say, 1/100,000, so that you pay $200,000 if you lose and earn $2 if you win,
+the courts might not enforce the contract if you lost, so you might not be
+fully committed. Maybe another eccentric billionaire with a different take on
+the problem would be game for even odds, but good luck finding them in the
+hours you have to arrange a bet.&lt;/p&gt;
+
+&lt;p&gt;Maybe we&#x27;ll actually come off better if we don&#x27;t bet &lt;em&gt;money&lt;/em&gt;, because
+we tend to think much more objectively about money than, say, social status.
+What if you just told everyone you knew that you&#x27;re really going to do it –
+because it&#x27;s the winning strategy – and you&#x27;re a loser if you don&#x27;t? Or you
+could try to go viral on Twitter with the story and promise to update everyone
+when you won. (This is probably a bad idea for the same reason that you
+shouldn&#x27;t tell anyone you won the lottery, but I bet it would work.) I&#x27;m sure
+you could come up with similar creative ideas.&lt;/p&gt;
+
+&lt;p&gt;In the Newcomb&#x27;s Problem context: you could agree with a friend now that if
+you ever play the game and win excess money by two-boxing, you&#x27;ll give the
+$1,000 to them and they&#x27;ll donate it to a charity you hate. Now two-boxing has
+negative utility compared to one-boxing in all conditions: you&#x27;ll never end up
+with more money, &lt;em&gt;and&lt;/em&gt; some money might go to making the world worse (in
+your opinion). Of course, you could still renege on the agreement, but assuming
+you&#x27;re a person who normally honors their commitments, I think this would be
+enough to make two-boxing unattractive.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[101] Did not respond to a request for comment</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -996,8 +1061,8 @@ left it? It wasn&#x27;t until I thought for a few more moments that I realized i
 couldn&#x27;t possibly have been me being an idiot and forgetting where I parked, as
 it normally is; I&#x27;d gotten home after midnight and gone right into my apartment
 and not left it since, and there was no conceivable reason I would have parked
-anywhere than in my assigned spot. I hadn&#x27;t been drinking or anything, and I
-knew I&#x27;d driven home.&lt;/p&gt;
+anywhere other than in my assigned spot. I hadn&#x27;t been drinking or anything,
+and I knew I&#x27;d driven home.&lt;/p&gt;
 
 &lt;p&gt;My upstairs neighbor still had a key from when I was in San Francisco earlier
 this year (so she could move my car out of the way of the plows as needed), so
