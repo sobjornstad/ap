@@ -187,6 +187,24 @@ button.tag {
 .post a.brktlink:hover {
     text-decoration: underline;
 }
+
+.post .backlinks {
+    margin-top: 1ex;
+    font-size: small;
+}
+.post .backlinks .backlink-title {
+    font-style: italic;
+}
+.post .backlinks a {
+    text-decoration: none;
+}
+.post .backlinks a.backlink::before {
+    content: "#";
+}
+.post .backlinks a.backlink:not(:last-child)::after {
+    content: " ·"
+}
+
 .post .recommendation-request {
     display: block;
     text-align: center;
