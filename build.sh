@@ -28,7 +28,7 @@ ap posts.ap || die "attopublish build failed."
 echo "Committing changes..."
 git add *.ap
 git commit -am "update"
-git diff-index --quiet HEAD || die "Working directory is still dirty after committing *.ap files. Please review and commit changes before continuing."
+#git diff-index --quiet HEAD || die "Working directory is still dirty after committing *.ap files. Please review and commit changes before continuing."
 
 
 echo "Publishing site..."
