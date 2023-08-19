@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<rss
+    version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xml:base="https://ap.sorenbjornstad.com/">
+ <channel>
     <title>Soren Bjornstad</title>
     <link>https://ap.sorenbjornstad.com</link>
-    <atom:link href="http://ap.sorenbjornstad.com/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ap.sorenbjornstad.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Soren Bjornstad's attopublish feed</description>
     <language>en-us</language>
-    <copyright>Copyright 2022 Soren Bjornstad</copyright>
+    <copyright>Copyright © 2022-2023 Soren Bjornstad</copyright>
     <generator>attopublish</generator>
     <managingEditor>contact@sorenbjornstad.com (Soren Bjornstad)</managingEditor>
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
@@ -20,7 +23,7 @@
     <guid isPermaLink="false">https://ap.sorenbjornstad.com/#121</guid>
     <description>I visited San Francisco for a month in January and February. This week I
 finally got around to finishing up this little travelogue with some photos and
-discussion of what I did. It&#x27;s not terribly detailed, but it&#x27;s something!</description>
+explanation of what I did. It&#x27;s not terribly detailed, but it&#x27;s something!</description>
   </item>
   <item>
     <title>[120] Why should the public transit agency help the public?</title>
@@ -3914,3 +3917,4 @@ anyone who&#x27;s interested.</description>
   </item>
   </channel>
 </rss>
+
