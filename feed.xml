@@ -9,12 +9,30 @@
     <atom:link href="https://ap.sorenbjornstad.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Soren Bjornstad's attopublish feed</description>
     <language>en-us</language>
-    <copyright>Copyright © 2022-2023 Soren Bjornstad</copyright>
+    <copyright>Copyright © 2022–2023 Soren Bjornstad</copyright>
     <generator>attopublish</generator>
     <managingEditor>contact@sorenbjornstad.com (Soren Bjornstad)</managingEditor>
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[122] Small fries</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sat, 19 Aug 2023 21:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-122</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#122</guid>
+    <description>
+      &lt;p&gt;This is the result of ordering a “Little Cajun Fries” with your burger at my
+local Five Guys:&lt;/p&gt;
+
+&lt;img width=&quot;400px&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/small-fries.jpg&quot; alt=&quot;A plate filled almost entirely with fries.&quot;&gt;
+
+&lt;p&gt;That&#x27;s a 10-inch plate. I guess it&#x27;s a pretty good value for calories, at $5
+for the fries, if that&#x27;s what you&#x27;re looking for. I can&#x27;t imagine what the
+standard size looks like at this point!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[121] Published: San Francisco Travel Journal</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
@@ -194,7 +212,7 @@ history food was free and now you have to pay for it!)&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[114] Small talk doesn&#x27;t work over text</title>
+    <title>[114] Small talk doesn't work over text</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Fri, 04 Aug 2023 15:30:00 -0000</pubDate>
@@ -497,7 +515,7 @@ spent two years trying everything else.
     </description>
   </item>
   <item>
-    <title>[105] Published: Don&#x27;t Measure the Quality of Your Life Using the Temperature of Your Nachos</title>
+    <title>[105] Published: Don't Measure the Quality of Your Life Using the Temperature of Your Nachos</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Mon, 26 Jun 2023 08:00:00 -0000</pubDate>
@@ -506,7 +524,7 @@ spent two years trying everything else.
     <description>
       &lt;p&gt;
           &lt;a href="https://controlaltbackspace.org/nachos"&gt;
-              🔗 Don&#x27;t Measure the Quality of Your Life Using the Temperature of Your Nachos
+              🔗 Don't Measure the Quality of Your Life Using the Temperature of Your Nachos
           &lt;/a&gt; ()
       &lt;/p&gt;
       &lt;p&gt;It&#x27;s easy to evaluate experiences or our entire lives primarily based on tiny
@@ -584,7 +602,7 @@ appeal.&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[103] Why we don&#x27;t have highly effective, reversible male contraceptives</title>
+    <title>[103] Why we don't have highly effective, reversible male contraceptives</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Sun, 25 Jun 2023 12:30:00 -0000</pubDate>
@@ -662,7 +680,7 @@ well-informed people agreeing to be part of the discovery process.&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[102] Winning at Kavka&#x27;s and Newcomb&#x27;s Problems by making extra commitments</title>
+    <title>[102] Winning at Kavka's and Newcomb's Problems by making extra commitments</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Sun, 25 Jun 2023 09:45:00 -0000</pubDate>
@@ -865,7 +883,7 @@ the one we have for the time being!&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[98] Does Kavka&#x27;s toxin puzzle refute my solution to Newcomb&#x27;s Problem?</title>
+    <title>[98] Does Kavka's toxin puzzle refute my solution to Newcomb's Problem?</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Wed, 14 Jun 2023 09:55:00 -0000</pubDate>
@@ -908,7 +926,7 @@ stop believing my strategy and defect at the last minute).&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[97] Newcomb&#x27;s Problem</title>
+    <title>[97] Newcomb's Problem</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Tue, 13 Jun 2023 17:45:00 -0000</pubDate>
@@ -1712,7 +1730,7 @@ special attention to easy items&lt;/a&gt; to ensure they are handled appropriate
     </description>
   </item>
   <item>
-    <title>[78] Published: It&#x27;s the commodification of attention, stupid</title>
+    <title>[78] Published: It's the commodification of attention, stupid</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
     <pubDate>Mon, 20 Mar 2023 23:00:00 -0000</pubDate>
@@ -1721,7 +1739,7 @@ special attention to easy items&lt;/a&gt; to ensure they are handled appropriate
     <description>
       &lt;p&gt;
           &lt;a href="https://controlaltbackspace.org/commodity/"&gt;
-              🔗 It&#x27;s the commodification of attention, stupid
+              🔗 It's the commodification of attention, stupid
           &lt;/a&gt; ()
       &lt;/p&gt;
       &lt;p&gt;&lt;em&gt;Commodification of attention&lt;/em&gt; is a system of organizational,
@@ -2563,7 +2581,7 @@ keep finding other moments I&#x27;d like to use it!
     </description>
   </item>
   <item>
-    <title>[53] Article: Math&#x27;s Fundamental Flaw (Veritasium)</title>
+    <title>[53] Article: Math's Fundamental Flaw (Veritasium)</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Article</category>
     <pubDate>Sun, 04 Dec 2022 17:00:00 -0000</pubDate>
@@ -2572,7 +2590,7 @@ keep finding other moments I&#x27;d like to use it!
     <description>
       &lt;p&gt;
           &lt;a href="https://www.youtube.com/watch?v=HeQX2HjkcNo"&gt;
-              🔗 Math&#x27;s Fundamental Flaw
+              🔗 Math's Fundamental Flaw
           &lt;/a&gt; (Veritasium)
       &lt;/p&gt;
       &lt;p&gt;This 30-minute video provides a fantastic and accessible overview of the
@@ -2845,7 +2863,7 @@ I&#x27;m not sure about it at this point either.&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[44] New stuff: Bogart&#x27;s, Foshay Tower</title>
+    <title>[44] New stuff: Bogart's, Foshay Tower</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Sun, 27 Nov 2022 22:30:00 -0000</pubDate>
@@ -3210,7 +3228,7 @@ I&#x27;m gonna say you deserve to download a bunch of useless images.&lt;/p&gt;
     </description>
   </item>
   <item>
-    <title>[30] When you&#x27;re broke but still need some tea...</title>
+    <title>[30] When you're broke but still need some tea...</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Fri, 11 Nov 2022 13:00:00 -0000</pubDate>
@@ -3399,7 +3417,7 @@ couple of days. This is hard to achieve on any other instrument I&#x27;ve played
     </description>
   </item>
   <item>
-    <title>[23] Why I don&#x27;t outline my essays</title>
+    <title>[23] Why I don't outline my essays</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
     <pubDate>Fri, 28 Oct 2022 11:45:00 -0000</pubDate>
