@@ -15,6 +15,58 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[130] Quote</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Fri, 06 Oct 2023 20:35:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-130</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#130</guid>
+    <description>
+      &lt;p&gt;
+        Mathematicians found a way to distinguish between any knot and the unknot by
+simply setting an upper bound on the number of &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Reidemeister_move&quot;&gt;Reidemeister moves&lt;/a&gt;
+needed to connect them. If you check all sequences of Reidemeister moves up to
+that number, you can prove if the knot is the unknot or not. There&#x27;s just one
+problem: that upper bound was \( 2^{100,000,000,000n} \) moves.
+      &lt;/p&gt;
+        
+      &lt;cite&gt;Veritasium, “How the Most Useless Branch of Math Could Save Your Life&quot;, https://www.youtube.com/watch?v=8DBhTXM_Br4&lt;/cite&gt;
+    </description>
+  </item>
+  <item>
+    <title>[129] Quote</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Fri, 06 Oct 2023 20:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-129</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#129</guid>
+    <description>
+      &lt;p&gt;
+        Meta-analytic averages are not (meaningfully) capturing what happens at the
+center of some platonic distribution of “dishonesty in coin-flip tasks”,
+because that distribution does not exist. They are (meaninglessly) capturing
+what researchers happened to do. And if they happened to do different things in
+coin-flip tasks than in die-roll tasks, well, then you’re likely to find
+different results in coin-flip tasks than in die-roll tasks. And that
+meta-analyzed difference has no meaning.
+      &lt;/p&gt;
+        
+      &lt;cite&gt;Data Colada, “Meaningless Means #3: The Truth About Lies”, https://datacolada.org/107&lt;/cite&gt;
+    </description>
+  </item>
+  <item>
+    <title>[128] Announcement</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Article</category>
+    <pubDate>Fri, 06 Oct 2023 20:25:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/post-#128</link>
+    <guid>https://ap.sorenbjornstad.com/#128</guid>
+    <description>I&#x27;m alive! I was traveling for most of September on three separate trips
+interspersed with two crazy weeks at home. I&#x27;ll be making a few catch-up posts
+and should be back to a more regular schedule soon.</description>
+  </item>
+  <item>
     <title>[127] Rabies goblins</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
