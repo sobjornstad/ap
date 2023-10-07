@@ -1,3 +1,42 @@
+#130 Quote
+    :date: 2023-10-06 20:35
+    :rt: 13195
+    :attr: Veritasium, “How the Most Useless Branch of Math Could Save Your Life"
+    :source: https://www.youtube.com/watch?v=8DBhTXM_Br4
+    :tags: Humor | Math
+
+Mathematicians found a way to distinguish between any knot and the unknot by
+simply setting an upper bound on the number of <a
+href="https://en.wikipedia.org/wiki/Reidemeister_move">Reidemeister moves</a>
+needed to connect them. If you check all sequences of Reidemeister moves up to
+that number, you can prove if the knot is the unknot or not. There's just one
+problem: that upper bound was \( 2^{100,000,000,000n} \) moves.
+
+
+#129 Quote
+    :date: 2023-10-06 20:30
+    :rt: 13201
+    :attr: Data Colada, “Meaningless Means #3: The Truth About Lies”
+    :source: https://datacolada.org/107
+    :tags: Statistics
+
+Meta-analytic averages are not (meaningfully) capturing what happens at the
+center of some platonic distribution of “dishonesty in coin-flip tasks”,
+because that distribution does not exist. They are (meaninglessly) capturing
+what researchers happened to do. And if they happened to do different things in
+coin-flip tasks than in die-roll tasks, well, then you’re likely to find
+different results in coin-flip tasks than in die-roll tasks. And that
+meta-analyzed difference has no meaning.
+
+
+#128 Announcement
+    :date: 2023-10-06 20:25
+
+I'm alive! I was traveling for most of September on three separate trips
+interspersed with two crazy weeks at home. I'll be making a few catch-up posts
+and should be back to a more regular schedule soon.
+
+
 #127 Misc
     :date: 2023-08-28 19:45
     :shortdes: Rabies goblins
