@@ -1,3 +1,76 @@
+#147 Misc
+    :date: 2023-11-11 20:00
+    :shortdes: Telling someone they don't have to answer makes them want to answer
+    :tags: Life | Society
+
+.I was talking on the phone with a friend yesterday and they asked me a
+somewhat personal question, preceded by something to the effect of, “This is a
+personal question and you don't have to answer if you don't want to!” I said,
+no, no problem at all, and proceeded to answer in detail.
+
+.I realized after hanging up half an hour later that I don't think I've ever not
+wanted to answer a question phrased in this way, and I'm not exactly the world's
+most forthcoming person when it comes to sharing the details of my personal
+life, so that seems surprising. (Certainly I can recall cases where someone
+asked a similar question phrased in a different way and I felt very
+uncomfortable.) And it's not that, on any occasion I've gotten such a question,
+I didn't want to answer, but felt pressured into doing it; I always actually
+wanted to. It's like there's some reverse psychology here: when someone insists
+on an answer, you don't want to give one, and when they tell you you totally
+don't have to give one, you want to.
+
+.This reminds me of something Jason Fried and David Heinemeier Hansson (of
+37signals) say in their book <em>It Doesn't Have to Be Crazy At Work</em>. When
+you interact with a customer having a problem, there are two tokens on the
+table: “it's no problem” and “it's the end of the world.” One side picks one of
+the tokens, and then the other almost inevitably takes the other. You want to
+take “it's the end of the world” token right away, because then your customer is
+forced to take “it's no problem” – if support starts apologizing profusely and
+offering all sorts of solutions, you can't stay angry at them! And importantly
+to the comparison, it's not that the customer just <em>pretends</em> not to be
+angry on the phone, they actually end up <em>becoming</em> less angry.
+
+.I think the same thing is going on here. When someone starts by saying you
+don't have to answer their question if you're uncomfortable, they're taking the
+“it's the end of the world” token, and you naturally follow up with the “it's no
+problem” token. When someone doesn't do that and just asks like they're entitled
+to the answer, they're taking the “it's no problem” token, and if you feel
+sensitive about your answer, you end up taking the “it's the end of the world”
+token.
+
+.It's worth analyzing this one level deeper. I think the key is that most people
+want to be vulnerable and serious with others, but oftentimes we're unsure
+whether it's safe to do that. When someone says “it's the end of the world,”
+that they understand the question might be difficult and it's OK to end the
+conversation, they're also implicitly saying that they care about and are paying
+attention to how that question might make us feel – which more or less means
+it's safe. This is analogous to the support situation; when the company says
+“it's the end of the world,” you see that they are taking the problem seriously
+and will figure out how to make it right, so there's no need to display your
+frustration anymore to get what you need.
+
+.Of course, in either scenario one could fake caring, but this doesn't seem to
+happen very often, perhaps because the result if discovered would be very costly
+(interlocutor loses trust in you, more or less permanently) and discovery is
+likely.
+
+.It should be noted that, as an intentional technique, this works in reverse,
+too: if you need to start a difficult conversation and <em>you</em> feel
+uncomfortable about it, saying that you do will usually make others much more
+careful about your feelings, making the conversation less difficult.
+
+
+#146 Misc
+    :date: 2023-11-11 19:05
+    :shortdes: Pepper pricing
+    :tags: Nonsense
+
+.I noticed today that my local grocery store prices green bell peppers by
+count, but yellow bell peppers by weight.
+
+<img width="600px" loading="lazy" class="center" src="assets/images/pepper-pricing.jpg" alt="Peppers- Green: $1.79. Peppers-Yellow Bell: 0.45 lb @ $4.49/lb = $2.02.">
+
+
 #145 Misc
     :date: 2023-11-08 06:30
     :shortdes: Mill City Museum
@@ -30,8 +103,8 @@ weekend.
 
 .Looking across the river towards the Stone Arch Bridge from the river side of
 the museum. The bridge formerly carried rail traffic into downtown Minneapolis.
-Intercity passenger rail now stops exclusively in St. Paul, and there is no
-more industry next to the river, so in the nineties the bridge was converted
+Intercity passenger rail now stops exclusively in St. Paul, and there is no more
+industry next to the river downtown, so in the nineties the bridge was converted
 into a pedestrian and bicycle path with a stunning view of the river and the
 skyline. (See also <a href="#post-43">#43</a>.)
 
@@ -43,7 +116,6 @@ skyline. (See also <a href="#post-43">#43</a>.)
 
 .The museum itself was solidly good, if not amazing, and is worth seeing if
 you're in town and interested in history.
-
 
 
 #144 Misc
@@ -72,7 +144,7 @@ me VAT on top of it! I guess I'll just have to pirate my \( 1 \times 10^{225}
 #143 Misc
     :date: 2023-11-07 21:00
     :shortdes: Design Hall of Shame: Viewing Code
-    :tags: Design
+    :tags: Design | Nonsense
 
 .Riddle me this: what is a “Viewing Code” and where do I find it? Some kind of
 password found in the email where I received this, or in a separate message,
@@ -697,7 +769,7 @@ language and culture.
 #116 Misc
     :date: 2023-08-10 12:20
     :shortdes: The surcharge surcharge
-    :tags: Humor | Society
+    :tags: Humor | Nonsense | Society
 
 .As companies keep moving more and more of their actual costs into various fees
 (including the one for
@@ -861,7 +933,7 @@ her a bad report card and leaving it at that. And I have to wonder: is that
 #112 Misc
     :date: 2023-07-31 21:00
     :shortdes: Be advised that the timer is a timer
-    :tags: Design | Humor
+    :tags: Design | Nonsense | Humor
 
 .I found this gem in the manual for my new microwave oven:
 
@@ -915,7 +987,7 @@ world.
 #110 Misc
     :date: 2023-07-24 22:20
     :shortdes: Another brilliant canine-related excuse
-    :tags: Humor | Minneapolis
+    :tags: Humor | Minneapolis | Nonsense
 
 .In the 2023 adult version of “the dog ate my homework,” rookie Vikings wide
 receiver Jordan Addison
@@ -1093,7 +1165,7 @@ to do:
 #104 Misc
     :date: 2023-06-25 21:00
     :shortdes: Total economic value
-    :tags: Humor
+    :tags: Humor | Nonsense
 
 .I keep a digital voice recorder on my nightstand to quickly capture stray
 thoughts I have while I'm falling asleep or right after I wake up. Every once
@@ -1637,7 +1709,6 @@ with still air, and then switching on a fan pointed at my desk or couch will
 keep me comfortable until evening. I rarely start to need the AC until it hits
 the nineties, or if the nighttime temperature doesn't fall below 70 for a couple
 nights in a row, making it hard to store enough cool for the afternoon.
-
 
 
 #94 Misc
