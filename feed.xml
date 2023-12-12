@@ -15,6 +15,42 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[148] Design Hall of Shame: YNAB's Payee List</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 11 Dec 2023 21:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-148</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#148</guid>
+    <description>
+      &lt;p&gt;&lt;a href=&quot;https://www.ynab.com&quot;&gt;YNAB&lt;/a&gt; is a fantastic budgeting tool,
+excellently designed...which is why this dialog box really makes me mad. The
+purpose of the dialog is to manage the list of payees in your account. A
+straightforward thing to want to do here is to select a bunch of payees and
+then merge them together (you often end up with duplicates if you accept the
+default name that comes in on your credit card) or delete them. You can do this
+by selecting the checkboxes to the left.&lt;/p&gt;
+
+&lt;p&gt;But witness: if you click even a &lt;em&gt;tiny&lt;/em&gt; bit to the left of the checkbox
+itself, your entire selection comes undone, selecting only that item and losing
+all the work you did so far. And you can&#x27;t click on the name instead, which
+presents a larger target, because that selects only that item.&lt;/p&gt;
+
+&lt;img width=&quot;600px&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/ynab-payees-1.gif&quot;&gt;
+
+&lt;p&gt;Also, when you actually do delete or merge the items you&#x27;ve selected, your
+scroll position doesn&#x27;t adjust at all, so you lose track of your place in the
+list. This makes the above problem even more aggravating, because if you stop
+selecting a bunch of payees somewhere in the middle and merge or delete them
+(so that you don&#x27;t have to start over from the beginning if you click in the
+wrong place), you have to memorize what item you stopped at before clicking the
+button, then find it again in the list:&lt;/p&gt;
+
+&lt;img width=&quot;600px&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/ynab-payees-2.gif&quot;&gt;
+
+Sigh.
+    </description>
+  </item>
+  <item>
     <title>[147] Telling someone they don't have to answer makes them want to answer</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
