@@ -1,3 +1,36 @@
+#148 Misc
+    :date: 2023-12-11 21:00
+    :shortdes: Design Hall of Shame: YNAB's Payee List
+    :tags: Design
+
+.<a href="https://www.ynab.com">YNAB</a> is a fantastic budgeting tool,
+excellently designed...which is why this dialog box really makes me mad. The
+purpose of the dialog is to manage the list of payees in your account. A
+straightforward thing to want to do here is to select a bunch of payees and
+then merge them together (you often end up with duplicates if you accept the
+default name that comes in on your credit card) or delete them. You can do this
+by selecting the checkboxes to the left.
+
+.But witness: if you click even a <em>tiny</em> bit to the left of the checkbox
+itself, your entire selection comes undone, selecting only that item and losing
+all the work you did so far. And you can't click on the name instead, which
+presents a larger target, because that selects only that item.
+
+<img width="600px" loading="lazy" class="center" src="assets/images/ynab-payees-1.gif">
+
+.Also, when you actually do delete or merge the items you've selected, your
+scroll position doesn't adjust at all, so you lose track of your place in the
+list. This makes the above problem even more aggravating, because if you stop
+selecting a bunch of payees somewhere in the middle and merge or delete them
+(so that you don't have to start over from the beginning if you click in the
+wrong place), you have to memorize what item you stopped at before clicking the
+button, then find it again in the list:
+
+<img width="600px" loading="lazy" class="center" src="assets/images/ynab-payees-2.gif">
+
+Sigh.
+
+
 #147 Misc
     :date: 2023-11-11 20:00
     :shortdes: Telling someone they don't have to answer makes them want to answer
