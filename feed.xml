@@ -15,6 +15,46 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[149] Counterintuitive density</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 04 Jan 2024 21:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-149</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#149</guid>
+    <description>
+      &lt;p&gt;Quick, what&#x27;s the densest metro area in the US? I&#x27;ll give you a hint: It&#x27;s
+almost certainly not what you think.&lt;/p&gt;
+
+&lt;p&gt;The most natural answer would probably be New York, but I bet you didn&#x27;t pick
+that because that would be the obvious answer. Maybe San Francisco? Or Miami?&lt;/p&gt;
+
+&lt;p&gt;
+&lt;details&gt;
+    &lt;summary&gt;Answer and discussion&lt;/summary&gt;
+
+&lt;p&gt;Believe it or not,
+&lt;a href=&quot;https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural/2020-ua-facts.html&quot;&gt;the answer is Los Angeles&lt;/a&gt; at 7,476 people per square mile,
+well ahead of San Francisco at 6,843 and New York at 5,981.
+(San Jose is a separate metro area in the statistics and squeezes in between them.
+ Honolulu, of all places, is fifth –
+ makes sense once you think about it, but definitely comes as a surprise.)
+That&#x27;s mighty odd because LA is known for its sprawl.
+The trick is that we&#x27;re measuring populations within full metro areas,
+not city limits
+(LA would certainly not win if we did city limits!).
+While the most built-up areas of New York and San Francisco
+are much larger and denser than those of LA,
+LA has medium-high density throughout almost the entire metro area,
+while NY and SF are composed of dense but relatively small cores
+surrounded by comparatively low-density areas.&lt;/p&gt;
+
+&lt;p&gt;Averages are confusing sometimes!&lt;/p&gt;
+
+&lt;/details&gt;
+&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[148] Design Hall of Shame: YNAB's Payee List</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
