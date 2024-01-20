@@ -15,6 +15,90 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[153] Published: Too smart for your own good</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sat, 20 Jan 2024 10:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-153</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#153</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://zettelkasten.sorenbjornstad.com/#TooSmartForYourOwnGood"&gt;
+              🔗 Too smart for your own good
+          &lt;/a&gt; ()
+      &lt;/p&gt;
+      &lt;p&gt;Sometimes knowing more can make you less efficient at solving a problem. For
+instance, I recently tried to replace a lightbulb in my closet and the new
+lightbulb didn&#x27;t work. I then spent half an hour trying to figure out if the
+socket had been wired backwards, only to find that in fact the tab at the end
+of the socket was physically bent and I could easily move it back. I wouldn&#x27;t
+have gotten stuck on this wrong guess at the problem if I had known less about
+electricity!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[152] Published: The Unusual Category Tax</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sat, 20 Jan 2024 09:55:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-152</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#152</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://zettelkasten.sorenbjornstad.com/#UnusualCategoryTax"&gt;
+              🔗 The Unusual Category Tax
+          &lt;/a&gt; ()
+      &lt;/p&gt;
+      &lt;p&gt;Making life choices that are slightly off the beaten path forces you to
+repeatedly explain what they are (pay the unusual category tax), leading to
+substantial annoyance. How does this work?&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[151] Identifying who texted you using Morse code</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sat, 20 Jan 2024 09:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-151</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#151</guid>
+    <description>
+      &lt;p&gt;If you don&#x27;t have a smartwatch – and maybe even if you do but you don&#x27;t always
+want to look at it whenever you get a notification – it&#x27;s often useful to be
+able to tell what source a notification came from without having to look. If
+you&#x27;re getting a calendar notification and you didn&#x27;t remember you had anything
+scheduled, you&#x27;ll probably want to look at that right away. If you&#x27;re driving
+and you get a marketing text, you don&#x27;t need to look at that, but if you get
+three texts in a row from someone you&#x27;re on the way to pick up, you probably
+want to stop and see if you need to change plans.&lt;/p&gt;
+
+&lt;p&gt;On iOS, you can set custom tones and vibration patterns for many events in
+&lt;em&gt;Settings &amp;gt; Sounds &amp; Haptics&lt;/em&gt;. In addition, you can set ring tones
+and text tones for individual contacts inside the Contacts app.  I&#x27;ve attached
+custom audio tones to a few of mine, but I differentiate my notifications
+almost entirely using the haptic (vibration) pattern options, because that&#x27;s
+usable whether the phone is on silent or not, so you always have the
+information and you only have to learn it once. I also find it&#x27;s much easier to
+make mnemonic tones this way; more on that in a moment! (For this to work, you
+need to have “Haptics” set to &lt;em&gt;Always Play&lt;/em&gt; in &lt;em&gt;Settings &amp;gt; Sounds
+&amp; Haptics&lt;/em&gt;, so that even if your phone is off silent mode you&#x27;ll get the
+vibration.)&lt;/p&gt;
+
+&lt;p&gt;The remaining piece of the puzzle is learning the patterns for all the people
+you frequently text and want to be able to distinguish. I&#x27;ve found using Morse
+code makes this vastly easier: you might already know a little bit of it, and
+it was designed to be easily distinguishable in a noisy environment. Usually I
+use the first one or two letters of the person&#x27;s name (add a second letter if
+the first one is so short in Morse code that it might cause you to miss the
+notification entirely, or if it conflicts with some other existing tone). I
+record these as new custom haptic patterns as I need them and name them with
+whatever they spell in Morse code (e.g., “C”). As a bonus, you learn a little
+bit of Morse code!&lt;/p&gt;
+
+&lt;p&gt;I assume there&#x27;s a way to do this on Android as well, but I&#x27;ve never tried, so
+I don&#x27;t know where the options are.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[150] Published: 2024 Areas of Exploration</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
