@@ -1,3 +1,45 @@
+#155 Misc
+    :date: 2024-01-28 12:25
+    :shortdes: Problems I can't believe nobody has solved, part one
+    :tags: Tech | Travel
+
+.Here's a problem that one would think the internet would straightforwardly
+solve, but apparently doesn't. Suppose I feel like taking a short leisure trip
+in a couple of weeks. Where should I go? Maybe I have some ideas about when and
+where, but I'm flexible, and I don't particularly care how I get there (plane,
+train, bus, maybe driving; some itineraries would be a deal-breaker, of course,
+like 24 hours on a bus with 3 transfers, but many options would be reasonable).
+I want to find something that's cheap and convenient. Maybe it could also watch
+fares for places I'm interested in and let me know when it finds something
+particularly cheap (there are some sites that do this with flights specifically
+on a somewhat limited basis, so this is clearly possible).
+
+.Of course, some people claim to have a solution, but every attempt I've seen
+utterly fails at one or more obvious requirements, e.g.:
+
+<ul>
+    <li>It includes <em>only</em> plane tickets, or <em>only</em> bus and/or train tickets.</li>
+    <li>It doesn't allow for any flexibility; you already have to know exactly where and when you want to go.</li>
+    <li>It can't find any cross-mode or cross-company transfers, and/or doesn't consider that you could stay overnight somewhere (which you might enjoy seeing anyway).</li>
+    <li>It just plain doesn't find connections that I know exist, and aren't exactly secrets
+        (e.g., I found a site that claimed it didn't know of any way to get from Chicago to Indianapolis).</li>
+</ul>
+
+.Even Google Flights, with a somewhat restricted problem to work on, sometimes
+does a bad job at this; the pricing calendar lists the absolute cheapest fare
+it finds, which sounds like what you want until you realize that, instead of
+giving you the price for an obvious direct flight, it gave you the price for a
+24-hour flight on Spirit that goes clear across to the other side of the
+country and has a 15-hour layover, and all the even slightly sensible flights
+are twice that and might not be the cheapest on the same day.
+
+.Maybe this is a much harder problem than I realize, but it seems like plenty
+of individual companies' booking sites do a good job at most of this, and
+solving the full problem seems like merely that plus aggregation (which isn't
+trivial by any means, but other places do it fine on its own), so I'm not sure
+I believe it.
+
+
 #154 Misc
     :date: 2024-01-27 21:35
     :shortdes: Columbus, Cleveland, Cincinnati
