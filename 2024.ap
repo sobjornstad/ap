@@ -1,3 +1,75 @@
+#160 Misc
+    :date: 2024-02-20 20:30
+    :shortdes: Do lots of mid-to-high-income households really have no savings?
+    :tags: Finance | Society | Statistics
+
+.There's a common narrative that you can be living paycheck-to-paycheck at any
+income level, and that this is shockingly common – some ridiculous percentage
+of people with $100,000 household incomes still can't pay for a modest
+unexpected expense out of savings!
+
+.But when I went to look up <a
+href="https://www.bankrate.com/banking/savings/emergency-savings-report/">this
+statistic</a> recently, something gave me pause. The Bankrate article linked
+shows this chart:
+
+<img width="600px" loading="lazy" class="center" src="assets/images/1000-savings.png" alt="Shoulder bag. Contents of images are described below each.">
+
+.It struck me that, though I have perfectly adequate emergency savings, if
+presented with this survey, I might well choose “reduce your spending on other
+things,” which means Bankrate would count me as part of the (implicitly
+financially unprepared) “majority of U.S. adults [who] wouldn't pay for an
+emergency expense...from their savings account,” and which often gets rounded
+in discussions surrounding this issue to “people who <em>couldn't</em> pay for
+an unexpected $1,000 expense from their savings.” But while borrowing money to
+pay for an unexpected expense is a last resort that you want to avoid, reducing
+your spending on other things is an even better response than paying from your
+savings, if you can do it without major discomfort. After all, if you want to
+bring your emergency savings back to whatever comfortable level you had set it
+at before, you're going to have to divert some money into there eventually
+anyway; why not just do it right away, if you can?
+
+.I usually handle unexpected expenses by charging them to my credit card and
+moving some money from other categories in my <a
+href="https://ynab.com">YNAB</a> budget to cover it. If I have to, I might take
+some of that money from a savings category, even the “emergency savings“ one,
+but I'll be aggressively filling it back in starting with my next paycheck. If
+I stop channeling new savings into whatever I'm currently saving for and point
+it to refilling the loss here instead, chances are I'll cover it by the time
+the credit card bill actually hits my bank account, which will take upwards of
+a month from the expense. (Getting ~45 days to pay by using a credit card is a
+free service as long as you pay your bill in full every month!) So in some
+sense, even if I took money out of the “emergency savings” category – which I
+might not do at all; maybe I'd just delay another major purchase for a month or
+two – I only “used my emergency savings” on paper.
+
+.This got me curious, and I dug into the rest of their data. They say that 70%
+of households with a yearly income of at least $100,000 or more would pay with
+savings, which does seem fairly bad for that level of income, but then lower
+down they find that 75% of such households had enough savings to cover
+<em>three months of household expenses</em>. I'm quite sure that three months
+of household expenses for a $100,000-per-year household is sufficient to cover
+a $1,000 expense! Clearly these households just wouldn't want or need to pay
+the expense from their savings, perhaps for reasons like mine. Unfortunately,
+the exact details of the survey don't appear to be publicly available, so we
+don't know much about what they say they'd do instead.
+
+.It is true that this still means 25% of $100K+ households don't have three months of
+expenses saved, and the survey finds that 5% of them have <em>no</em> emergency
+savings, which is bad, sure. I'm not saying that I now believe it's impossible
+to be paycheck-to-paycheck on a high income; obviously it is. But a
+single-to-low-double-digit number of $100K+ households being financially
+irresponsible doesn't really seem shocking.
+
+<div class="callout"> <em>Minor Gripe:</em> In the survey question, they count
+“car repair” as an unexpected expense. If you own a car, I can all but
+guarantee it's going to need $1,000 of repairs at some point (if not, can I buy
+your car?), so this hardly seems unexpected. Car owners should be saving
+separately to fix their car; when you need repairs, you pay out of your “car
+repair” money and barely even notice. </div>
+
+
+
 #159 Misc
     :date: 2024-02-15 08:05
     :shortdes: In which I make flashcards to remember where I put my glasses
