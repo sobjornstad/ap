@@ -15,6 +15,85 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[163] What problem is the thing you're explaining trying to solve?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Fri, 08 Mar 2024 08:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-163</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#163</guid>
+    <description>
+      &lt;p&gt;Yesterday I ran across David MacIver&#x27;s “&lt;a
+href=&quot;https://www.drmaciver.com/2018/10/how-to-explain-anything-to-anyone/&quot;&gt;How
+to Explain Anything to Anyone&lt;/a&gt;,” which makes the interesting point that it&#x27;s
+often more helpful to explain new ideas beginning with the problem they&#x27;re
+solving, rather than the solution.&lt;/p&gt;
+
+&lt;p&gt;This helped me come up with a much better elevator speech for &lt;a
+href=&quot;https://remnote.com&quot;&gt;RemNote&lt;/a&gt;; I&#x27;ve always been dissatisfied with my
+explanation, and I get a lot of time to be dissatisfied with it because people
+ask me what I do for work all the time! I tell people that it combines notes
+and flashcards, uses learning science to help you remember more efficiently,
+etc., but I can&#x27;t help but think it sounds incredibly boring and not really
+novel in any way.&lt;/p&gt;
+
+&lt;p&gt;We&#x27;re solving two important cascading problems at RemNote, so we can explain it
+better like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;p&gt;One reason learning and being creative is hard is because we constantly forget
+earlier things we&#x27;ve learned and have to relearn them. There&#x27;s already a highly
+effective way to solve this problem called &lt;em&gt;spaced repetition&lt;/em&gt;, which
+presents flashcards to you at optimal moments and lets you remember anything
+for your whole life with only a couple minutes&#x27; effort.&lt;/p&gt;
+
+&lt;p&gt;However, right now making flashcards that work well is too hard. RemNote aims
+to address this problem and make better learning accessible to everyone:&lt;/p&gt;
+
+&lt;ul&gt;
+
+    &lt;li&gt;We allow you to efficiently write flashcards right within your notes,
+    so you can create them as you&#x27;re reading a book or listening to a lecture
+    without any extra steps.&lt;/li&gt;
+
+    &lt;li&gt;We use AI to help you automatically create flashcards, then understand
+    why flashcards you&#x27;re struggling with are hard and fix them.&lt;/li&gt;
+
+    &lt;li&gt;We&#x27;ll eventually provide well-designed flashcards – maybe with
+    associated learning materials – off the shelf for common topics or courses
+    of study.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;About a year ago, in &lt;a href=&quot;#post-70&quot;&gt;#70&lt;/a&gt;, I noted that I&#x27;d been stumped
+on explaining what TiddlyWiki was to someone I had just met – and I had just
+written a book on TiddlyWiki! I think part of the issue here is that TiddlyWiki
+doesn&#x27;t solve a unified problem; it&#x27;s a general enabling environment that
+solves different problems for different people. For me, I think it solves some
+problem like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;p&gt;A key way I think is &lt;a
+href=&quot;https://zettelkasten.sorenbjornstad.com/#WritingIsThinking&quot;&gt;by
+writing&lt;/a&gt;. But traditional ways of organizing writing-as-thinking, like
+journals, have a major problem in that you lose track of everything you&#x27;ve
+written on a previous topic; writing helps you get material out of your brain,
+but in some sense your record is write-only. TiddlyWiki offers a highly
+customizable wiki-like work environment, so I can link my thoughts together in
+a way that prevents them from getting lost, and make the workspace and
+organization work exactly the same way as my brain.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;This still feels underwhelming, though. It may be that the &lt;a
+href=&quot;https://zettelkasten.sorenbjornstad.com/#ToolsForThinkingDontWow&quot;&gt;tools
+for thinking don&#x27;t wow&lt;/a&gt; problem is stronger with TiddlyWiki. And we have
+lost a great deal of generality. Oh well, it was a nice try.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[162] I've changed my mind about listing your pronouns</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
