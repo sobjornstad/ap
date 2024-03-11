@@ -15,6 +15,49 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[164] In which Amazon.com incorrectly calculates unit prices</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sun, 10 Mar 2024 21:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-164</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#164</guid>
+    <description>
+      &lt;p&gt;I was buying some Kleenex on Amazon and was about to select a pack of 8
+because that was about how many I needed, when I looked at the quoted unit
+price and was slightly surprised, because the unit price was less than half
+that of the 3-pack:&lt;/p&gt;
+
+&lt;img width=&quot;300px&quot; loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/wrong-kleenex-prices.png&quot; alt=&quot;A 3-pack, 120 count: $4.16 per 100 sheets. An 8-pack, 120 count: $1.70 / 100 sheets.&quot;&gt;
+
+&lt;p&gt;A quick multiplication by 3 in my head in an attempt to resolve the dissonance
+set off alarm bells. The unit price on the left is more than double the unit
+price on the right, but when you multiply it out, if you buy 3 of the 3-packs
+you get 9 boxes of tissues for a couple cents less than $15, which is less than
+the price for 8 boxes shown on the right!&lt;/p&gt;
+
+&lt;p&gt;Closer inspection yields the unavoidable conclusion that the first unit price
+is just plain wrong:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;For the 8-pack, there are \( 120 \times 8 = 960 \) sheets, and \( \$16.33 / 960 \times 100 = \$1.70 \) per 100 sheets (as listed).&lt;/li&gt;
+    &lt;li&gt;For the 3-pack, there are \( 120 \times 3 = 360 \) sheets, and \( \$4.99 / 360 \times 100 = \$1.38 \) per 100 sheets (not even close to $4.16!).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It appears that somehow the “pack of 3” part didn&#x27;t get included in the first
+calculation, but did in the second (if there were 120 sheets total in the pack
+of 3 it would be correct).&lt;/p&gt;
+
+&lt;p&gt;This is the listing for Kleenex on Amazon – hardly an unpopular product – so
+it&#x27;s kind of shocking this could be left wrong for any significant amount of
+time. I reported an issue, so we&#x27;ll see if they fix it:&lt;/p&gt;
+
+&lt;img loading=&quot;lazy&quot; class=&quot;center&quot; src=&quot;assets/images/wrong-kleenex-prices-amazon.png&quot; alt=&quot;Correspondence to Amazon complaining.&quot;&gt;
+
+&lt;p&gt;Never thought I&#x27;d be telling one of the world&#x27;s largest retailers that they
+can&#x27;t do math.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[163] What problem is the thing you're explaining trying to solve?</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -3053,12 +3096,12 @@ without ID or consultation or any other hoops, regardless of gender or age.&lt;/
     <guid isPermaLink="false">https://ap.sorenbjornstad.com/#82</guid>
     <description>
       &lt;p&gt;I was recently reminded that I was in college when I realized that when you
-hold hands, there are two distinct orientations and one person has to go
-“under” and the other has to go “over.” Somehow, every previous time I had held
-hands in my life – which I don&#x27;t think was something I did unusually
-uncommonly – I had gone “under” and the person I was holding hands with had
-either naturally started “over,” or adjusted without saying anything or making
-enough of a deal about it that I noticed.&lt;/p&gt;
+stand next to someone and hold hands, there are two distinct orientations and
+one person has to go “under” and the other has to go “over.” Somehow, every
+previous time I had held hands in my life – which I don&#x27;t think was something I
+did unusually uncommonly – I had gone “under” and the person I was holding
+hands with had either naturally started “over,” or adjusted without saying
+anything or making enough of a deal about it that I noticed.&lt;/p&gt;
 
 &lt;p&gt;It&#x27;s fascinating to me how there are just so many random things to know in
 life, which you don&#x27;t learn automatically and which are so specific and
