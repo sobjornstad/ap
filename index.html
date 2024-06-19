@@ -93,7 +93,173 @@
         </div>
 
         <div id="content">
-            <div class="post" id="post-186">
+            <div class="post" id="post-187">
+    <a class="post-number" href="#post-187">#187</a>
+    <div class="post-date">2024-06-19 11:30</div>
+    <div class="post-tags">
+        <span class="tag type">Misc</span>
+        <span class="tag">Math</span>
+<span class="tag">Science</span>
+<span class="tag">Travel</span>
+    </div>
+    <div class="post-description">Can flying be more environmentally friendly than driving?</div>
+    <p><em>Short answer</em>: Usually, no. But if you're traveling alone, your car is
+moderately inefficient, and the flight is non-stop and fairly efficient,
+possibly. This set of circumstances is quite specific but also not uncommon.</p>
+
+<hr>
+
+<p>My heuristic has always been that flying is by far the environmentally worst
+option whenever there are multiple. After all, you're going very fast and you
+have to use energy to keep the plane in the air, including all of the enormous
+amount of fuel that you haven't burned yet. Most of the figures I've seen have
+agreed. I don't particularly like flying anyway, so all things considered, I'll
+typically take the train or drive unless I'm going thousands of miles.</p>
+
+<p>I was faced with this question yesterday: I'm going from Minneapolis to Kansas
+City for a weekend. There is no train (for the non-Americans, yes, it's a
+400-mile straight-line route between two 2M+-person metro areas, and there is
+literally no train there, at any speed, on any schedule). Nobody else is coming
+with me. The options I would realistically choose are flying or driving the 7+
+hours alone in my Subaru Forester. What makes the most sense?</p>
+
+<p>I don't love the idea of driving that far in one day without anyone to share
+the work with (I solo road-trip all the time, but I plan my trips so I don't
+exceed 4 hours or so per day), so I wondered how much worse it would be to fly.
+To my surprise, I found that, to my best guess, it was almost within the margin
+of error, both on cost and environmental impact!</p>
+
+<p>I calculated the drive downtown to downtown for simplicity. There will be some
+further in-town maneuvering on both ends, and the details might differ slightly
+(e.g., if I fly I'll do some of it by public transit that I would otherwise
+drive, but also I'll have to get from the airport to the city), but presumably
+that will be rounding error compared to the 800-mile intercity trip.</p>
+
+<ul>
+    <li>
+
+    <strong>Driving</strong>: 872 miles round trip. I expect my Forester to get
+    about 30 mpg; it's rated a little higher on the freeway, but I'd probably
+    cruise at 73–75 mph most of the way on such a long, flat route, and I-35
+    often has nasty headwinds that reduce fuel economy. I'll need about 29
+    gallons of gas, maybe a little more. Burning gasoline emits roughly 9 kg
+    CO<sub>2</sub>e per gallon, so that's a total emissions of 258 kg.
+
+    </li>
+    <li>
+        <strong>Flying</strong>: Google Flights has this nifty emissions calculator that lets you
+        compare estimated emissions of different flights. It takes things like the
+        type of plane and the expected load factor into account.
+
+<p><img width="800px" loading="lazy" src="assets/images/carbon-gflights.png" alt="81 kg CO2e"></p>
+
+<p>Unfortunately, the otherwise pretty decent model <a
+        href="https://www.bbc.com/news/science-environment-62664981">controversially
+        eliminated</a> all non-carbon greenhouse effects a couple of years ago,
+        which means it wildly underestimates the impact of most flights.
+        Airplanes flying at high altitude create contrails and other forms of
+        clouding which cause a temporary but dramatic warming effect – enough
+        that this effect can in some cases be responsible for more warming than
+        the actual carbon emissions.</p>
+
+<p>Fortunately, we can get an estimate of what the actual impact would be
+        by multiplying the figure Google Flights gives us by some estimate of
+        how large this effect is compared to carbon emissions. The IPCC uses a
+        factor of 1.9; some people believe it should be higher in many cases,
+        but a relatively short flight like this also spends a lower proportion
+        of its time at high altitudes and thus has a lower impact, so this
+        seems like a reasonable number.</p>
+
+<p>If I pick one of the most carbon-friendly flights in both directions,
+        that comes to \( 81 \times 1.9 = 153.9\; \text{kg CO}_\text{2}\text{e}
+        \) in each direction, or 308 total. That's roughly a 20% premium for
+        flying. So flying isn't <em>better</em> in my case, but it's a whole
+        lot closer than I would have expected. If I were driving a less
+        efficient car, flying might well come out ahead. (Of course, my car is
+        average; if I owned a Fiat or a Chevy Volt, driving would look a good
+        deal better.)</p>
+
+    </li>
+</ul>
+
+<p>We need to be careful though: we've only considered the impact of the fuel. A
+rule of thumb is that the gas you burn is responsible for only about half of
+the total environmental impact of an ICE car, when you consider the materials
+that went into building the car, the fluids and parts that get changed out
+during maintenance, the infrastructure required to drive your car, the
+emissions produced by getting the gas to your fuel tank, and so on. However,
+while I haven't seen any specific numbers for airplanes, it intuitively seems
+unlikely to be vastly different. Compared to planning your own road trip,
+airlines are huge organizations that have a substantial carbon footprint, but
+flying also requires a whole lot less infrastructure than driving does; there
+are only a few thousand airports worldwide that host regularly scheduled
+commercial flights, and in between the plane needs only empty air, while cars
+need millions of miles of roads, parking, gas stations, etc. Similarly,
+airplanes are much more expensive and complex than cars, but there are way
+fewer of them and they carry way more passengers.</p>
+
+<p>That felt like hand-waving, but then I checked my copy of <em>How Bad Are
+Bananas?</em>, in which Mike Berners-Lee does a bunch of lifecycle analyses for
+the carbon impact of everyday things. He found a total figure of about 500 kg
+for a flight of a touch less than this length, which is very close to what I'd
+expect if the non-fuel components are indeed roughly the same as the fuel ones,
+so I actually feel fairly confident now. (I wish he would have given some of
+the components that went into this number here – he does for some calculations,
+but not all of them.)</p>
+
+<p>It's worth pointing out that this whole thing maths out only because I would
+be driving alone. If you have even two people, driving immediately becomes much
+better than flying, even if you drive a less efficient car, because the car
+loses only a tiny amount of fuel economy by having a second seat filled, while
+the amount of the plane's total fuel burn apportioned to you doubles when you
+buy two seats. If you fill a four- or five-person car, driving probably even
+works out better than taking the train. Similarly, if you have to make a
+connection, the overhead of landing and taking off again (plus the additional
+distance created by taking an indirect route) is very likely enough to make
+flying clearly worse.</p>
+
+<p>One more consideration: one of the worst impacts of flying is not that it
+burns more carbon than alternatives, but that its speed enables additional
+travel that wouldn't otherwise have happened at all. If you had to take an
+ocean liner from New York to London, which is a 5–7 day trip one-way, it's
+unlikely you'd book a five-day vacation there. So before you say “flying's not
+so bad!” it's worth considering whether you would have made the trip at all had
+you not been able to fly. Here I would have – I didn't even consider flying
+until I had already decided to go – but this definitely isn't the case in all
+situations.</p>
+
+<div class="callout">
+
+<p>This wasn't part of the question, but I would feel remiss not to mention that
+driving alone is two orders of magnitude more dangerous per mile than taking
+the train or flying. For all the apparent scariness of flying, only <a
+href="#post-177">1 in 17 million</a> passenger-trips on a commercial airline
+ends without safely returning to the ground (and US airlines are even safer;
+an incident on a US passenger flight hasn't killed more than 10
+people <a
+href="https://en.wikipedia.org/wiki/List_of_fatal_accidents_and_incidents_involving_commercial_aircraft_in_the_United_States">since 2009</a>, and US airlines take somewhere around <a
+href="https://www.bts.gov/newsroom/full-year-2022-us-airline-traffic-data">75
+million passenger-trips per <em>month</em></a>, not counting the COVID dropoff).
+It's more dangerous to be at home than sitting in an airliner,
+and driving to and from the airport is the most dangerous part of all but the
+longest trips by air.</p>
+
+<p>In contrast, driving is dangerous enough that it might change the best mode
+choice in some cases. In the analysis of traveling 400 miles that I quoted
+above, Berners-Lee estimates that, when considering what mode is fastest, you
+should add <em>2–3 hours</em> of travel time to the driving option to account
+for the chance that you lose the rest of your life in a fatal accident. (If you
+want to be pedantic and apply this in the other column, too, add 1–2 minutes to
+your flight time.) That doesn't even include the chance that you get injured or
+kill someone else.</p>
+
+</div>
+    <div class="backlinks">
+        
+        
+    </div>
+</div>
+<div class="post" id="post-186">
     <a class="post-number" href="#post-186">#186</a>
     <div class="post-date">2024-06-18 22:25</div>
     <div class="post-tags">
@@ -464,8 +630,8 @@ compartment.</p>
 </blockquote>
     </p>
     <div class="backlinks">
-        
-        
+        <span class="backlink-title">Later mentions:&ensp;</span>
+        <a class="backlink" href="#post-187">187</a>
     </div>
 </div>
 <div class="post" id="post-176">
