@@ -1,3 +1,142 @@
+#187 Misc
+    :date: 2024-06-18 22:25
+    :shortdes: Can flying be more environmentally friendly than driving?
+    :tags: 
+
+.<em>Short answer</em>: If you're traveling alone, your car is moderately inefficient,
+and the flight is direct and fairly efficient, quite possibly. This is a very
+specific set of circumstances, but it's not that uncommon.
+
+.My heuristic has always been that flying is by far the environmentally worst
+option whenever there are multiple. After all, you're going very fast and you
+have to use energy to keep the plane in the air, including all of the enormous
+amount of fuel that you haven't burned yet. Most of the figures I've seen have
+agreed. I don't particularly like flying anyway, so all things considered, I'll
+typically take the train or drive unless I'm going thousands of miles.
+
+.I was faced with this question yesterday: I'm going from Minneapolis to Kansas
+City to attend a wedding and see an old friend for a couple of days. There is
+no train (well, theoretically I could bounce through Chicago, but it would be a
+multi-day itinerary for a weekend trip, in which I would go twice as far as
+necessary), and nobody else is coming with me. The options I would
+realistically choose are flying or driving the 7+ hours alone in my Subaru
+Forester. What makes the most sense?
+
+.I don't love the idea of driving that far in one day without anyone to share
+the load with (I solo road-trip all the time, but I plan my trips so I don't
+exceed 4 hours or so per day), so I wondered how much worse it would be to fly.
+To my surprise, I found that, to my best guess, it was almost within the margin
+of error, both on cost and environmental impact!
+
+.I calculated the drive downtown to downtown – either way, there will be some
+ground transportation on both ends, and the details might differ slightly
+(e.g., if I fly I'll do some of it by public transit that I would otherwise
+drive, but also I'll have to get from the airport to the city), but the
+long-distance drive will presumably dominate the impact.
+
+<ul>
+    <li>
+    <strong>Driving</strong>: 872 miles round trip. I expect my Forester to get
+    about 30 mpg; it can sometimes get better on the freeway, but I'd probably
+    drive a little over 70 mph on such a long, flat route, and I-35 often has nasty
+    headwinds that reduce fuel economy. I'll burn about 29 gallons. Burning
+    gasoline emits roughly 9 kg CO2e per gallon, so that's a total emissions of 258
+    kg.
+
+    </li>
+    <li>
+        <strong>Flying</strong>: Google Flights has this nifty emissions calculator that lets you
+        compare estimated emissions of different flights. It takes things like the
+        model of plane and the expected load factor into account.
+
+        .<img width="800px" loading="lazy" src="assets/images/carbon-gflights.png" alt="81 kg CO2e">
+
+        .Unfortunately, the otherwise pretty decent model (very controversially)
+        eliminated all non-carbon greenhouse effects a couple of years ago, which means
+        it wildly underestimates the impact of most flights. Airplanes flying at high
+        altitude create contrails and other forms of clouding which trap heat
+        temporarily but significantly – enough that this effect can in some cases be
+        responsible for more warming than the actual carbon emissions.
+
+        .Fortunately, we can get a rough guess as to what the actual impact
+        would be by multiplying the figure Google Flights gives us by some
+        estimate of how large this effect is compared to carbon emissions. The
+        IPCC uses 1.9; this is towards the low end, and some people believe it
+        should be higher in many cases, but a relatively short 400-mile flight
+        like this also spends a lower proportion of its time at high altitudes
+        and thus has a lower impact, so this seems like a reasonable guess.
+
+        .If I pick one of the most carbon-friendly flights in both directions,
+        that comes to \( 81 \times 1.9 = 153.9\; \text{kg CO}_\text{2}\text{e}
+        \) in each direction, or 308 total. That's roughly a 20% premium for
+        flying – not <em>better</em> in my case, but much closer than I would
+        have expected. If I were driving a less efficient car, flying might
+        come out ahead. (Of course, my car is average; if I were driving a Fiat
+        or a Chevy Volt, driving would look a good deal better.)
+
+    </li>
+</ul>
+
+.Of course, so far we've only considered the impact of the fuel. A rule of
+thumb is that the gas you burn is responsible for about half of the total
+environmental impact of an ICE car, when you consider the materials that went
+into building the car, the fluids and parts that get changed out during
+maintenance, the infrastructure required to drive your car, and so on. I have
+not seen any numbers for airplanes, but I am guessing it's a fairly similar
+number. Compared to planning your own road trip, airlines are huge
+organizations that have a substantial carbon footprint, but flying also
+requires a whole lot less infrastructure than driving does; there are only a
+few thousand airports worldwide that host regularly scheduled commercial
+flights, and in between the plane needs only empty air, while cars need
+millions of miles of roads, parking, gas stations, etc. Similarly, airplanes
+are much more expensive and complex than cars, but there are vastly fewer of
+them.
+
+.In his book <em>How Bad Are Bananas?</em>, Mike Berners-Lee does a bunch of
+lifecycle analyses for the carbon impact of everyday things, and finds a total
+figure of about 500 kg for a flight of slightly less than this length, which
+would jibe with the non-fuel components being about the same as the fuel ones.
+(I wish he would have given some of his calculations – he does for some of the
+figures, but not all of them.)
+
+.It's worth pointing out that this maths out only because I would be driving
+<em>alone</em>. If you put even one more person in the car, driving immediately
+becomes vastly better than flying, even if you drive a less efficient car,
+because the car loses only a tiny amount of fuel economy, but the two of you
+now make up 2/x of the plane's enormous total fuel burn instead of 1/x. If you
+fill a four- or five-person car, driving is probably better than taking the
+train. Similarly, if you have to make a connection, the overhead of landing and
+taking off again (plus the additional distance created by taking an indirect
+route) is very likely enough to make flying clearly worse.
+
+.One more thing: one of the worst impacts of flying is not that burns a lot of
+carbon itself, but that it induces additional travel. If you had to take an
+ocean liner from New York to London, which is a 5–7 day trip, you wouldn't be
+taking a five-day vacation there. So before you say “flying's not so bad!” it's
+worth considering whether you would have made the trip at all had you not been
+able to fly. I can often say I would (since I don't particularly like flying
+and don't do it often, I often consider it as an afterthought after already
+making plans!), but this definitely isn't the case in all situations.
+
+<div class="callout">
+
+.This wasn't part of the question, but don't forget that driving alone is wildly
+unsafe compared to taking the train or flying -- about 100 times more dangerous
+per mile. Only 1 in 17 million passenger-trips on a commercial airline end
+without safely reaching your scheduled destination – it's literally more
+dangerous to be at home than sitting in an airliner.
+
+.In the analysis of traveling 400 miles that I quoted above, Berners-Lee
+calculates that you should account for this by adding <em>2–3 hours</em> of
+travel time to the driving option to account for the chance that you lose the
+rest of your life in a fatal accident. (If you want to be pedantic and apply
+this in the other column, too, add 2 minutes to your flight time.) That doesn't
+even include the chance that you get injured or kill someone else. So this is
+probably worth thinking about, too.
+
+</div>
+
+
 #186 Misc
     :date: 2024-06-18 22:25
     :shortdes: Million-Word Mosaic
