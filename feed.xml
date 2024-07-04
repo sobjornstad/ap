@@ -15,6 +15,33 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[188] Announcement</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Article</category>
+    <pubDate>Wed, 03 Jul 2024 19:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/post-#188</link>
+    <guid>https://ap.sorenbjornstad.com/#188</guid>
+    <description>You can now follow my microblog by email! I&#x27;ll send a digest of everything
+published in the last week every Tuesday. You can sign up here, or anytime
+using the subscribe box in the information box at the top of the page. This is
+mostly untested, so &lt;a href=&quot;mailto:contact@sorenbjornstad.com&quot;&gt;let me know&lt;/a&gt;
+if you run into any issues.
+
+&lt;/p&gt;&lt;p&gt;
+&lt;form
+action=&quot;https://buttondown.email/api/emails/embed-subscribe/sobjornstad&quot;
+method=&quot;post&quot;
+target=&quot;popupwindow&quot;
+onsubmit=&quot;window.open(&#x27;https://buttondown.email/sobjornstad&#x27;, &#x27;popupwindow&#x27;)&quot;
+class=&quot;embeddable-buttondown-form&quot;
+&gt;
+&lt;label for=&quot;bd-email&quot;&gt;Your email address: &lt;/label&gt;
+&lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;bd-email&quot; /&gt;
+&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; /&gt;
+&lt;/form&gt;
+&lt;/p&gt;</description>
+  </item>
+  <item>
     <title>[187] Can flying be more environmentally friendly than driving?</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -495,7 +522,7 @@ compartment.&lt;/p&gt;
     <description>
       &lt;p&gt;
           &lt;a href="https://asteriskmag.com/issues/05/why-you-ve-never-been-in-a-plane-crash?ref=thebrowser.com"&gt;
-              🔗 Why You've Never Been in a Plane Crash
+              🔗 Why You&#x27;ve Never Been in a Plane Crash
           &lt;/a&gt; (Kyra Dempsey)
       &lt;/p&gt;
       &lt;p&gt;&lt;blockquote&gt;
@@ -869,7 +896,7 @@ moment anyway. And you don&#x27;t even get to skip thinking about how much to po
     <description>
       &lt;p&gt;
           &lt;a href="https://www.google.com/maps/d/u/1/edit?mid=1pPuaJUPZs-Sm0RhaULEcZxvyteLJ3Lc&amp;ll=5.196288840845668%2C0&amp;z=2"&gt;
-              🔗 Places I've been
+              🔗 Places I&#x27;ve been
           &lt;/a&gt; ()
       &lt;/p&gt;
       &lt;p&gt;I spent &lt;s&gt;a few&lt;/s&gt; hours putting together a map of everywhere I&#x27;ve ever been.
@@ -2826,7 +2853,7 @@ spent two years trying everything else.
     <description>
       &lt;p&gt;
           &lt;a href="https://controlaltbackspace.org/nachos"&gt;
-              🔗 Don't Measure the Quality of Your Life Using the Temperature of Your Nachos
+              🔗 Don&#x27;t Measure the Quality of Your Life Using the Temperature of Your Nachos
           &lt;/a&gt; ()
       &lt;/p&gt;
       &lt;p&gt;It&#x27;s easy to evaluate experiences or our entire lives primarily based on tiny
@@ -4041,7 +4068,7 @@ special attention to easy items&lt;/a&gt; to ensure they are handled appropriate
     <description>
       &lt;p&gt;
           &lt;a href="https://controlaltbackspace.org/commodity/"&gt;
-              🔗 It's the commodification of attention, stupid
+              🔗 It&#x27;s the commodification of attention, stupid
           &lt;/a&gt; ()
       &lt;/p&gt;
       &lt;p&gt;&lt;em&gt;Commodification of attention&lt;/em&gt; is a system of organizational,
@@ -4893,7 +4920,7 @@ keep finding other moments I&#x27;d like to use it!
     <description>
       &lt;p&gt;
           &lt;a href="https://www.youtube.com/watch?v=HeQX2HjkcNo"&gt;
-              🔗 Math's Fundamental Flaw
+              🔗 Math&#x27;s Fundamental Flaw
           &lt;/a&gt; (Veritasium)
       &lt;/p&gt;
       &lt;p&gt;This 30-minute video provides a fantastic and accessible overview of the
