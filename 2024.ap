@@ -1,3 +1,26 @@
+#188 Announcement
+    :date: 2024-07-03 19:30
+
+You can now follow my microblog by email! I'll send a digest of everything
+published in the last week every Tuesday. You can sign up here, or anytime
+using the subscribe box in the information box at the top of the page. This is
+mostly untested, so <a href="mailto:contact@sorenbjornstad.com">let me know</a>
+if you run into any issues.
+
+</p><p>
+<form
+action="https://buttondown.email/api/emails/embed-subscribe/sobjornstad"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/sobjornstad', 'popupwindow')"
+class="embeddable-buttondown-form"
+>
+<label for="bd-email">Your email address: </label>
+<input type="email" name="email" id="bd-email" />
+<input type="submit" value="Subscribe" />
+</form>
+</p>
+
 #187 Misc
     :date: 2024-06-19 11:30
     :shortdes: Can flying be more environmentally friendly than driving?
