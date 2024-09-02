@@ -1,3 +1,105 @@
+#196 Misc
+    :date: 2024-09-02 09:00
+    :shortdes: wtfis this command?
+    :tags: Tech
+
+.For the Unixers out there: I often find myself encountering some program on my
+system (in my package manager or just as a file lying around) and have no idea
+what it is. I then spend the next 30 seconds typing a bunch of different
+commands trying to figure out what it is in various ways. In the event I can't
+figure it out without looking in my package manager's metadata, I tend to even
+have to go look up the appropriate command to find the details, or google it!
+
+.I was removing a bunch of software that I don't use anymore that's accumulated
+on my main desktop machine over the last couple of years, and found myself
+doing this so frequently I got really sick of it. I thus wrote the following
+shell function called <code>wtfis</code> that runs all of the things I
+typically try in sequence, here presented in the expectation it'll be useful to
+someone else some day:
+
+<pre><code>wtfis() {
+    pkgnamed_binary=$(which "$1" 2>/dev/null)
+    if [ $? -ne 0 ]; then
+        pkgnamed_binary=""
+        echo "wtfis: No '$1' binary on \$PATH"
+        echo "wtfis: Instead finding all installed binaries"
+        for exfile in $(yay -Qql "$1"); do
+            if [ ! -d "$exfile" ] && [ -x "$exfile" ]; then
+                echo "$exfile"
+            fi
+        done
+    else
+        echo "Binary named for package found in \$PATH: $pkgnamed_binary"
+    fi
+
+    echo -e "\n\$ yay -Q --info $1"
+    yay -Q --info "$1"
+
+    echo "\$ man $1 | head"
+    man "$1" | head
+
+    if [ -n "$pkgnamed_binary" ]; then
+        echo -e "\n\$ $1 --help | head"
+        "$1" --help | head
+    fi
+}
+</code></pre>
+
+Example (note the $'s are printed by the function to echo the commands it's
+running, they're not additional user commands):
+
+<pre><code>Janika.soren #59066 @0840 [~](!)$ wtfis slop
+Binary named for package found in $PATH: /usr/bin/slop
+
+$ yay -Q --info slop
+Name            : slop
+Version         : 7.6-5
+Description     : Utility to query the user for a selection and print the region to stdout
+Architecture    : x86_64
+URL             : https://github.com/naelstrof/slop
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : libxext  libx11  mesa  glew  libxrender
+Optional Deps   : None
+Required By     : None
+Optional For    : screenkey
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 341.40 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Fri 10 May 2024 03:02:22 PM CDT
+Install Date    : Fri 31 May 2024 08:18:47 AM CDT
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+$ man slop | head
+SLOP(1)     slop man page     SLOP(1)
+
+NAME
+       slop - select operation
+
+SYNOPSIS
+       slop [-klqn] [OPTIONS]
+
+DESCRIPTION
+       slop  is an application that queries for a selection from the user and prints the region to std‐
+
+$ slop --help | head
+slop v7.6
+
+Copyright (C) 2017 Dalton Nell, Slop Contributors
+(https://github.com/naelstrof/slop/graphs/contributors)
+Usage: slop [options]
+
+slop (Select Operation) is an application that queries for a selection from the
+user and prints the region to stdout.
+
+-h, --help                    Print help and exit
+</code></pre>
+
+
 #195 Misc
     :date: 2024-09-01 22:20
     :shortdes: The half-cent-per-square-foot office
