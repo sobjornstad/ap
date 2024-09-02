@@ -15,6 +15,111 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[196] wtfis this command?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 02 Sep 2024 09:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-196</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#196</guid>
+    <description>
+      &lt;p&gt;For the Unixers out there: I often find myself encountering some program on my
+system (in my package manager or just as a file lying around) and have no idea
+what it is. I then spend the next 30 seconds typing a bunch of different
+commands trying to figure out what it is in various ways. In the event I can&#x27;t
+figure it out without looking in my package manager&#x27;s metadata, I tend to even
+have to go look up the appropriate command to find the details, or google it!&lt;/p&gt;
+
+&lt;p&gt;I was removing a bunch of software that I don&#x27;t use anymore that&#x27;s accumulated
+on my main desktop machine over the last couple of years, and found myself
+doing this so frequently I got really sick of it. I thus wrote the following
+shell function called &lt;code&gt;wtfis&lt;/code&gt; that runs all of the things I
+typically try in sequence, here presented in the expectation it&#x27;ll be useful to
+someone else some day:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wtfis() {
+    pkgnamed_binary=$(which &quot;$1&quot; 2&gt;/dev/null)
+    if [ $? -ne 0 ]; then
+        pkgnamed_binary=&quot;&quot;
+        echo &quot;wtfis: No &#x27;$1&#x27; binary on \$PATH&quot;
+        echo &quot;wtfis: Instead finding all installed binaries&quot;
+        for exfile in $(yay -Qql &quot;$1&quot;); do
+            if [ ! -d &quot;$exfile&quot; ] &amp;&amp; [ -x &quot;$exfile&quot; ]; then
+                echo &quot;$exfile&quot;
+            fi
+        done
+    else
+        echo &quot;Binary named for package found in \$PATH: $pkgnamed_binary&quot;
+    fi
+
+    echo -e &quot;\n\$ yay -Q --info $1&quot;
+    yay -Q --info &quot;$1&quot;
+
+    echo &quot;\$ man $1 | head&quot;
+    man &quot;$1&quot; | head
+
+    if [ -n &quot;$pkgnamed_binary&quot; ]; then
+        echo -e &quot;\n\$ $1 --help | head&quot;
+        &quot;$1&quot; --help | head
+    fi
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+Example (note the $&#x27;s are printed by the function to echo the commands it&#x27;s
+running, they&#x27;re not additional user commands):
+
+&lt;pre&gt;&lt;code&gt;Janika.soren #59066 @0840 [~](!)$ wtfis slop
+Binary named for package found in $PATH: /usr/bin/slop
+
+$ yay -Q --info slop
+Name            : slop
+Version         : 7.6-5
+Description     : Utility to query the user for a selection and print the region to stdout
+Architecture    : x86_64
+URL             : https://github.com/naelstrof/slop
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : libxext  libx11  mesa  glew  libxrender
+Optional Deps   : None
+Required By     : None
+Optional For    : screenkey
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 341.40 KiB
+Packager        : Antonio Rojas &lt;arojas@archlinux.org&gt;
+Build Date      : Fri 10 May 2024 03:02:22 PM CDT
+Install Date    : Fri 31 May 2024 08:18:47 AM CDT
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+$ man slop | head
+SLOP(1)     slop man page     SLOP(1)
+
+NAME
+       slop - select operation
+
+SYNOPSIS
+       slop [-klqn] [OPTIONS]
+
+DESCRIPTION
+       slop  is an application that queries for a selection from the user and prints the region to std‐
+
+$ slop --help | head
+slop v7.6
+
+Copyright (C) 2017 Dalton Nell, Slop Contributors
+(https://github.com/naelstrof/slop/graphs/contributors)
+Usage: slop [options]
+
+slop (Select Operation) is an application that queries for a selection from the
+user and prints the region to stdout.
+
+-h, --help                    Print help and exit
+&lt;/code&gt;&lt;/pre&gt;
+    </description>
+  </item>
+  <item>
     <title>[195] The half-cent-per-square-foot office</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
