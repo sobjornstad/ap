@@ -1,3 +1,38 @@
+#208 Misc
+    :date: 2024-11-23 09:10
+    :shortdes: You can live resize partitions?!
+    :tags: Tech
+
+.I keep running out of space on my /home partition on my Linux desktop and
+having to carefully move files onto my file server, clear caches, and so on (of
+course, the used space usually reaches 100% at the most inconvenient possible
+time). I realized at some point that I'd left about 180 GB of unallocated space
+at the end of the disk, so I figured I'd extend the /home partition into part
+of that space.
+
+.Having grown up in an era when it was impossible to even change the size of a
+partition with OS tools, and you'd have to delete it and recreate it (backing
+up and restoring your data in the process), I'd been putting this off for
+months, thinking I'd have to remind myself how to boot into the rescue
+environment to resize the partition, and that sounded pretty annoying.
+
+.But I was absolutely astounded to discover today that nowadays (at least on
+disks with a GPT partition table on a recent Linux) you can <em>resize a
+partition that's currently mounted and in use</em>, while the OS is running,
+without even interrupting disk access requests. I was able to just open
+<code>gparted</code>, turn off swap since a swap partition was in the way,
+delete the swap partition, extend the /home partition, and recreate the swap
+partition (this time at the far end of the disk so I wouldn't even have to do
+that again). It took about 90 seconds.
+
+.Nobody's ever going to win much recognition for improving partition table
+management, but this goes well with Adam Mastroianni's recent essay “<a
+href="https://www.experimental-history.com/p/underrated-ways-to-change-the-world">Underrated
+ways to change the world</a>” – this silly little innovation will save people
+hundreds of thousands of hours of annoying tasks over the course of the coming
+decades.
+
+
 #207 Misc
     :date: 2024-10-21 20:15
     :shortdes: Better go unwalk a mile to meet my fitness goals
