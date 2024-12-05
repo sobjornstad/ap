@@ -15,6 +15,99 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[211] What percentage of people have ever been on an airplane?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 04 Dec 2024 23:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-211</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#211</guid>
+    <description>
+      &lt;p&gt;This is apparently a very hard question to answer. (I guess this makes sense –
+the proportion will be totally different for every country because of both
+geography and wealth, and surveying the whole world accurately is rather
+difficult. Also, there&#x27;s not a whole lot of reason to know except curiosity.)&lt;/p&gt;
+
+&lt;p&gt;The closest thing to a consensus I could find was about 20% of the world
+population, but on further investigation, this appears to trace back to a
+random out-of-context quotation by the CEO of Boeing in 2017, and he actually
+said “less than 20%” (he was discussing how Boeing still has a large potential
+market). Claude quoted both “5–11%” and “20%” in the same response in pure LLM
+mode, and 20% when it searched the web.&lt;/p&gt;
+
+&lt;p&gt;The person who got me thinking about this claimed it was under 10%, and while
+I didn&#x27;t think this sounded all that far off, I was suspicious it might be out
+of date, because of this hockey stick:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; width=&quot;800px&quot; loading=&quot;lazy&quot; src=&quot;assets/images/global-flights.png&quot;&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+&lt;strong&gt;Off topic:&lt;/strong&gt; Can we all take a moment to appreciate how reliably the
+graph of global passenger-flights momentarily plateaus every time there&#x27;s a
+recession in the USA? (Plus of course the literally world-stopping drop in
+2020.)
+&lt;/div&gt;
+
+&lt;p&gt;Gut check: if it&#x27;s ~20%, that&#x27;s an average of 2.8 flights per person who has
+ever flown per year. But that&#x27;s more like one round trip per year because this
+is passenger-segments – if you take a round trip with one connection both ways,
+that&#x27;s 4 “flights”. Most routes need connections, but probably a
+disproportionate volume of frequent flights are between hubs and can go direct,
+so 1.4 flights in each direction on average seems maybe reasonable? Claude
+thinks that&#x27;s optimistic and says 60–70% of routes will need at least one
+connection though, and that&#x27;s not saying anything about international flights
+or flights between remote places that need two or more connections. (I&#x27;ve never
+needed more than two, but apparently you can &lt;a
+href=&quot;https://www.reddit.com/r/Flights/comments/193azxd/what_two_airports_require_the_most_transfers_to/?rdt=53874&quot;&gt;find
+routes that require up to seven changes&lt;/a&gt; if you work at it hard enough!) So
+I&#x27;ll guesstimate a number of 3.2 flights needed per round-trip on average. &lt;1
+flight per person per year seems like it might be too low, in which case a
+smaller number of people must ever fly? But maybe averages are deceiving, let&#x27;s
+try some more detailed numbers – “ever flown” can mean you fly many times a
+year, or you fly once in a decade or once in a lifetime, and there are probably
+a lot of people in the lower groups.&lt;/p&gt;
+
+&lt;p&gt;Another interesting constraint is that studies have found
+&lt;a href=&quot;https://partner.sciencenorway.no/climate-change-global-warming-transport/1-of-people-cause-half-of-global-aviation-emissions-most-people-in-fact-never-fly/1773607&quot;&gt;1% of the world&#x27;s population causes about 50% of global aviation emissions&lt;/a&gt;
+(the &lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_principle&quot;&gt;Pareto principle&lt;/a&gt; strikes again).&lt;/p&gt;
+
+&lt;p&gt;Here&#x27;s an attempt to make the numbers work in a spreadsheet:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; width=&quot;800px&quot; loading=&quot;lazy&quot; src=&quot;assets/images/flights-frequency-spreadsheet.png&quot;&gt;
+
+&lt;p&gt;Here I suppose that 50% of the people who have ever flown are “very occasional
+fliers,” taking a trip by air only a handful of times in their lifetime (about
+once a decade). Another 30% fly once every two years on a vacation. Another 15%
+live far away from their family or occasionally fly on business, three times
+per year on average. And the last 5% (this is actually the 1% quoted above,
+divided by the fraction of people we&#x27;re claiming have ever flown, so it&#x27;s
+elastic and if you change that fraction it will change this and move the
+“regular fliers” notch to make 100%) take 10 trips a year on average. (Of
+course, some take a lot more, but quite a few people up in this range will take
+just a few.)&lt;/p&gt;
+
+&lt;p&gt;That only gets us to 43% of global flights taken by 1% of the population, but
+some chunk of these people will often fly first-class or even private, which is
+far more carbon-intensive, so I&#x27;d bet this ends up being somewhere in the
+neighborhood of 50% of &lt;em&gt;emissions&lt;/em&gt;. And presumably 50% isn&#x27;t the exact
+number!&lt;/p&gt;
+
+&lt;p&gt;That gets us to around 4.8 billion; 2024 flights are projected to be about 4.9
+billion. Interestingly, if we try decreasing the fraction of people in the
+world who have ever flown, the number of total flights per year actually has to
+go &lt;em&gt;up&lt;/em&gt;, because this implies that the fraction of frequent fliers who
+are in the top 1% of the whole world&#x27;s population must increase, which makes me
+think 20% is significantly more plausible than 10%; if anything, my estimate of
+the number of flights taken by frequent fliers every year seems low, and
+raising it would further exacerbate this effect.&lt;/p&gt;
+
+&lt;p&gt;So all this seems maybe about plausible for 20%?
+But I made a lot of assumptions, and mostly don&#x27;t expect them to be super accurate.
+Here&#x27;s the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1M1gMtbfJvxBeVg8PQ_4OQVgLc0JLDWyflJRiqrnKFtk/edit?usp=sharing&quot;&gt;spreadsheet&lt;/a&gt;
+if you want to try your own.
+Let me know if you learn something interesting!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[210] You don't have to be cynical about America</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
