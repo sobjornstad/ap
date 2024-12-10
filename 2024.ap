@@ -1,3 +1,33 @@
+#212 Misc
+    :date: 2024-12-09 18:25
+    :shortdes: XY Problem
+    :tags: Humor | Story | Tech
+
+.The <a href="https://xyproblem.info">XY problem</a> is when you aren't sure
+how to solve a problem, work on it yourself for a while, get stuck, and ask for
+help, but instead of asking for help with your original problem, you ask for
+help with one of your attempted <em>solutions</em>. This often turns out to be
+a confusing waste of time, because the fact that you haven't managed to solve
+the problem yet suggests there is something about it that you still don't fully
+understand, and your attempted solution might be a complete dead end.
+
+.One of my favorite examples occurred when I was working at the helpdesk at my
+college. Someone came up to the desk and asked if I could teach him how to scan
+a document from the campus copiers. Sure, no problem. We went to the nearest
+copier and I walked him through putting the document in the feeder, logging in
+to the copier, selecting the scan options, and choosing it to email it to
+himself. He seemed to understand everything, and five minutes or so later he
+had successfully sent the document to his campus email. Then:
+
+<p>
+<div><em>Him</em>: “Now, how can I print it?”</div>
+<div><em>Me</em>: “You mean you want to…copy the document? From the copier?”</div>
+</p>
+
+.Needless to say, copying a document from the copier is a one-button-press
+affair!
+
+
 #211 Misc
     :date: 2024-12-04 23:30
     :shortdes: What percentage of people have ever been on an airplane?
@@ -39,7 +69,7 @@ connection though, and that's not saying anything about international flights
 or flights between remote places that need two or more connections. (I've never
 needed more than two, but apparently you can <a
 href="https://www.reddit.com/r/Flights/comments/193azxd/what_two_airports_require_the_most_transfers_to/?rdt=53874">find
-routes that require up to seven changes</a> if you work at it hard enough!) So
+airport pairs that require up to seven changes</a> if you work at it hard enough!) So
 I'll guesstimate a number of 3.2 flights needed per round-trip on average. <1
 flight per person per year seems like it might be too low, in which case a
 smaller number of people must ever fly? But maybe averages are deceiving, let's
@@ -1192,7 +1222,7 @@ walk to the parking lot, and drive home is a bit of a downer when you have work
 the next day, in particular.
 
 .Both directions will leave at midday, with the St. Paul departure at about
-11:30 and the Chicago one an hour later.
+11:30 and the Chicago one about 11:00 (<em>edit</em>: corrected Chicago time).
 
 .As a bonus, the eastbound Borealis ought to be on time much more often. The
 current service is provided by the Empire Builder long-distance route, which
