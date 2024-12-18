@@ -1,3 +1,19 @@
+#214 Published
+    :date: 2024-12-17 23:55
+    :title: In What Sense is AI Poetry Indistinguishable from Human Poetry? (Not the One You Think)
+    :source: https://controlaltbackspace.org/ai-poetry/
+    :tags: AI | Tech
+
+Recent study headline claims that <a href="https://www.nature.com/articles/s41598-024-76900-1">AI-generated poetry is indistinguishable from human-written poetry and is rated more favorably</a>. But I tried distinguishing the poems in their study and got 84 out of 87 correct.
+</p><p>
+
+I think what the study really shows is that people quickly taking a survey who probably don’t have much familiarity with AI poetry, are somewhat confused as to the nature of the task, start with misleading (but easily correctable) heuristics, and have never tried a similar task before, often are fooled into mixing up human and AI poetry, at least on their first trial. This is an interesting result, to be sure, but it has very different implications from the headline. It certainly does not mean that AI poetry is at the level of famous human poetry and can be substituted for it (even the original article doesn’t make this claim, but the title makes it sound like it does).
+</p><p>
+
+More discussion and details of my experiment at the link.
+</p><p>
+
+
 #213 Misc
     :date: 2024-12-09 19:00
     :shortdes: Design Hall of Shame: Upside-down lightbulbs
