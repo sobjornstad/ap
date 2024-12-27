@@ -65,7 +65,7 @@
   <img class="center" loading="lazy" src="assets/images/2123-1_small.png">
 </a>
 
-.(“29th/Lake Street*” should really just say “Lake Street”; I labeled it this way due to a confusion on my part which I later resolved, and I was too lazy to redo all of the maps. The asterisk will be explained at the end of this post – Lake Street is not aligned quite at this line nowadays.)
+.(“29th/Lake Street*” should really just say “Lake Street”; I labeled it this way due to a confusion on my part which I later resolved, and I was too lazy to redo all of the maps.)
 
 <div class="callout">
 <p>
@@ -80,7 +80,7 @@ We're only talking about South Minneapolis here, but for the curious, blocks of 
 .OK, now what happened to 21st and 23rd Street? Take a look at the streets in the yellow boxes on the map:
 
 <a href="assets/images/2123-2.png">
-  <img class="center" loading="lazy" src="assets/images/2123-2_small.png">
+<img class="center" loading="lazy" src="assets/images/2123-2_small.png">
 </a>
 
 .Not only were the 21st and 23rd Street in Ventura Village there already in 1874, as I speculated was possible in the previous post – but there were also 21st and 23rd Streets in Northwest Whittier at the time!
@@ -89,8 +89,6 @@ We're only talking about South Minneapolis here, but for the curious, blocks of 
 
 .So I think the missing 21st and 23rd Streets may have nothing at all to do with trying to stretch 8&nbsp;blocks over 10&nbsp;numbers, as some people claim, including the MinnPost article from last time. The streets just were there at the time, and were later removed and turned into lots, and everyone forgot they were ever there.
 
-.(The other explanation has never made any sense to me in the first place; even if Lake Street was already named and numbered as 30th in 1873, which I haven't seen any evidence of, why would you pick 21 and 23 to remove, before the city even reached all the way out to Lake Street? Leaving out numbers in an area that is already developed, rather than in an area that has yet to be developed and could change at any time, is just silly.)
-
 <div class="callout">
 I had expected that two streets that had gone missing from a couple of city blocks would leave traces somewhere, but I spent a good 10 minutes looking for traces on the modern map and found nothing. There are a couple of driveways in a similar spot to where they would have gone through, but that could be pure coincidence. I think the street right-of-ways are 40 feet and the typical lot is, if not exactly 40 feet, a very similar width in this area, so I can imagine it totally blending in. If I remember though, I’m going to go pace off 115 feet from 22nd Street in both directions when I get home and see if I can spot anything in person!
 </div>
@@ -98,7 +96,7 @@ I had expected that two streets that had gone missing from a couple of city bloc
 .What about further south? The MinnPost article claimed that Lake Street maybe had something to do with it, so we should check that. There’s something goofy going on at 26th Street:
 
 <a href="assets/images/2123-3.png">
-  <img class="center" loading="lazy" src="assets/images/2123-3_small.png">
+<img class="center" loading="lazy" src="assets/images/2123-3_small.png">
 </a>
 
 .To the west of Nicollet Avenue (thick shading in the center of the yellow box), the group of blocks to the south of 24th Street is split into three north-south blocks, while on the right it’s split into two...leading the street at the bottom to be labeled both “27th St” and “26th St”. Who let that happen just the year after renaming all the city streets to be more consistent!? Maybe the folks writing the street-naming bill were distracted when they got to this part.
@@ -106,10 +104,10 @@ I had expected that two streets that had gone missing from a couple of city bloc
 .As for Lake Street itself, things are...confused. Lake Street is not named or numbered on this map, though it does look like there is a plan to put a major street there. But, overall, the way things are shown south of 26th in west Whittier on this map is not aligned with any ground truth today. You can see that there are no actual plats or street names in that section yet, just planned locations, so there would have been little obstacle to changing the streets and this isn’t too surprising:
 
 <a href="assets/images/2123-4.png">
-  <img class="center" loading="lazy" src="assets/images/2123-4_small.png">
+<img class="center" loading="lazy" src="assets/images/2123-4_small.png">
 </a>
 
-.The cartographer appears to have copied the weird three-to-two ratio of street alignment that led to calling the same street both 26th Street and 27th Street for this southern section, but when it was actually built out the city (thankfully) used the standard pattern already seen further to the east, across modern I-35W.
+.The cartographer appears to have copied the weird three-to-two ratio of street alignment that led to calling the same street both 26th Street and 27th Street for this southern section, but when it was actually built out the city (thankfully) used the standard pattern already seen further to the east, across modern I-35W. (The three-to-two ratio, in fact, is completely gone nowadays; at some point the existing plats and streets that broke the numbering were moved.)
 
 .The scale in this illustration was made by drawing a line from 25th to 26th, then copying and pasting it a few times and aligning them until the ends overlapped, to show the result of continuing the 660-foot (&frac18;-mile) blocks that we actually have today south.
 
@@ -118,12 +116,14 @@ I had expected that two streets that had gone missing from a couple of city bloc
 .However, this doesn't illuminate anything about Lake Street; the 29th to 30th block was simply shrunk to match, so that the stretch from 28th to 30th still takes up 2/8 of a mile in total. And it’s 2,640 feet from the center of 26th Street to the far edge of Lake Street, exactly half a mile, as expected. (It is interesting that the block aligns with the <em>far</em> edge of Lake Street, 20&nbsp;feet beyond its center; perhaps Lake Street was widened in the downtown direction at some point.)
 
 <a href="assets/images/2123-5.png">
-  <img class="center" loading="lazy" width="350" src="assets/images/2123-5_small.png">
+<img class="center" loading="lazy" width="350" src="assets/images/2123-5_small.png">
 </a>
 
 .This still leaves Lake Street noticeably further south in reality nowadays than it appears on this plat map, <s>unless I have miscalculated something</s> I think because there is a crease in this scan of the map next to 29th St that messes up the scale.
 
-.Overall, it doesn't seem like Lake Street contributes anything to understanding the issue, so I'm going to reject the MinnPost article's claim that 21st and 23rd Streets were “sacrificed” to reduce the number of blocks between the synthetic 20th (aka Franklin) and 30th (aka Lake Street). The real answer is much simpler: <strong>21st and 23rd Streets needed to be part of the order because they existed in that spot at the time</strong>. From a modern Minneapolitan's perspective, 21st and 23rd (as present in 1874) appear to weirdly “cut through the middle of the block pattern,” and since removing them left two perfect 1/8-mile blocks matching their surroundings, it now looks like someone arbitrarily skipped those numbers. But at the time, the grid in this area of town wasn't yet standardized at 1/8-mile blocks, several different lengths and conventions were in use simultaneously in different places – so it wouldn't have looked weird at all for those extra streets to be there, and it made perfect sense to include them in the ordering.
+.Overall, it doesn't seem like Lake Street contributes anything to understanding the issue, so I'm going to reject the common claim that 21st and 23rd Streets were “sacrificed” to reduce the number of blocks between the synthetic 20th (aka Franklin) and 30th (aka Lake Street). I have to say, this explanation has never made any sense to me in the first place. Even if Lake Street was already named and numbered as 30th in 1873, which I haven't seen any evidence of, why would you pick 21 and 23 to remove, before the city even reached all the way out to Lake Street? Leaving out numbers in an area that is already developed, rather than in an area that has yet to be developed and might end up looking entirely different by the time it exists, is just silly. And while it's obviously nice to have your major streets, Franklin and Lake, be exactly a mile apart, everyone living in South Minneapolis would surely know, even better than they do today since they didn't have GPS, that blocks are an eighth-mile in the north-south direction, so why would you intentionally confuse the numbering so that two streets that are transparently a mile apart are 10 street numbers apart? It would make far more sense to simply call Lake Street 28th.
+
+.The real answer is much simpler: <strong>21st and 23rd Streets needed to be part of the order because they existed in that spot at the time</strong>. From a modern Minneapolitan's perspective, 21st and 23rd (as present in 1874) appear to weirdly “cut through the middle of the block pattern,” and since removing them left two perfect 1/8-mile blocks matching their surroundings, it now looks like someone arbitrarily skipped those numbers. But at the time, the grid in this area of town wasn't yet standardized at 1/8-mile blocks, several different lengths and conventions were in use simultaneously in different places – so it wouldn't have looked weird at all for those extra streets to be there, and it made perfect sense to include them in the ordering.
 
 
 #214 Published
