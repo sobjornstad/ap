@@ -15,6 +15,111 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[221] How-to: Punching holes for edge-notched cards</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 13 Feb 2025 08:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-221</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#221</guid>
+    <description>
+      &lt;p&gt;A couple of years ago I made a
+&lt;a href=&quot;https://www.youtube.com/watch?v=v8qHPXPnQps&quot;&gt;video&lt;/a&gt;
+on &lt;a href=&quot;https://en.wikipedia.org/wiki/Edge-notched_card&quot;&gt;edge-notched cards&lt;/a&gt;,
+a pre-computer form of database used by punching small holes along the rim of index cards
+and notching some of them out to store binary data.
+You can then put needles through the holes
+to filter out the cards that have a particular bit in that spot.&lt;/p&gt;
+
+&lt;p&gt;The video demos how they work, but doesn&#x27;t give much if any information on creating your own.
+I was meaning to, and still eventually do intend to, put out another video on that –
+but in the meantime I&#x27;ve had a couple of people email me
+asking my advice for punching cards to use with such a system,
+since nobody manufactures the pre-punched cards anymore,
+so I figured I might as well post the two-minute version for others here
+since I&#x27;ve already written it.&lt;/p&gt;
+
+&lt;p&gt;I use standard US 3×5 or 4×6 cards, but the size doesn&#x27;t matter.
+I use an ⅛-inch hand punch to initially make the holes, one by one,
+and a vintage Royal McBee notching punch that I bought on eBay to notch out the holes.
+If you can&#x27;t find a notching punch,
+a small pair of scissors works all right for notching,
+it&#x27;s just a bit annoying and any rough edges you leave risk getting the needle hung up;
+to reduce hangups, the notch should be gently flared,
+forming a “V” shape with the point towards the inside of the card.&lt;/p&gt;
+
+&lt;p&gt;This method is rather labor-intensive, but it works fine,
+and once you get into the rhythm it&#x27;s actually not as unpleasant as you&#x27;d imagine
+to punch hundreds of holes in index cards individually
+(pick a day when you&#x27;re in a good mood and put on some music).
+I tried getting a heavy-duty hand punch,
+but its design made it nearly impossible to see where I was punching,
+so I actually use a pretty cheap one that I bought at Michaels some years ago instead;
+I&#x27;m able to cleanly punch three cards at a time with that one.
+There&#x27;s probably a better option out there somewhere –
+if you find a great punch that&#x27;s available for purchase online, let me know!&lt;/p&gt;
+
+&lt;p&gt;Someone once wrote to me and suggested trying a comb-binding or spiral-binding punch.
+That sounds like a promising avenue, but I haven&#x27;t tried it yet;
+these are quite expensive and hard to find,
+so you&#x27;d have to be quite committed to buy one new,
+but maybe you could find one at surplus or use one at a copy shop.
+I think the holes are squared off on a lot of those, rather than round,
+but that would likely still work all right,
+there&#x27;s just slightly more risk of the needle getting hung up.&lt;/p&gt;
+
+&lt;p&gt;I&#x27;ve also heard of people buying
+&lt;a href=&quot;https://www.amazon.com/C-Line-Spiral-Bound-Notebook-48909/dp/B0D63WJWW9&quot;&gt;spiral-bound index cards&lt;/a&gt;,
+unbending and twisting out the spiral,
+and using those holes.
+I haven&#x27;t tried this either, but I&#x27;d expect that to work pretty well;
+the main limitations are that you get a very limited number of holes
+since the punch is only on one edge
+(from a quick look on Amazon,
+ it appears there are usually 14–20 depending on the size and brand),
+and the number and spacing of holes doesn&#x27;t seem to be standardized,
+so you might have some trouble finding more matching cards later if you need them.
+This could be a great quick hack for some applications though!&lt;/p&gt;
+
+&lt;p&gt;If you are punching your own holes,
+the most important thing to know is that,
+lacking any specialized manufacturing equipment,
+if you want the holes to align,
+you need to use a master template.
+First punch the pattern of holes you want in one card
+(I like to use a ruler to mark off the centers of where I want to punch,
+ to help get them a little more even;
+ but they don&#x27;t have to be perfectly even to work well
+ so long as they end up the same on every card).
+Then punch the holes in the other cards &lt;em&gt;through&lt;/em&gt; that card
+(like, stack the blanks behind it,
+ align and clip them tightly together with a binder clip,
+ then place the punch head in the holes in the top and punch).&lt;/p&gt;
+
+&lt;p&gt;The master wears out slowly
+because you won&#x27;t manage to punch perfectly in the center every time,
+no matter what method you&#x27;re using,
+and you&#x27;ll gradually sliver off little pieces of the edges of the template holes.
+I find I can usually count on 50 cards or so before the holes start to get fuzzy.
+So in practice,
+I first punch a couple “child” template cards from the master,
+and then do the rest of the punching from those,
+creating new template cards from the master as necessary.
+That will get you to 2,500 cleanly punched cards if each template lasts for 50 uses.
+I suppose you could try doing a third level of templates,
+but each propagation also creates a little inaccuracy,
+so I don&#x27;t think that&#x27;s a good idea in most cases.&lt;/p&gt;
+
+&lt;p&gt;One final tip: most commercial punched cards
+had a bite cut out of one of the corners at a 45-degree angle
+(usually the upper-right,
+ presumably because this corner is easiest for right-handed people to manipulate).
+This is to make it quick and easy to confirm that all the cards are right-side up,
+and put them back in the same direction should you spill the stack.
+You can easily replicate this with a pair of scissors,
+and it definitely comes in handy occasionally.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[220] Muslimy Moms</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
