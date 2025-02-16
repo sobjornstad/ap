@@ -15,6 +15,148 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[224] What about the climate impact of Bitcoin mining?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sun, 16 Feb 2025 15:35:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-224</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#224</guid>
+    <description>
+      &lt;p&gt;Seeing how silly the &lt;a href=&quot;#post-223&quot;&gt;ChatGPT energy usage claim&lt;/a&gt; was, I
+remembered that I&#x27;ve been shocked in the past by how energy-intensive Bitcoin
+mining is, so I figured I&#x27;d better double-check that one. Using numbers from
+the other Substack post, plus the links provided:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Total energy use of the Internet: ~800 TWh per year&lt;/li&gt;
+    &lt;li&gt;Total energy use of Bitcoin mining: ~&lt;a href=&quot;https://digiconomist.net/bitcoin-energy-consumption&quot;&gt;175 TWh per year&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Total energy use of ChatGPT, if we replaced every Google search with a ChatGPT query (way more than actual usage): 2.2 TWh per year&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So Bitcoin mining uses 80 times as much energy as this overestimate of ChatGPT
+usage.&lt;/p&gt;
+
+&lt;p&gt;If it taught us nothing else, though, the ChatGPT claim hopefully reminded us
+of the danger of not understanding the scale of our base values, so how much
+energy is the Internet using?&lt;/p&gt;
+
+&lt;p&gt;Total global energy use &lt;a
+href=&quot;https://ourworldindata.org/energy-production-consumption&quot;&gt;is about
+180,000 TWh per year&lt;/a&gt;, so the Internet is responsible for about 0.45% of
+total global energy consumption. If you apportion the energy consumption of the
+Internet equally to each of its ~5 billion users, that comes to about 160 KWh
+per person per year, equivalent to about 3 weeks of running a space heater on
+medium during office hours, or driving a moderately efficient electric car
+about 480 miles.&lt;/p&gt;
+
+&lt;p&gt;The energy use of Bitcoin mining is about one-quarter that of the Internet, so
+it&#x27;s around 1/1000th of global energy usage, or like each Internet user driving
+120 extra miles each year. Given that the existence of Bitcoin doesn&#x27;t seem to
+have had huge positive effects on the world overall, I think there&#x27;s a case for
+considering Bitcoin a poor use of energy, but it also doesn&#x27;t seem wildly
+alarming yet. And it&#x27;s about in line with the level of “energy waster” I had
+given it in my head.&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+
+&lt;p&gt;Is 160 KWh per year a surprisingly large amount of energy for your Internet
+use? It surprised me, at any rate; virtual things seldom feel like they would
+have much real-world environmental impact. And I bet most people reading this
+should peg their Internet energy usage as quite a lot more than the average
+user. There&#x27;s a big difference in energy consumption between an “Internet User”
+in the developing world who reads Facebook for an hour a day on their phone and
+a professional who uses a full-size laptop or even a high-powered desktop
+computer to access the Internet for 12 hours a day for work and leisure.&lt;/p&gt;
+
+&lt;p&gt;That said, compared to the impact of what you might be doing if you weren&#x27;t
+using the Internet – say, going to the store and buying a physical book, or
+flying to another city for a meeting – it&#x27;s likely a good trade.&lt;/p&gt;
+
+&lt;/div&gt;
+    </description>
+  </item>
+  <item>
+    <title>[223] Claims about AI's impact on climate are misleading and distracting</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sun, 16 Feb 2025 15:35:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-223</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#223</guid>
+    <description>
+      &lt;p&gt;Claims that ChatGPT or other LLM or AI tools use a ridiculous amount of energy
+and/or water have been making the rounds recently. They are very misleading.&lt;/p&gt;
+
+&lt;p&gt;It&#x27;s true that ChatGPT uses an eye-popping amount of energy when
+compared to the amount of energy you use in your everyday life. For instance,
+you may have seen headlines that ChatGPT “uses as much energy as 20,000
+households.” But that&#x27;s kind of like remarking that New York City uses a
+ridiculous amount of energy compared to you – &lt;em&gt;obviously&lt;/em&gt; it does,
+because there are millions of people in New York and only one of you. Millions
+of people use ChatGPT, so yeah, the aggregated energy usage is going to be
+high. But if we compare it to something that operates on a similar scale, it
+looks totally normal, or even outright good; for instance, Netflix uses
+hundreds of times as much energy as ChatGPT!&lt;/p&gt;
+
+&lt;p&gt;To be clear, I think there are many good reasons to be wary of AI. Even if all
+progress in AI stopped tomorrow (which is obviously not going to happen),
+society would still change quite a lot just with the new tech that we&#x27;ve
+already got and haven&#x27;t figured out how to use well yet. And it&#x27;s quite
+possible that the next couple generations of LLMs will start putting relatively
+high-skilled people out of jobs, or just leading people to question their own
+value when they&#x27;re no longer better than a computer at most or all of their
+skills. This is not even to mention the very real possibility that further AI
+development will cause major catastrophes or even permanently usurp humanity as
+the primary controller of our planet.&lt;/p&gt;
+
+&lt;p&gt;But it&#x27;s precisely because these reasons for skepticism exist that I have no
+patience at all for the climate angle. If the real problem is that we might
+want to attempt restrictions on AI development or change the way we approach AI
+because it might fundamentally change society and our relationship to the world
+in a way that humanity collectively does not want, can we talk about
+&lt;em&gt;that&lt;/em&gt; instead of trying to convince people that ChatGPT uses too much
+electricity? People have a limited amount of energy to attend to moral or
+practical objections to everyday things; we shouldn&#x27;t waste it on silly ones.
+Frankly, even if ChatGPT did use a crazy amount of electricity, that wouldn&#x27;t
+be the best angle to approach the question from given the comparative stakes,
+but given that it doesn&#x27;t, spending any time at all on it is disingenuous and
+dangerous.&lt;/p&gt;
+
+&lt;p&gt;Andy Masley has an &lt;a href=&quot;https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for&quot;&gt;
+extremely thorough debunking
+&lt;/a&gt;
+of the claim on his Substack, but if you don&#x27;t have half an hour for that,
+here are a few choice comparisons:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; width=&quot;640&quot; loading=&quot;lazy&quot; src=&quot;assets/images/andymasley.png&quot;&gt;
+
+(In the graph, the activities that don&#x27;t show a time or number of uses represent 1 year of that activity.)
+
+&lt;blockquote&gt;
+If OpenAI didn&#x27;t train GPT-4, that would be about the same as there being no flights between New York [and] San Francisco for about 2 days. That&#x27;s not 2 days per week. It&#x27;s 2 days total. Even if ChatGPT had to be retrained every year (and remember, it doesn&#x27;t) that is less than 1% of the emissions from flights between these two specific American cities. How much of our collective effort is it worth to stop this?
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+Video streaming is using 1,600 times as much energy as ChatGPT, but we don’t hear about it as much because it’s a much more normal part of everyday life. 20,000 households can sound like a crazy number when you compare it to your individual life, but it’s incredibly small by the standards of internet energy use.
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+If we assume every...American uses a digital clock, then American digital clocks are using at minimum 1,100 Olympic swimming pools of water each year. That’s a shocking statistic if we don’t contextualize it with how much water is used in our energy system in general. The American energy sector as a whole uses 200 trillion liters of water each year, enough for [80,000,000] Olympic swimming pools. ChatGPT is using 1,500 Olympic swimming pools of water (with the water used for energy included), or 0.002% of America’s total water used for energy.
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+
+&lt;p&gt;If I wanted to reduce my water use by 600 gallons, I could:&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;Skip sending 200,000 ChatGPT queries, or 50 queries every single day for a decade.&lt;/li&gt;
+        &lt;li&gt;Skip listening to ~2 hours of streaming music every single day for a decade.&lt;/li&gt;
+        &lt;li&gt;Skip 1 burger.&lt;/li&gt;
+    &lt;/ul&gt;
+
+&lt;/blockquote&gt;
+    </description>
+  </item>
+  <item>
     <title>[222] Rope around the Earth</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -41,7 +183,7 @@ will be the amount of additional rope you&#x27;ll need: \[ \begin{align*} C =\ &
 \pi (r+1) - 2 \pi (r) \\ =\ &amp; 2\pi r + 2\pi - 2\pi r \\ =\ &amp; 2 \pi \\ \approx\
 &amp; 6.28 \\ \end{align*} \] So a little more than 6&amp;nbsp;feet will do it.&lt;/p&gt;
 
-&lt;p&gt;Now suppose you have a rope wrapped tightly around the equator of the Earth.
+&lt;p&gt;Now suppose you have a rope wrapped tightly around &lt;em&gt;the equator of the Earth&lt;/em&gt;.
 You want to loosen it so there&#x27;s 1 foot of space between the rope and the
 Earth. How much more rope will you use?&lt;/p&gt;
 
