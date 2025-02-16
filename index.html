@@ -106,7 +106,86 @@
         </div>
 
         <div id="content">
-            <div class="post" id="post-221">
+            <div class="post" id="post-222">
+    <a class="post-number" href="#post-222">#222</a>
+    <div class="post-date">2025-02-15 23:00</div>
+    <div class="post-tags">
+        <span class="tag type">Misc</span>
+        <span class="tag">Brainteaser</span>
+<span class="tag">Math</span>
+    </div>
+    <div class="post-description">Rope around the Earth</div>
+    <p>Here's a simple math problem that messes with your intuition. Suppose you have
+some rope, and a loop of it is wrapped snugly once around your arm. Now you
+want to feed more rope into the loop so that it encircles your arm with
+1&nbsp;foot of space between the rope and your arm. How much more rope will you
+need?</p>
+
+<p>Well, when the rope is wrapped tightly around your arm, it forms a circle
+(roughly, anyway) with some radius of \( r \) feet (probably fractional unless
+you have extremely thick arms). The circumference of this circle \( C \) then
+represents the length of rope needed to form the loop, in feet. Adding
+1&nbsp;foot of space between the outside of the original circle and the
+expanded circle will, by definition, increase the circle's radius by
+1&nbsp;foot, to \( r + 1 \). The circumference of a circle is \( C = 2\pi r \),
+and we can subtract the circumference of the smaller (original) circle from the
+circumference of the larger one to get the difference in circumference, which
+will be the amount of additional rope you'll need: \[ \begin{align*} C =\ & 2
+\pi (r+1) - 2 \pi (r) \\ =\ & 2\pi r + 2\pi - 2\pi r \\ =\ & 2 \pi \\ \approx\
+& 6.28 \\ \end{align*} \] So a little more than 6&nbsp;feet will do it.</p>
+
+<p>Now suppose you have a rope wrapped tightly around the equator of the Earth.
+You want to loosen it so there's 1 foot of space between the rope and the
+Earth. How much more rope will you use?</p>
+
+<p>
+<details>
+    <summary>Answer</summary>
+
+<p>Presumably the same approach will work, right? But if you try to run the
+numbers, you might find yourself wondering, wait, where do we plug in the
+current size of the rope?</p>
+
+<p>Well…you don't need to, no more than we needed to for the circle the size of
+your arm. Incredibly, the answer is <em>still 6.28 feet</em>, for a rope the
+length of the circumference of the entire Earth. The amount of rope needed
+depends solely on the size of the additional gap; the size of the object being
+wrapped is irrelevant!</p>
+
+<p>If you remember how radians work, one way to make this more intuitive is to
+consider three concentric circles, with radii of 1, 2, and 3 feet respectively,
+and an arc composing one-quarter of each circle. This quarter of the circle is
+\( \pi / 2 \) radians, since a complete revolution is 360 degrees or \( 2\pi \)
+radians. Now consider the length of this arc of each circle. The innermost
+circle of radius 1 is the unit circle, where the angle in radians is exactly
+equal to the length of the arc it subtends, so it's \( \pi / 2 \) feet long.
+Now for the larger circles: radians are defined as the ratio of the arc length
+to the circle's radius, and the ratio is held constant (because the angle /
+radians we're considering is always one-quarter of each circle), so the arc
+length is directly proportional to each circle's radius, and we can just
+multiply the unit circle's arc length by the radius. All this to say, our three
+arcs will be of length \( \pi / 2 \), \( \pi \), and \( 3\pi / 2 \)
+feet.</p>
+
+<img class="center" loading="lazy" src="assets/images/earth-circles.png">
+
+<p>It should be obvious that you can continue drawing concentric circles
+1 foot apart <em>ad libitum</em> and this pattern will continue; the difference
+between the arc length of two consecutive ones will always be \( \pi / 2 \)
+feet. But then that means the total increase in circumference will always be 4
+times that, or \( 2\pi \) feet, for each 1 foot of additional radius, whether
+you're on the first circle or the <a
+href="https://www.google.com/search?q=earth%27s+circumference+at+equator+in+feet">131
+millionth</a> one.</p>
+
+</details>
+</p>
+    <div class="backlinks">
+        
+        
+    </div>
+</div>
+<div class="post" id="post-221">
     <a class="post-number" href="#post-221">#221</a>
     <div class="post-date">2025-02-13 08:00</div>
     <div class="post-tags">
