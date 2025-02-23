@@ -1,3 +1,189 @@
+#225 Misc
+    :date: 2025-02-23 10:00
+    :shortdes: Boring investment advice
+    :tags: Finance | Life
+
+.A few of my friends have been asking me for advice on getting started investing lately,
+so I thought I'd write it up instead of explaining it over and over again.
+
+.There are two ways you can get rich through investments:
+
+<ol>
+<li>
+    Spend a lot of time looking for opportunities to outperform.
+    Be unusually good at that.
+    Lose money on a lot of bad investments,
+    and make a killing on a couple good ones that make up for the losses and then some.
+    This might happen in 1&nbsp;year or 100&nbsp;years.
+</li>
+<li>
+    Don't think about it at all.
+    Put as much money as you can afford to in some funds that track the economy as a whole
+    (or some large sector of it; we call these “index funds”).
+    Keep doing that for 30&nbsp;years.
+</li>
+</ol>
+
+.If you're the kind of person who's really well suited to do #1, OK, go for it.
+If you're asking me for advice, though, you are almost certainly better suited for #2,
+so give up the idea of #1 right now –
+it's probably intimidating you into not getting started.
+
+.The economy as a whole isn't a perfectly safe bet, of course,
+but it's probably more likely to stay on a decently positive trajectory than any other thing you could pick.
+You're also very unlikely to ever curse your stupidity for investing in it,
+which cannot be said for most other choices.
+You won't ever do as well as you possibly could with this approach,
+but the average case is much, much better, and it earns more than enough to satisfy most people.
+You only get one life – go for a solid average, not a super-high-variance approach.
+
+<div class="callout">
+
+If you actually like the idea of #1,
+set aside 10% of the money you want to invest for that approach
+and treat it like you're bringing money to Vegas:
+if you win, sweet,
+and if you lose, no big deal,
+you only put aside the money you could afford to lose,
+and you can write it off as the cost of entertainment.
+
+</div>
+
+
+.A couple principles for implementing #2:
+
+.<strong>Time in the market beats everything else.</strong>
+On average, if you invest $100 a month from age 25 to 35 into something reliable and then never save another penny and just let it ride,
+you end up with more money at age 65 than if you invest $100 a month from age 35 to 65!
+This sucks because that's also the time most people are least able to put aside money,
+but unfortunately it's hard to argue math into being fairer (let me know if you find a way).
+If you have a steady income, figure out how much you can afford to throw in and set up a monthly or biweekly automatic withdrawal so you never even have to think about it.
+<a href="https://mosmu.se/#PowerOfKonsistency">Getting started and being consistent beat volume.</a>
+
+.<strong>Don't change your course depending on how your investments are doing.</strong>
+This approach does not require you to follow the news or switch from idea to idea all the time –
+so if you don't trust yourself not to change course,
+don't even look at how you're doing.
+(Probably once a year or so you should double-check
+ that you're still periodically saving the amount you thought you were
+ in the investments you thought you were.
+ Otherwise, no need.)
+Losses aren't real until you withdraw the money or switch it to a different investment;
+that's when you lock in your loss.
+And if your bet on the economy was ever good in the long run, it's still good during a temporary downturn.
+So just wait; there's a good chance the number will be back up again by the time you need the money.
+
+.<strong>You are not going to be smart enough to time the market</strong> and make extra money.
+Even people who get paid six figures to do this full-time usually aren't!
+So just keep throwing in money regularly whether the market is up or down.
+Sometimes you'll invest on a day where the market drops precipitously after you invest, and you could have done better.
+But sometimes you'll invest on a day where the market just took a huge dip, and you make a bunch of extra money when it goes back up the next day.
+When you split your investing into a dozen or two purchases every year, it evens out in the long run.
+Similarly, don't hold back money that you would be investing for a later date when it “looks like a good time to invest.”
+Yes, sometimes you could outperform this way,
+but people have simulated this scenario and found that your average gain is highest when you just dump the money immediately
+(even if it's a windfall of a couple hundred thousand dollars and this feels much riskier),
+because on average the market goes up,
+and you're more likely to miss out on easy gains than anything else.
+(Plus, remember that time in the market beats everything else?
+ You're losing time in the market.)
+
+.And a few boring mechanics:
+
+.Most people in the United States should start with a <strong>Roth IRA</strong> account.
+You can put up to $7,000 a year in one.
+(There are <a href="https://www.fidelity.com/learning-center/smart-money/roth-ira-income-limits">income eligibility limits</a>;
+ if you make more than $150,000 a year, you should go check on these first.)
+You can't easily withdraw Roth IRA gains until you reach retirement age,
+but you never have to pay any tax on the gains,
+which makes your money go at least 15% further.
+And you can withdraw whatever you put in tax- and penalty-free at any time,
+so if you don't have much money to invest you could
+put some general-purpose savings in a Roth IRA.
+Hopefully you won't need the money back and you can keep it invested,
+but if you do you can yank it again and you'll still get to keep any gains tax-free.
+(Ideally, of course, you would both save some short-term money and make some long-term investments.
+ But getting started as soon as possible is the most important thing!)
+
+.The exception to this is if your employer offers a retirement plan with matching funds,
+where you put in some amount of money and they add some of their own.
+This is basically free money,
+so if you have access to such a plan and you're not contributing enough to get the full match,
+you should do that first.
+
+<div class="callout">
+
+.Sometimes people wonder if they shouldn't put some of their money into a non-retirement account first,
+because they don't want to wait until retirement age to have more money.
+I think the answer is usually no.
+If you're going to need the money in the next couple of years,
+you probably shouldn't be investing it anyway;
+if the market drops, you won't have enough time to make it back.
+(You could put it in a high-interest savings account, or maybe a CD or government bonds.)
+If you're thinking more along the lines of having lots of money in a decade or two,
+I think it usually comes out better to go really hard on your retirement accounts first.
+Your income is probably going to go up in the intervening years
+unless you have plans to make a big career change,
+so you might not need investment money then at all,
+and meanwhile you'll be giving your retirement money time to grow tax-free.
+If you get too far ahead,
+you can just stop adding money to your retirement accounts
+and spend that money on something else.
+
+.(If you end up with enough money that you can retire very early,
+there are also some ways
+to get money out of your US retirement accounts early without paying a penalty;
+you can worry about that if you end up needing it.)
+
+.It's also worth noting that non-retirement investment accounts
+have a bunch of complicated tax considerations,
+which will make getting started much more annoying.
+
+.As always, I'm sure you could come up with some scenario
+where using the retirement account first isn't the right choice,
+but unless you have an obvious one,
+you probably shouldn't worry about this.
+</div>
+
+.As for <strong>what company to open your investment accounts with</strong>
+– you won't go wrong with
+either <a href="https://investor.vanguard.com">Vanguard</a>
+or <a href="https://www.fidelity.com">Fidelity</a>.
+Vanguard has been in the business for much longer (they basically invented index funds)
+and is shareholder-owned, which is pretty cool.
+Fidelity offers a bunch of other financial products as well,
+so you might be able to consolidate a bunch of your accounts there if you like that idea,
+and most people think their website is a little easier to use.
+
+.<strong>What funds, specifically, to invest in?</strong>
+You can make this topic pretty much as complex as you want.
+But if you're just starting out, I'd suggest a target date fund.
+You pick a year close to when you expect to retire
+(for instance, if you're 30 years old today and you expect to retire around age 65,
+ you might pick a 2060 fund),
+and the fund managers will distribute your money over their other index funds
+based on how far you are from that target date
+(you want to invest in safer things
+ when there's a shorter time horizon
+ because there's less time to recover from losses,
+ but riskier things
+ when there's a sufficiently long one
+ because you'll earn more money on average).
+You pick the fund once and you're done (except for continuing to add money).
+
+.You can likely do marginally better if you know what you're doing,
+but again, if you're asking me for investment advice because you're clueless,
+you should start out as simple as possible,
+and if you get curious and want to nerd out, you can start adding complexity later.
+Someone who consistently uses a target date fund will <em>vastly</em> outperform the average person already,
+and someone who dives into the details will usually do only very slightly better.
+
+.Make sure the target date fund is low-fee;
+not much work goes into managing one,
+so they shouldn't be taking more than ~0.10% of your money.
+All the Vanguard and Fidelity ones are fine.
+
+
 #224 Misc
     :date: 2025-02-16 15:35
     :shortdes: What about the climate impact of Bitcoin mining?
