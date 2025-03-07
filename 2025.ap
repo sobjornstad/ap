@@ -1,3 +1,16 @@
+#227 Published
+    :date: 2025-03-06 21:20
+    :title: attopublish is now available
+    :source: https://github.com/sobjornstad/attopublish
+    :tags: Tech
+
+Since I launched this site in 2022, there's been a link in the header to the
+code I use to build this site with a note that says “that link is a 404, but it
+will resolve sooner or later!” I finally got around to actually putting the
+code on GitHub, so if you're curious about how the sausage is made, you can now
+click that link and it will work.
+
+
 #226 Misc
     :date: 2025-02-23 21:15
     :shortdes: Multilingual repetition
