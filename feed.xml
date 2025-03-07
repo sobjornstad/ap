@@ -9,12 +9,32 @@
     <atom:link href="https://ap.sorenbjornstad.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Soren Bjornstad's attopublish feed</description>
     <language>en-us</language>
-    <copyright>Copyright © 2022–2023 Soren Bjornstad</copyright>
+    <copyright>Copyright © 2022–2025 Soren Bjornstad</copyright>
     <generator>attopublish</generator>
     <managingEditor>contact@sorenbjornstad.com (Soren Bjornstad)</managingEditor>
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[227] Published: attopublish is now available</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Thu, 06 Mar 2025 21:20:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-227</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#227</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://github.com/sobjornstad/attopublish"&gt;
+              🔗 attopublish is now available
+          &lt;/a&gt; ()
+      &lt;/p&gt;
+      &lt;p&gt;Since I launched this site in 2022, there&#x27;s been a link in the header to the
+code I use to build this site with a note that says “that link is a 404, but it
+will resolve sooner or later!” I finally got around to actually putting the
+code on GitHub, so if you&#x27;re curious about how the sausage is made, you can now
+click that link and it will work.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[226] Multilingual repetition</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
