@@ -1,3 +1,107 @@
+#228 Misc
+    :date: 2025-03-08 13:45
+    :shortdes: Design Hall of Shame: GE Cync light switches
+    :tags: Design
+
+.I use GE Cync smart lightbulbs and lamp sockets in parts of my apartment so
+that I can (a) bring the lights up slowly in the morning in my bedroom, and (b)
+switch on and off the 8 lamps in my living room at the same time. Overall, the
+system works pretty well for something that's so hilariously complex for
+controlling lights (when I connected my first devices and was prompted to
+<em>update my lightbulb's firmware</em>, I knew I had entered a brave new world).
+
+.The switches you use with them are subtly awful, though:
+
+<img class="center" width="400px" loading="lazy" src="assets/images/bad-design-cync-switch.jpg">
+
+.The two buttons at the bottom allow you to cycle through different color
+temperatures, if your light source supports them. That mostly works fine (it's
+kind of silly that it cycles through only a hard-coded set of temperatures,
+given that using the phone app you can create millions of different colors, but
+that isn't really the hardware's fault; the left/right selector is a perfectly
+fine choice).
+
+.Then the top. The top- and bottom-most buttons adjust the brightness. The
+middle buttons are “on” and “off”. What's the problem with that? Well, first of
+all, buttons are a horrendous choice for adjusting the brightness of a light
+source. There are 20 gradations, so if you want to go from max brightness to
+min brightness, you have to press the “down” button nineteen times, or stand
+there holding it down while whistling to yourself. A dial would be much, much
+better.
+
+.But what catapults this from someone cost-cutting too aggressively to a Design
+Hall of Shame nomination is that it's almost impossible to reliably press the
+correct button without looking at the switch…which, uh, when you consider how
+light switches are typically used, is a pretty big problem! At least 25% of the
+time I either push the “on” button when I meant to push the “off” button or
+vice versa, or press the “brighter” button when I meant the “on” button or the
+“dimmer” button when I meant the “off” button. It's certainly possible to find
+the correct button by feel, but you have to run your fingers over the entire
+light switch from top to bottom first, because the middles of each button feel
+almost identical. The raised centerline in the middle of the “on/off” position
+seems like it would help, but it's difficult to distinguish from the lip
+between the on/off and dimmer sections unless you're really paying close
+attention (and who's ever paying close attention to flipping a light switch?).
+The engraved arrows also seem like they would help, but they're almost
+imperceptible unless you're actually moving your finger over it; when you
+blindly land your finger on the switch and feel a button under it, you
+generally are not moving your finger enough to notice.
+
+.I think the ideal design here would be a raised infinite-spin
+volume-knob-style control plus the color temperature buttons. You would turn
+the control to change the brightness, push it in to toggle between on and off,
+and also be able to nudge it up or down to explicitly select “on” or “off”.
+That last interaction has several motivations:
+
+<ul>
+
+    <li>In the very common case of reaching around the edge of a doorway to the
+    light switch when entering or exiting a room, it's much easier to flick
+    your hand parallel to the wall than to push <em>back into</em> the
+    wall.</li>
+
+    <li>Everyone's already used to the “flick up/down” motion. If you do it by
+    mistake on the wrong kind of switch, it just does what you mean.</li>
+
+    <li>The reason these have separate “off” and “on” buttons, rather than just
+    a single toggle, is that it's possible for the switch to control many
+    lights at once and for some of them to be off and some of them to be on. So
+    if you have separate buttons, you can select the new state you want for the
+    whole group in a single action. It's nice to maintain this capability.</li>
+
+</ul>
+
+.If the nudge is too expensive to get right, though, or it proves too hard to
+add enough friction to not randomly spin the dimmer by mistake, a knob with
+just a push-in design would still be vastly better than the current one. You'd
+just make it turn all the lights off in the partially-on state, then back on
+the second time you pushed it. (I think off first is better even though this is
+the opposite of the typical design for partial states like this, because if
+it's late at night and you have most of the lights off or dimmed, you want to
+be able to shut everything off without making the room blindingly bright.
+Having the lights momentarily flicker off before they all come on, when your
+finger is already on the switch, is much less annoying. Another option would be
+to have a timeout of a quarter second or so before the lights changed state,
+during which you could double-tap to select the other action immediately.)
+
+.Even if they didn't add a dial, a <em>tiny</em> bit more attention to tactile
+feedback could have made the current design a great deal better. Just a simple
+raised dot on either the on/off buttons or the dim buttons would be a huge
+usability improvement. Maybe one dot on “off” and three dots on “on” (rather
+like <a
+href="https://www.iconfinder.com/icons/8480782/bathroom_button_dual_flush_toilet_icon">the
+icons on dual-flush toilets</a>, which I've always felt are a brilliant piece
+of design in that even if you've never seen a dual-flush toilet before, you can
+easily figure out what the buttons do), or a circle on “off” and a sunburst on
+“on”.
+
+.Failing even that, the software could make a useful contribution by not
+distinguishing between the “off” and “on” buttons if the entire group was
+currently off or on already. If the entire room is dark and I push the “off”
+button, it should be obvious that I intended to turn the lights on rather than
+more-off.
+
+
 #227 Published
     :date: 2025-03-06 21:20
     :title: attopublish is now available
