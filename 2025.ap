@@ -1,3 +1,108 @@
+#229 Misc
+    :date: 2025-03-31 16:40
+    :shortdes: Beating jet lag with Timeshifter
+    :tags: Tech | Travel
+
+.I'm pretty sensitive to circadian rhythm disruptions. After large time zone
+changes, I'll sometimes continue getting tired early and having malaise for
+days, and even daylight saving time throws me off. My last few RemNote offsites
+have been particularly annoying, as they've all been held in the Eastern
+Hemisphere where a majority of our team members live, so I cross six to twelve
+time zones and am zonked out while others move only a couple and are fine the
+next day.
+
+.I was in Barcelona for the last couple weeks and used a clever app called <a
+href="https://www.timeshifter.com">Timeshifter</a>, which builds a
+jet-lag-reduction plan for you to follow for (usually) five days, starting two
+days before your trip, with recommendations on light exposure, sleep times, and
+caffeine and melatonin use. The app itself is simple and well-designed – you
+just add your itinerary (dates and flight numbers) and it does everything else
+for you, including sending you notifications when it's time to take some
+action.
+
+.Most of the recommendations are fairly easy to follow (e.g., shift your
+sleep/wake times one hour each day for the two days prior to travel, or get
+bright light in the morning or evening). Sometimes they can be seriously
+annoying, though (e.g., on the way back, I had to avoid light as much as
+possible until noon for our last two days, which meant I was sitting in the
+completely dark kitchen of our AirBNB working on my MacBook with <a
+href="https://justgetflux.com">f.lux</a> manually set to Minneapolis time). You
+might have to wear sunglasses indoors occasionally (for what it's worth though,
+I wore them in airports and on planes quite a few times this trip, and nobody
+commented or looked at me funny; YMMV). The app says it has a “practicality
+filter” which understands that, e.g., you probably can't sleep while you're at
+an airport waiting to board your plane, even if that would be the ideal time,
+and tweaks the instructions accordingly. I wish you could manually mark
+specific pieces of advice as unfollowable in your situation and have it adjust
+the schedule, but the plans do seem to be reasonably forgiving if you have to
+cheat occasionally.
+
+.Verdict? I experienced essentially zero jet lag this trip. I felt normally
+tired within an hour of my destination time zone's bedtime on the first day in
+both directions, and never once had any trouble sleeping. This felt
+<em>bizarre</em>, though of course welcome! Despite the mild annoyance of
+following the plan, I'll definitely be doing it again. (And actually, I think I
+kind of appreciate having strict instructions to follow during long transits –
+it adds structure to an otherwise irritatingly formless period of time.)
+
+.I will say that preparing in advance of the trip makes me feel just slightly
+worse than normal for an extra two days, which might be a slight downside. But
+it's very mild – more like I can tell that something's off than that I actually
+feel bad. When I've tried to shift a couple hours in advance by myself in the
+past, I've felt much worse for those days; the light exposure seems to be doing
+a lot to keep this feeling OK. Still, if it's ever important that you're at
+100% right before leaving and how you feel after arriving is relatively
+unimportant, that might be a reason not to use the app for that trip, or to
+skip setting up your plan until the day you depart.
+
+.I should also note that I used the app for a trip once last year as well and,
+while it still clearly helped, it wasn't quite so miraculous. However, that was
+a 12-hour shift compared to a 6-hour shift – I wouldn't expect zero jet lag on
+a 12-hour shift no matter what, that's just too much! I also didn't learn about
+the app until just before I left, so I was unable to do the full 2 days of
+pre-adaptation, which I think is quite important to its success. I'll
+definitely update this next time I do a huge shift.
+
+.Sometimes the recommendations are so bizarre you'll be tempted not to follow
+them. For instance, on my return trip west, I got up at 7am and it told me to
+sleep at 11am/4am on the way from Barcelona to Amsterdam (understandable
+because I'd only slept 5 hours overnight and it was still dark in Minneapolis).
+Then it told me to take melatonin and sleep for five hours on the transatlantic
+flight at 3pm/8am (?!), which is not only a bizarre time to sleep in either
+time zone, but completely contrary to the conventional wisdom that you should
+avoid sleeping until a normal destination bedtime when going west. But I
+figured I'd trust the process and give it a try, and it absolutely worked, even
+though I had to wake up an hour and a half in for the in-flight meal and then
+go to sleep again. I think it was somehow able to work out that sleeping at
+this time wouldn't disrupt my adaptation but would still prevent me from
+getting tired early after landing. That's the kind of thing the scientific
+understanding must include somewhere, but is way too complicated to give as
+advice unless it's embedded in a particular schedule.
+
+<div class="callout">
+
+.Several people I've talked to about the app have thought it wouldn't work for
+them because they can't sleep on airplanes. So to be clear, when I say I
+“sleep” on the plane, I mean I recline my seat one notch, put on
+noise-canceling headphones, wrap myself in my <a
+href="https://mosmu.se/#TravelBlanket">travel blanket</a>, close my eyes, and
+sit still. I'll usually doze and drift a little, but I'm lucky to get more than
+an hour of uninterrupted sleep at a time, if that. If I find myself getting
+really bored and unable to drift at all, I'll read on my Kindle at minimum
+brightness without turning on any of the lights until I start to feel a little
+sleepier, which usually takes me half an hour or so, and then go back to
+“sleeping”. You certainly don't need to be able to actually sleep well on a
+plane for this to work. Even if you get literally no sleep, just sitting still
+in the dark not doing anything will help your body adjust.
+
+.Several people I've talked to have also been turned off by the price
+($10 per trip or $25 for unlimited trips for a year). All I can say is, if
+after spending thousands of dollars on a trip, getting rid of jet lag isn't
+worth $10 to you, I'm jealous of how mild your jet lag must be!
+
+</div>
+
+
 #228 Misc
     :date: 2025-03-08 13:45
     :shortdes: Design Hall of Shame: GE Cync light switches
