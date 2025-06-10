@@ -1,3 +1,20 @@
+#236 Misc
+    :date: 2025-06-09 20:50
+    :shortdes: Comparing text with Beyond Compare
+    :tags: Tech
+
+.Just wanted to do a quick shout-out to <a href="https://www.scootersoftware.com/">Beyond Compare</a>,
+Opening in existing browser session.
+and to compare different versions of text (not all things you need to compare fit into version control software!).
+
+.It's a little complicated,
+and I sometimes find myself clicking randomly around the interface trying to find something,
+but if you're patient, it can do pretty much anything you need
+(you can even write custom regex-based rules to indicate what counts as an “important difference” and ignore changes that don't matter,
+ something that has saved my butt when debugging complicated issues more times than I can count).
+It also has the best name of any piece of software I've ever used!
+
+
 #235 Misc
     :date: 2025-05-14 23:00
     :shortdes: Why are the Twin Cities express lanes so underutilized?
