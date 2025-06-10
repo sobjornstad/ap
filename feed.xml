@@ -23,7 +23,8 @@
     <guid isPermaLink="false">https://ap.sorenbjornstad.com/#236</guid>
     <description>
       &lt;p&gt;Just wanted to do a quick shout-out to &lt;a href=&quot;https://www.scootersoftware.com/&quot;&gt;Beyond Compare&lt;/a&gt;,
-Opening in existing browser session.
+a tool I&#x27;ve been using for years to find differences between files and folders.
+I mostly use the features to compare folders to deduplicate messes (see if they have the same filenames in them, and if the files are identical)
 and to compare different versions of text (not all things you need to compare fit into version control software!).&lt;/p&gt;
 
 &lt;p&gt;It&#x27;s a little complicated,
