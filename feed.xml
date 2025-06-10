@@ -15,6 +15,26 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[236] Comparing text with Beyond Compare</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 09 Jun 2025 20:50:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-236</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#236</guid>
+    <description>
+      &lt;p&gt;Just wanted to do a quick shout-out to &lt;a href=&quot;https://www.scootersoftware.com/&quot;&gt;Beyond Compare&lt;/a&gt;,
+Opening in existing browser session.
+and to compare different versions of text (not all things you need to compare fit into version control software!).&lt;/p&gt;
+
+&lt;p&gt;It&#x27;s a little complicated,
+and I sometimes find myself clicking randomly around the interface trying to find something,
+but if you&#x27;re patient, it can do pretty much anything you need
+(you can even write custom regex-based rules to indicate what counts as an “important difference” and ignore changes that don&#x27;t matter,
+ something that has saved my butt when debugging complicated issues more times than I can count).
+It also has the best name of any piece of software I&#x27;ve ever used!&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[235] Why are the Twin Cities express lanes so underutilized?</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
