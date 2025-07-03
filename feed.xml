@@ -15,6 +15,61 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[237] How many birds die by falling?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 02 Jul 2025 20:55:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-237</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#237</guid>
+    <description>
+      &lt;p&gt;While on a two-week road trip by myself last week, I was struck with a bizarre
+question, as tends to happen when you spend that long alone:
+&lt;em&gt;how often do birds die by falling&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Obviously, in most cases if a bird falls from a height sufficient to be dangerous,
+it can simply fly away.
+But it seems reasonable to imagine there could be cases where this could fail
+(say, there are bizarre wind conditions,
+ or its wings are covered in ice,
+ or it&#x27;s extremely sick and doesn&#x27;t have enough energy).
+At any rate, it seems implausible that the number would be &lt;em&gt;zero&lt;/em&gt;;
+nothing in nature is ever invulnerable to physics like that!&lt;/p&gt;
+
+&lt;p&gt;For the purposes of this question:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+The bird must be capable of at least limited flight under normal circumstances. E.g., an ostrich or a juvenile unfledged bird wouldn&#x27;t count.
+&lt;/li&gt;
+&lt;li&gt;
+“Death by falling” requires that an impact in a primarily vertical direction be the direct cause of the bird&#x27;s death. This means things like these don&#x27;t count:
+&lt;ul&gt;
+&lt;li&gt;Crashing into a window and then falling to the ground and dying. There was a fall, but the death wasn&#x27;t caused by the fall.&lt;/li&gt;
+&lt;li&gt;Falling off a perch and, in midair, being shot or caught by a predator.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.foxweather.com/earth-space/loon-fallout-weather-phenomenon-birds-fall-sky-wisconsin&quot;&gt;Loon fallout&lt;/a&gt; (yes, this is a real thing). Loons can be forced to land in bad weather due to ice forming on their wings, and loons are like airplanes – they have to take off into the wind over a long stretch of open water to get enough lift, and to make matters worse they &lt;a href=&quot;https://www.youtube.com/watch?v=Kq-tGVPKMTY&quot;&gt;basically can&#x27;t walk&lt;/a&gt;, so they can get stranded away from any suitable habitat and die. But again, unless the loon tried to keep flying and lost airworthiness, and died or suffered fatal injuries on impact with the ground, the fall wasn&#x27;t really the cause of death.&lt;/li&gt;
+&lt;li&gt;Dying while in midair for some reason, and &lt;em&gt;then&lt;/em&gt; falling out of the sky. (A very large percentage of the search results I found for this were on this possibility, but it doesn&#x27;t help here.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I couldn&#x27;t find a comprehensive answer, of course.&lt;/p&gt;
+
+&lt;p&gt;First off, would falling even be fatal? Several sources asserted that a fall would definitely kill a bird if it happened, while others said most birds probably don&#x27;t have high enough terminal velocity to be killed. I imagine it depends a bit on the bird: a hummingbird would probably be okay, but as we&#x27;ll see in a moment, a turkey can definitely be killed by a free fall. Where exactly the line is seems unclear (to be fair, one has to imagine this would be a difficult thing to study empirically).&lt;/p&gt;
+
+&lt;p&gt;Then, can a bird really be so incapacitated as to be unable to at least flutter around and slow its fall? I can easily imagine, say, a high branch breaking in the middle of the night, sending a sleeping bird to the ground, but I don&#x27;t know much about bird physiology: maybe it&#x27;s almost guaranteed to wake up. Maybe a bird caught in a tornado could become unable to fly and get thrown into the ground, but I&#x27;m not sure that would count as falling. Claude suggested the possibility of a midflight neurological event or physical injury like a lightning strike or collision causing a bird to lose control over its flight but not killing it, which sounds surprisingly plausible (like, it obviously can&#x27;t happen often, but given that there are billions of birds, it seems like it must happen occasionally).&lt;/p&gt;
+
+&lt;p&gt;Worst for the answerability of my question, though, how would you know if this had happened? Even if birds were frequently, say, falling out of trees and dying, it wouldn&#x27;t be often that someone would happen to be standing there watching, and if they did, they probably wouldn&#x27;t go call some scientist who studies bird falls and report it!&lt;/p&gt;
+
+&lt;p&gt;But then, because the world is a weird, weird place, I found that in Yellville, Arkansas, there has traditionally been a Thanksgiving event &lt;a href=&quot;https://www.quora.com/Do-eagles-get-scared-of-heights/answer/Stefan-Pociask?ch=10&amp;share=86c19ccd&amp;srid=GjHU&quot;&gt;where turkeys are thrown out of a plane&lt;/a&gt;, and many of them die, as the limited amount of flight they&#x27;re equipped for isn&#x27;t enough to reliably stop them on a drop from an airplane. (In recent years, it sounds like the event is no longer promoted, but someone still sometimes unofficially drops turkeys from a plane.) Amusingly (if a discussion of something this cruel can be amusing), this basically fits the criteria in the previous paragraph: locals and tourists are standing around watching for falling turkeys and see some of them hit the ground and die from the impact. So I guess we know that the number of birds that have died by falling is at least as large as the number of turkeys who have died in the Yellville Turkey Drop.&lt;/p&gt;
+
+&lt;p&gt;If anyone happens to know of any (other?) weird case reports, I&#x27;d love to hear about them!&lt;/p&gt;
+
+&lt;p&gt;See also &lt;a href=&quot;#post-211&quot;&gt;What percentage of people have ever been on an airplane?&lt;/a&gt;&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[236] Comparing text with Beyond Compare</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
