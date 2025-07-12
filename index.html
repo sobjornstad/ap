@@ -107,7 +107,201 @@
         </div>
 
         <div id="content">
-            <div class="post" id="post-239">
+            <div class="post" id="post-240">
+    <a class="post-number" href="#post-240">#240</a>
+    <div class="post-date">2025-07-12 16:05</div>
+    <div class="post-tags">
+        <span class="tag type">Misc</span>
+        <span class="tag">Math</span>
+<span class="tag">Travel</span>
+    </div>
+    <div class="post-description">Estimating the carbon impact of different kinds of Amtrak tickets</div>
+    <p>I keep a spreadsheet tracking the carbon cost of all my travel, in an attempt
+to balance the benefit I get from traveling with the environmental impact, and
+sometimes to inform decisions of what mode of transportation makes the most
+sense for some trip.</p>
+
+<p>If you poke around a little bit, you'll eventually find in a few places an
+estimate that each passenger-mile on Amtrak diesel-electric trains (in America,
+they're all diesel except the Northeast Corridor backbone) is about 0.147 kg
+CO2e per passenger mile. As far as I can tell, this is a total average across
+the network, passenger-miles traveled divided by all fuel consumption. I had
+been using that figure for a while, but it has always been obvious to me that
+this masks a <em>lot</em> of variation. Long-distance routes in the West and
+Midwest are run by Superliner cars, which are substantially larger and offer
+more legroom than the coach cars used on shorter regional routes, which means
+they almost certainly have somewhat higher impact. More obviously, if you book
+a sleeper compartment, you take up a larger portion of the train – maybe quite
+a lot larger – and should ideally be using a correspondingly larger impact
+figure. However, I had pretty much no notion of what the difference might be.</p>
+
+<p>I worked with Claude Opus for a while to create a simple model of how carbon
+impact varies. The headliner results, and the numbers I'm plugging into my
+spreadsheet, are:</p>
+
+<ul>
+  <li><strong>Regional coach seat</strong>: 0.115 kg CO2e/passenger-mile</li>
+  <li><strong>Superliner coach seat</strong>: 0.152 kg CO2e/passenger-mile</li>
+  <li><strong>Superliner Roomette</strong>: 0.421 kg CO2e/compartment-mile</li>
+</ul>
+
+<p>Note that the Roomette figure is for the entire compartment. Roomettes can
+hold two people if you dare (if you're partners or best friends you'll be fine,
+but much less than that and you may want to reconsider!), in which case the
+CO2e attributable to each passenger is half that.</p>
+
+<p>In comparison, my Subaru Forester with one person in it emits about 0.3
+kg CO2e/mile, so driving is somewhat more carbon-friendly than riding in a
+Roomette, but much worse than riding alone in coach. Flying varies a lot
+depending on the route you have to take and what assumptions you use. If you
+can get a direct flight between major cities it's probably better than a
+single-occupancy Roomette, but is unlikely to be better than coach (unless you
+stick your fingers in your ears and say la-la-la-la when we talk about contrail
+impact, like Google did until very recently: see <a href="#post-187">Can flying
+be more environmentally friendly than driving?</a>).</p>
+
+<div class="callout">
+
+<strong>Proviso:</strong> Of course, nothing is ever quite that simple. If you
+drive thousands of miles, you're likely going to be making some sightseeing
+stops, staying at hotels, and so on. If this part of your trip is particularly
+high-impact, it could still make the carbon cost of driving worse than that of
+sleeper. Similarly if you drive alone in a heavy motorhome. Meanwhile, driving
+will definitely come out better than even riding a regional train in coach if
+you fill a small, efficient car with four or five people.
+
+</div>
+
+<p>The methodology here was:</p>
+
+<ol>
+<li>Look up the empty weight of each type of train car (Horizon coach, Superliner coach averaged between I and II types, Superliner sleeper averaged).</li>
+<li>Estimate the fraction of that train car that you take up when you buy the appropriate type of ticket. For instance, in a Superliner sleeper, there are 14 Roomettes which take up about half of the car's passenger area, so booking one Roomette compartment uses 1/28 of the sellable portion of the car (we're ignoring parts like bathrooms and luggage racks, which seem fair to apportion evenly among all passengers, and we're assuming that there's no massive difference in the mass of each unit of area of the car, or at least that removing your part of the car wouldn't allow the car to be made disproportionately lighter). Therefore you'll be charged 1/28 of the impact for that car's trip.</li>
+<li>Multiply this fraction by the total weight of the car to calculate the number of pounds of train the locomotive has to pull to move the portion of the train you booked. (Fun fact: A single-occupancy Roomette is responsible for about 5,800 pounds of train when empty! That's substantially heavier than almost all automobiles except EV trucks, even without counting your fraction of the weight of the dining car and club car.</li>
+<li>Take the fuel consumption of the lightest regional coach as 1x, and calculate a relative impact multiplier for the other types based on the relationship between the weights. For a Superliner coach this was 1.32x, and for a Superliner Roomette 3.66x.</li>
+<li>Look at the FY2023 ridership numbers and make an educated guess about what railcars each route uses and how many passengers are in each class. Opus and I together decided to consider all coach and business-class seats on regional routes the same, and to count 37% of passengers on long-distance Superliner trains as sleeper passengers. This last figure is the sketchiest in the whole thing, I think. We had to guess at the average occupancy of a Roomette, and I don't have much idea on that. I also used only the consist of one train (the Empire Builder) to guess at the proportion of coach to sleeper passengers across the whole network; presumably it is different on different trains. And I didn't try to do separate calculations for Viewliner trains, as I rarely travel on them; they are not as tall and might be more or less efficient than Superliners, and if so this could bias the Superliner numbers a bit. Opus concluded from this process that about 76% of passengers are on regional coaches, 15% on long-distance coaches, and 9% on Superliner-equivalent long-distance sleepers.</li>
+<li>Set 0.147 kg CO2e/passenger-mile equal to the sum of, for each type of ticket/railcar, the estimated percent of passengers on it times the impact multiplier of that type times the kg CO2e/passenger-mile of a regional train, \( R \), and solve for \( R \).
+
+\[
+\begin{align*}
+0.147 &= 0.762 × R + 0.150 × (1.32R) + 0.088 × (3.66R)\\
+R &= 0.115 \text{kg CO2e/passenger-mile}\\
+\end{align*}
+\]
+</li>
+<li>Multiply \( R \) by the relative impact of each type, and we have our figures.</li>
+</ol>
+
+<p>What else could be wrong with this model?</p>
+
+<p>First of all, like Amtrak's number, it attempts to consider only the carbon
+impact of burning the diesel. It does not include infrastructure, maintenance,
+operations, the cost of building the train itself, and so on. If you just want
+to compare different types of tickets / routes, this is unlikely to matter
+much, because there aren't going to be substantial differences in those things
+depending on which type of railcar you're in. (Sleeper is somewhat
+higher-impact in that there will be a car attendant assigned to fewer people
+and they'll serve you more meals, and all those things have a cost; but you're
+also living for a couple of days on the train so I don't think this generally
+adds up to a whole lot more than your carbon cost at home.) If you want to
+actually know some estimate of the total number, in <a href="#post-187">Can flying be more
+environmentally friendly than driving?</a>, I concluded that a decent rule of
+thumb is that the fuel burn is about half the total impact for both flying and
+driving, so it seems reasonable to extrapolate this to taking a train as well.</p>
+
+<p>The model assumes that the empty weight of your portion of the train car is
+perfectly correlated with carbon cost. I think this is a pretty fair assumption
+overall; the weight of one passenger and their luggage is minuscule compared
+to the weight of the train and will not differ much from passenger to
+passenger, it's hard to imagine any other way getting on the train would
+materially influence its fuel costs, and this is the same basic way people
+calculate CO2e for plane flights. I do note that it will slightly underestimate
+the relative cost of Superliners because these trains usually also carry a
+dining car and a crew car that the regional trains don't.</p>
+
+<p>I haven't considered load factor at all. That is, we're calculating our
+fraction of the train as if 100% of seats (or compartments, in the case of
+Roomettes) are occupied at all times. If you've ever ridden on a train, plane,
+or bus, you presumably know this is unrealistic. Trains also tend to have lower
+load factors than planes, due to the fact that they typically make many stops
+and people can get on and off them in various places; the only plausible way
+the number of people who want to get off a train traveling in some direction at
+point X would reliably be balanced by the number of people who want to get on
+is if there is always vastly lower supply of seats on the train than demand for
+them (in which case we should obviously be adding more carriages or trains).</p>
+
+<p>One reason for this is that it's hard to know how much you should consider
+load factor at all when calculating your impact. One school of thought would
+say that you're not responsible for how many other people are on the train or
+plane, and the whole train or plane is moving regardless, so who cares? In the
+extreme case, suppose you book a transatlantic flight and, for some inscrutable
+reason, nobody else wanted a ticket on that particular flight and you are the
+only passenger on it. It seems silly to say your travel had a CO2e impact of
+hundreds of tons just because nobody else booked a ticket. You had no way of
+knowing you would be the only one on the plane, and moreover the plane would be
+going to Europe and burning most of the fuel whether you were on it or not;
+after all, if the airline didn't need to move the plane there, they would
+definitely just cancel the one-passenger flight, pay you for your trouble, and
+book you on the next one. (Just don't make the ridiculous but surprisingly
+common claim that an individual person flying always has <em>zero</em> carbon
+impact because “the plane would be going anyway.” Believe it or not, in the
+long run the more people buy tickets on a route, the more planes the airline
+starts flying on it.)</p>
+
+<p>I think it does seem correct to take the <em>average</em> load factor into
+account though. If you charter an entire 777 for a transatlantic flight, the
+impact really is on you, because you know ahead of time. Google Flights's
+estimates evidently consider the average load factor, so I think ideally this
+model would do so as well for an apples-to-apples comparison. But I have no
+educated guess as to what the numbers are for different kinds of Amtrak travel,
+so I left it out.</p>
+
+<p>Lastly, I wouldn't be surprised if either Claude or I, or both of us,
+overlooked something I didn't mention or made a mistake somewhere. Let me know
+if you spot anything!</p>
+
+<div class="callout">
+
+<p><strong>Side note on train load factors:</strong> Not only is it implausible
+to achieve a 100% load factor on a train, trying to achieve too high a load
+factor can actually lead to reduced efficiency! For a point-to-point flight, a
+load factor of 100% is indeed the ideal. But for a train making multiple stops,
+a load factor that is too high at any point along the route will act as a
+bottleneck that prevents people from booking tickets for longer journeys that
+would actually increase the entire route's load factor, so it's usually most
+efficient to maintain a high-ish but reasonably steady load factor with some <a
+href="https://mosmu.se/#Slack">slack</a>.</p>
+
+<p>To see how this works, suppose we operate a route along the length of the US
+West Coast. One particular train (we'll creatively call it T) is booked to 100%
+from San Francisco to San Jose (about 40 miles apart), and 50% along all other
+portions of the route. Now 100 people want to travel from Portland to Los
+Angeles. Unfortunately, even though T has lots of empty seats in Portland, we
+can't sell any of these folks tickets to LA, because T is already full from San
+Francisco to San Jose. Now T is stuck traveling at reduced capacity for well
+over a thousand miles, from Portland to SF and SF to LA, because this tiny
+40-mile stretch in the middle is full. T would actually be substantially more
+efficient in terms of cost per passenger-mile, when considering the entire
+route, if it ran emptier from San Francisco to San Jose so we could sell more
+tickets for longer journeys that pass through this area.</p>
+
+<p>This is one reason why an efficient train network needs long-distance trains
+as well as local ones that travel the same route, usually paired with
+incentives to use the local ones when traveling short distances (e.g., cheaper
+tickets, higher frequency). Moving people who aren't traveling far onto
+separate trains reduces the variance in the distance being traveled by an
+average passenger on a given train, which reduces the frequency of these
+bottlenecks.</p>
+
+</div>
+
+<a href="https://claude.ai/share/06c5abf4-af01-44df-ba48-bb0d8cba11a2">Thread with Claude</a>.
+    <div class="backlinks">
+        
+        
+    </div>
+</div>
+<div class="post" id="post-239">
     <a class="post-number" href="#post-239">#239</a>
     <div class="post-date">2025-07-05 08:50</div>
     <div class="post-tags">
@@ -2940,8 +3134,8 @@ kill someone else.</p>
 
 </div>
     <div class="backlinks">
-        
-        
+        <span class="backlink-title">Later mentions:&ensp;</span>
+        <a class="backlink" href="#post-240">240</a>
     </div>
 </div>
 <div class="post" id="post-186">
