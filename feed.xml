@@ -28,17 +28,17 @@ sometimes to inform decisions of what mode of transportation makes the most
 sense for some trip.&lt;/p&gt;
 
 &lt;p&gt;If you poke around a little bit, you&#x27;ll eventually find in a few places an
-estimate that each passenger-mile on Amtrak diesel-electric trains (in America,
-they&#x27;re all diesel except the Northeast Corridor backbone) is about 0.147 kg
-CO2e per passenger mile. As far as I can tell, this is a total average across
-the network, passenger-miles traveled divided by all fuel consumption. I had
-been using that figure for a while, but it has always been obvious to me that
-this masks a &lt;em&gt;lot&lt;/em&gt; of variation. Long-distance routes in the West and
-Midwest are run by Superliner cars, which are substantially larger and offer
-more legroom than the coach cars used on shorter regional routes, which means
-they almost certainly have somewhat higher impact. More obviously, if you book
-a sleeper compartment, you take up a larger portion of the train – maybe quite
-a lot larger – and should ideally be using a correspondingly larger impact
+estimate of the carbon cost on Amtrak diesel-electric trains (in America,
+they&#x27;re all diesel except the Northeast Corridor backbone), about 0.147 kg CO2e
+per passenger mile. As far as I can tell, this is a total average across the
+network, passenger-miles traveled divided by all fuel consumption. I had been
+using that figure for a while, but it has always been obvious to me that this
+masks a &lt;em&gt;lot&lt;/em&gt; of variation. Long-distance routes in the West and Midwest
+are run by Superliner cars, which are substantially larger and offer more
+legroom than the coach cars used on shorter regional routes, which means they
+almost certainly have somewhat higher impact. More obviously, if you book a
+sleeper compartment, you take up a larger portion of the train – maybe quite a
+lot larger – and should ideally be using a correspondingly larger impact
 figure. However, I had pretty much no notion of what the difference might be.&lt;/p&gt;
 
 &lt;p&gt;I worked with Claude Opus for a while to create a simple model of how carbon
@@ -81,10 +81,10 @@ you fill a small, efficient car with four or five people.
 &lt;p&gt;The methodology here was:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Look up the empty weight of each type of train car (Horizon coach, Superliner coach averaged between I and II types, Superliner sleeper averaged).&lt;/li&gt;
-&lt;li&gt;Estimate the fraction of that train car that you take up when you buy the appropriate type of ticket. For instance, in a Superliner sleeper, there are 14 Roomettes which take up about half of the car&#x27;s passenger area, so booking one Roomette compartment uses 1/28 of the sellable portion of the car (we&#x27;re ignoring parts like bathrooms and luggage racks, which seem fair to apportion evenly among all passengers, and we&#x27;re assuming that there&#x27;s no massive difference in the mass of each unit of area of the car, or at least that removing your part of the car wouldn&#x27;t allow the car to be made disproportionately lighter). Therefore you&#x27;ll be charged 1/28 of the impact for that car&#x27;s trip.&lt;/li&gt;
+&lt;li&gt;Look up the empty weight of several types of train car (Horizon coach, Superliner coach averaged between I and II types, Superliner sleeper averaged). For simplicity, I ignored the differences between different types of regional cars and different types of long-distance cars and just pretended the subtypes are the same (these are the types I am most familiar with).&lt;/li&gt;
+&lt;li&gt;Estimate the fraction of that train car that you take up when you buy the appropriate type of ticket. For instance, in a Superliner sleeper, there are 14 Roomettes which take up about half of the car&#x27;s passenger area, so booking one Roomette compartment uses 1/28 of the sellable portion of the car (we&#x27;re ignoring parts like bathrooms and luggage racks, which seem fair to apportion evenly among all passengers, and we&#x27;re assuming that there&#x27;s no huge difference in the weight of each unit of area of the car, or at least that removing your part of the car wouldn&#x27;t allow the car to be made disproportionately lighter). Therefore you&#x27;ll be charged 1/28 of the impact for that car&#x27;s trip.&lt;/li&gt;
 &lt;li&gt;Multiply this fraction by the total weight of the car to calculate the number of pounds of train the locomotive has to pull to move the portion of the train you booked. (Fun fact: A single-occupancy Roomette is responsible for about 5,800 pounds of train when empty! That&#x27;s substantially heavier than almost all automobiles except EV trucks, even without counting your fraction of the weight of the dining car and club car.&lt;/li&gt;
-&lt;li&gt;Take the fuel consumption of the lightest regional coach as 1x, and calculate a relative impact multiplier for the other types based on the relationship between the weights. For a Superliner coach this was 1.32x, and for a Superliner Roomette 3.66x.&lt;/li&gt;
+&lt;li&gt;Define the impact of one seat on the lightest regional coach as 1, and calculate a relative impact multiplier for the other types based on the relationship between the weights. For a Superliner coach this was 1.32x, and for a Superliner Roomette 3.66x.&lt;/li&gt;
 &lt;li&gt;Look at the FY2023 ridership numbers and make an educated guess about what railcars each route uses and how many passengers are in each class. Opus and I together decided to consider all coach and business-class seats on regional routes the same, and to count 37% of passengers on long-distance Superliner trains as sleeper passengers. This last figure is the sketchiest in the whole thing, I think. We had to guess at the average occupancy of a Roomette, and I don&#x27;t have much idea on that. I also used only the consist of one train (the Empire Builder) to guess at the proportion of coach to sleeper passengers across the whole network; presumably it is different on different trains. And I didn&#x27;t try to do separate calculations for Viewliner trains, as I rarely travel on them; they are not as tall and might be more or less efficient than Superliners, and if so this could bias the Superliner numbers a bit. Opus concluded from this process that about 76% of passengers are on regional coaches, 15% on long-distance coaches, and 9% on Superliner-equivalent long-distance sleepers.&lt;/li&gt;
 &lt;li&gt;Set 0.147 kg CO2e/passenger-mile equal to the sum of, for each type of ticket/railcar, the estimated percent of passengers on it times the impact multiplier of that type times the kg CO2e/passenger-mile of a regional train, \( R \), and solve for \( R \).
 
@@ -117,50 +117,70 @@ driving, so it seems reasonable to extrapolate this to taking a train as well.&l
 
 &lt;p&gt;The model assumes that the empty weight of your portion of the train car is
 perfectly correlated with carbon cost. I think this is a pretty fair assumption
-overall; the weight of one passenger and their luggage is minuscule compared
-to the weight of the train and will not differ much from passenger to
-passenger, it&#x27;s hard to imagine any other way getting on the train would
-materially influence its fuel costs, and this is the same basic way people
-calculate CO2e for plane flights. I do note that it will slightly underestimate
-the relative cost of Superliners because these trains usually also carry a
-dining car and a crew car that the regional trains don&#x27;t.&lt;/p&gt;
+overall; the weight of one passenger and their luggage is minuscule compared to
+the weight of the train and will not differ much from passenger to passenger,
+it&#x27;s hard to imagine any other way getting on the train would materially
+influence its fuel costs, and this is the same basic way people calculate CO2e
+for plane flights. I do note that it will slightly underestimate the relative
+cost of Superliners because these trains usually also carry a dining car and a
+crew car that the regional trains don&#x27;t. Also, different routes and types of
+cars use different locomotives, which will likely have some difference in
+efficiency. I am not enough of a train nerd to know anything about locomotives
+except that they sit at one end of the train and make it move, so I abstained
+from attempting to consider that!&lt;/p&gt;
 
-&lt;p&gt;I haven&#x27;t considered load factor at all. That is, we&#x27;re calculating our
-fraction of the train as if 100% of seats (or compartments, in the case of
-Roomettes) are occupied at all times. If you&#x27;ve ever ridden on a train, plane,
-or bus, you presumably know this is unrealistic. Trains also tend to have lower
-load factors than planes, due to the fact that they typically make many stops
-and people can get on and off them in various places; the only plausible way
-the number of people who want to get off a train traveling in some direction at
-point X would reliably be balanced by the number of people who want to get on
-is if there is always vastly lower supply of seats on the train than demand for
-them (in which case we should obviously be adding more carriages or trains).&lt;/p&gt;
+&lt;p&gt;I haven&#x27;t considered load factor – that is, the percentage of seats or
+compartments that are occupied during the journey. Right now we are calculating
+the fraction of the train car we&#x27;re responsible for assuming that the
+passengers in the other seats or compartments are responsible for their
+portions, but some of the seats will probably be empty. And trains tend to have
+lower load factors than planes, due to the fact that they typically make many
+stops and people can get on and off them in various places (after all, the only
+plausible way the number of people who want to get off a train traveling in
+some direction at point X would reliably be balanced by the number of people
+who want to get on is if there is always vastly lower supply of seats on the
+train than demand for them, in which case we should obviously be adding more
+carriages or trains). The average load factor of an average Amtrak train is
+presumably already priced in to Amtrak&#x27;s average impact number – but I&#x27;d be
+surprised if some trains and types of tickets didn&#x27;t have significantly
+different load factors than others.&lt;/p&gt;
 
-&lt;p&gt;One reason for this is that it&#x27;s hard to know how much you should consider
-load factor at all when calculating your impact. One school of thought would
-say that you&#x27;re not responsible for how many other people are on the train or
-plane, and the whole train or plane is moving regardless, so who cares? In the
-extreme case, suppose you book a transatlantic flight and, for some inscrutable
-reason, nobody else wanted a ticket on that particular flight and you are the
-only passenger on it. It seems silly to say your travel had a CO2e impact of
-hundreds of tons just because nobody else booked a ticket. You had no way of
-knowing you would be the only one on the plane, and moreover the plane would be
-going to Europe and burning most of the fuel whether you were on it or not;
-after all, if the airline didn&#x27;t need to move the plane there, they would
-definitely just cancel the one-passenger flight, pay you for your trouble, and
-book you on the next one. (Just don&#x27;t make the ridiculous but surprisingly
-common claim that an individual person flying always has &lt;em&gt;zero&lt;/em&gt; carbon
-impact because “the plane would be going anyway.” Believe it or not, in the
-long run the more people buy tickets on a route, the more planes the airline
-starts flying on it.)&lt;/p&gt;
+&lt;p&gt;One reason to ignore load factor is that it&#x27;s actually difficult to figure out
+how relevant it is when calculating your impact; the chain of causation and
+responsibility is debatable. One school of thought would say that you&#x27;re not
+responsible for how many other people are on the train or plane, and the whole
+train or plane is moving regardless, so who cares? In the extreme case, suppose
+you book a transatlantic flight and, for some inscrutable reason, nobody else
+wanted a ticket on that particular flight and you are the only passenger on it.
+It seems silly to say your travel had a CO2e impact of hundreds of tons just
+because nobody else booked a ticket. You had no way of knowing you would be the
+only one on the plane, and moreover the plane would be going to Europe and
+burning most of the fuel whether you were on it or not; after all, if the
+airline didn&#x27;t need to move the plane there, they would definitely have just
+canceled the one-passenger flight, paid you for your trouble, and booked you on
+the next one. (An even stronger version of this is the ridiculous but
+surprisingly common claim that an individual person flying always has
+&lt;em&gt;zero&lt;/em&gt; carbon impact because “the plane would be going anyway even
+without [this individual] on it.” It&#x27;s clear to anyone who stops and thinks
+about it that there must be some hole in this reasoning, because if you apply
+it to everyone, it implies that thousands of planes would be flown across the
+skies empty even if nobody wanted to go anywhere – yet it&#x27;s difficult to give a
+convincing refutation. Of course the more people buy tickets on a particular
+route, the more planes will be put on that route in the long run, but it&#x27;s
+indeed hard to imagine in the short term that an extra plane would fly on a
+given day if more people bought a ticket.)&lt;/p&gt;
 
 &lt;p&gt;I think it does seem correct to take the &lt;em&gt;average&lt;/em&gt; load factor into
-account though. If you charter an entire 777 for a transatlantic flight, the
-impact really is on you, because you know ahead of time. Google Flights&#x27;s
-estimates evidently consider the average load factor, so I think ideally this
-model would do so as well for an apples-to-apples comparison. But I have no
-educated guess as to what the numbers are for different kinds of Amtrak travel,
-so I left it out.&lt;/p&gt;
+account though. If some airline was for some silly reason selling tickets on a
+777 and advertising that you would be the only passenger on it, I think almost
+most people would agree all those hundreds of tons really would be on you if
+you bought one, because you knew the plane would be flying empty in advance.
+More reasonably, if you have a choice between a plane that you know is going to
+be 50% full and one you know is going to be 100% full, it seems mostly sensible
+to say the 50% full one has a higher carbon impact if you fly on it. Google
+Flights&#x27;s estimates evidently do this, so I think ideally this model would do
+so as well for an apples-to-apples comparison. But I have no educated guess as
+to what the numbers are for different kinds of Amtrak travel, so I left it out.&lt;/p&gt;
 
 &lt;p&gt;Lastly, I wouldn&#x27;t be surprised if either Claude or I, or both of us,
 overlooked something I didn&#x27;t mention or made a mistake somewhere. Let me know
@@ -174,8 +194,8 @@ factor can actually lead to reduced efficiency! For a point-to-point flight, a
 load factor of 100% is indeed the ideal. But for a train making multiple stops,
 a load factor that is too high at any point along the route will act as a
 bottleneck that prevents people from booking tickets for longer journeys that
-would actually increase the entire route&#x27;s load factor, so it&#x27;s usually most
-efficient to maintain a high-ish but reasonably steady load factor with some &lt;a
+would increase the entire route&#x27;s load factor, so it&#x27;s usually most efficient
+to maintain a high-ish but reasonably steady load factor with some &lt;a
 href=&quot;https://mosmu.se/#Slack&quot;&gt;slack&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To see how this works, suppose we operate a route along the length of the US
@@ -184,20 +204,19 @@ from San Francisco to San Jose (about 40 miles apart), and 50% along all other
 portions of the route. Now 100 people want to travel from Portland to Los
 Angeles. Unfortunately, even though T has lots of empty seats in Portland, we
 can&#x27;t sell any of these folks tickets to LA, because T is already full from San
-Francisco to San Jose. Now T is stuck traveling at reduced capacity for well
-over a thousand miles, from Portland to SF and SF to LA, because this tiny
+Francisco to San Jose. Now T is stuck traveling at reduced capacity for
+hundreds of miles, from Portland to SF and San Jose to LA, because this tiny
 40-mile stretch in the middle is full. T would actually be substantially more
 efficient in terms of cost per passenger-mile, when considering the entire
 route, if it ran emptier from San Francisco to San Jose so we could sell more
 tickets for longer journeys that pass through this area.&lt;/p&gt;
 
-&lt;p&gt;This is one reason why an efficient train network needs long-distance trains
-as well as local ones that travel the same route, usually paired with
-incentives to use the local ones when traveling short distances (e.g., cheaper
-tickets, higher frequency). Moving people who aren&#x27;t traveling far onto
-separate trains reduces the variance in the distance being traveled by an
-average passenger on a given train, which reduces the frequency of these
-bottlenecks.&lt;/p&gt;
+&lt;p&gt;This is one reason why an efficient train network needs local trains as well
+as long-distance trains along the same route, usually paired with incentives to
+use the local ones when traveling short distances (e.g., cheaper tickets,
+higher frequency). Moving people who aren&#x27;t traveling far onto separate trains
+reduces the variance in the distance being traveled by an average passenger on
+a given train, which reduces the frequency of these bottlenecks.&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -245,7 +264,8 @@ the bottled juice contains bitter oil from the peel that doesn&#x27;t go well wi
 
 &lt;p&gt;You can also make this in a pressure cooker if you don&#x27;t want to bother with having something boiling on the stove,
 but I think the texture is better when cooked low and slow.
-Reduce the water by a cup or so and cook for 12 minutes on high pressure,
+If you go with the pressure cooker,
+reduce the water by a cup or so and cook for 12 minutes on high pressure,
 then wait for a natural release
 (you can carefully release the remaining pressure after 10 minutes if you&#x27;re in a hurry).&lt;/p&gt;
     </description>
