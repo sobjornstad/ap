@@ -15,6 +15,8 @@ echo "Sanity check..."
 git rev-parse "$pages_branch" >/dev/null 2>/dev/null || die "The gh-pages branch does not exist."
 hash ap || die "ap not found on system path"
 
+echo "Geolocation linter check..."
+geolint -r assets/ || die "EXIF geolocation data found in photos. Use 'exiftool -gps:all= THE_FILES' to delete."
 
 echo "Updating comments file..."
 #echo "WARNING: Comment updates disabled as the email system is not available."
