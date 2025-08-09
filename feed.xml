@@ -15,6 +15,145 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[244] LaTeX preprocessor pattern</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sat, 09 Aug 2025 17:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-244</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#244</guid>
+    <description>
+      &lt;p&gt;I often use &lt;a href=&quot;https://en.wikipedia.org/wiki/LaTeX&quot;&gt;LaTeX&lt;/a&gt; to typeset documents.
+(As Hillel Wayne &lt;a href=&quot;https://www.hillelwayne.com/post/cheatsheets/&quot;&gt;says&lt;/a&gt;,
+“[LaTeX is] the best tool for fine control over layouts. This is less because of its own intrinsic quality and more because everything else is far, far worse.”)&lt;/p&gt;
+
+&lt;p&gt;One reason LaTeX often comes in handy is because it creates PDFs from a plain-text markup language,
+which makes it extremely easy to make &lt;em&gt;dynamic&lt;/em&gt; pretty documents based on rules or other code,
+compared to, say, using a word processor.
+For instance, recently I&#x27;ve developed a series of daily and weekly checklists for myself,
+but the items I want on them vary by day of the week and month,
+and I&#x27;d rather not have to copy and paste into dozens of different files for every possible day
+(if nothing else, it would be a nightmare to maintain when I wanted to change some items!).&lt;/p&gt;
+
+&lt;p&gt;There are two obvious ways to incorporate the programmatic logic:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+    LaTeX is actually a Turing-complete programming language, and a somewhat usable one;
+    you can implement arbitrarily complex logic using LaTeX macros.
+    But in practice, while this works OK for simple logic,
+    if you aren&#x27;t a true expert at LaTeX,
+    it is a nightmarish waste of time.
+    (LuaTeX is supposed to fix this by letting you write macros in &lt;a href=&quot;https://en.wikipedia.org/wiki/Lua&quot;&gt;Lua&lt;/a&gt;,
+     but LuaTeX seems like one of those things that will always be ready for real use in two years!)
+&lt;/li&gt;
+&lt;li&gt;
+    You can generate your LaTeX code by doing string manipulation in Python or some similar simple high-level scripting language.
+    Writing your logic in a normal programming language is much easier than writing it in LaTeX –
+    but now incorporating the results into your LaTeX documents is annoying.
+    String manipulation works great if you only need to do a couple of tiny things,
+    but it starts to grate once your document gets to a certain size.
+    A particularly annoying paper-cut is the fact that LaTeX introduces every macro and command with a backslash,
+    which has to get various numbers of additional backslash escapes in most programming languages&#x27; strings in different contexts,
+    causing &lt;a href=&quot;https://en.wikipedia.org/wiki/Leaning_toothpick_syndrome&quot;&gt;Leaning Toothpick Syndrome&lt;/a&gt;
+    and usually an irritatingly large number of compile errors when you forget to escape things.
+    It&#x27;s also hard to avoid mixing the logic and the snippets of LaTeX,
+    and syntax highlighting doesn&#x27;t work right unless you do a bunch of extra work to convince your text editor to handle it.
+    And when you need to add an item to your checklist, it feels silly to have to edit a Python script to do it instead of just changing a LaTeX file.
+    (For my checklists, I want to write the magic for conditional includes of checklists by day once, and then never think about it again.)
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Recently I&#x27;ve started taking a third approach,
+which I&#x27;ve never seen anybody mention as an option
+but which I find vastly better than either of the ones above:
+separate the logic and the LaTeX code,
+then preprocess the LaTeX files using Python before compiling them.
+You write ordinary LaTeX documents as in option 1,
+but instead of implementing your logic directly as LaTeX macros,
+you include some sort of directives in your document to show where the outside logic&#x27;s results should be inserted.&lt;/p&gt;
+
+&lt;p&gt;For complex cases, you can use a templating language like &lt;a href=&quot;https://jinja.palletsprojects.com/en/stable/&quot;&gt;Jinja&lt;/a&gt;,
+or even a dedicated general-purpose text preprocessor.
+But I&#x27;ve had good success by just rolling my own when needed (pro tip: Claude Code is great at writing parsing/replacement code)
+and introducing the directives with LaTeX comments.
+In my checklists I&#x27;ve added two directives, a conditional include:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% lpp: dow(Monday, Wednesday, Friday)
+  \item Check and water plants if needed
+% lpp: end dow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And a text substitution:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% lpp: sub(DATE:$pretty_date)
+\date{DATE}
+% lpp: end sub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Before running &lt;code&gt;pdflatex&lt;/code&gt; on each file during the compile,
+I use the script to define the appropriate variables
+and write out a new copy of the file in an &lt;code&gt;output&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;A variant of this approach I used in a past project that created a mini-encyclopedia
+is to do one pass over all files before compilation, reading in the directives and computing results,
+then write out the results to LaTeX macros in an extra file which can be included in your actual LaTeX files with &lt;code&gt;\input&lt;/code&gt;.
+Unlike simply doing conditional includes or text replacements,
+this makes it possible to define structured data in one file and then read it in another file
+without having to worry about the order in which files are processed
+(and without having “hot comments” which affect the actual meaning of the file,
+ as there are in the checklists example, if that&#x27;s something that bugs you).&lt;/p&gt;
+    </description>
+  </item>
+  <item>
+    <title>[243] Article: Don’t Forget How Strange This All Is (David Cain)</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Article</category>
+    <pubDate>Sat, 09 Aug 2025 17:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-243</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#243</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://www.raptitude.com/2015/09/how-strange/"&gt;
+              🔗 Don’t Forget How Strange This All Is
+          &lt;/a&gt; (David Cain)
+      &lt;/p&gt;
+      &lt;p&gt;One of my favorite essays, which I go back and read at least once a year. We
+usually live as though the world makes sense, but actually when you zoom out,
+it is completely bizarre in just about every way possible. Camus argues that
+expecting the world to make sense is the essential cause of suffering, because
+much of the time, it doesn&#x27;t make sense; but if you didn&#x27;t expect it to have
+any kind of logic or rightness or be anything at all other than bizarre, would
+you be so disappointed? Maybe you can even find a little bit of wonder in it.
+&lt;/p&gt;
+
+&lt;p&gt;On my latest read I noticed for the first time a comment thread underneath, in
+which Cain adds:&lt;/p&gt;
+
+&lt;blockquote&gt;
+I find great comfort in remembering that no matter how my life goes I will be dead in an eyeblink and the sun will incinerate all the evidence of how things went. I’m sure many people see that as nihilistic or depressing but to me it is beautiful. Everything returns to dust and it doesn’t make sense to stress ourselves out over getting things very very very temporarily right. It makes more sense to enjoy the ride.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Something clicked for me here,
+because I&#x27;ve always found the traditional invocation at Ash Wednesday beautiful as well:&lt;/p&gt;
+
+&lt;blockquote&gt;
+Remember that you are dust, and to dust you shall return.
+&lt;/blockquote&gt;
+
+&lt;p&gt;…but I had never quite been able to place why.
+It&#x27;s almost exactly this: it&#x27;s &lt;a href=&quot;https://mosmu.se/#AstonishingExistence&quot;&gt;astounding that we&#x27;re here at all&lt;/a&gt;,
+and yet we are also insignificant and temporary on the broad scale, and that is freeing.
+I might even venture a claim that this insignificance and impermanence makes it all the more astounding.&lt;/p&gt;
+
+&lt;p&gt;
+This also reminds me of one of my favorite &lt;a href=&quot;https://xkcd.com/1173/&quot;&gt;xkcd title texts&lt;/a&gt;:
+
+&lt;blockquote&gt;
+A human is a system for converting dust billions of years ago into dust billions of years from now via a roundabout process which involves checking email a lot.
+&lt;/blockquote&gt;&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[242] Published: Pacific Northwest Travel Journal</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
