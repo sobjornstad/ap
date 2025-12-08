@@ -15,10 +15,183 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[253] How much do you have to ride an e-bike to come out ahead on money or carbon?</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 08 Dec 2025 17:50:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-253</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#253</guid>
+    <description>
+      &lt;p&gt;In the &lt;a href=&quot;#post-252&quot;&gt;previous post&lt;/a&gt;,
+we saw that e-bikes can replace cars for many trips,
+and are much more efficient per mile.
+But they’re also pretty expensive.
+So when are they worth the purchase?&lt;/p&gt;
+
+&lt;p&gt;If having an e-bike allows you to forgo owning a car
+(or buy one fewer car for your household, or sell a car you currently own),
+you’ll probably come out ahead at mile zero both financially and environmentally,
+even if you buy a top-of-the-line luxury e-bike.
+You certainly will if you buy a mid-tier one and ride it for a few months.&lt;/p&gt;
+
+&lt;p&gt;But many people can’t pull that off,
+or aren’t sure whether they can replace a car
+until they’ve already bought and lived with an e-bike for a while.
+What does the calculus look like here?
+You’ll be saving on fuel, maintenance, etc.,
+but still paying all of the fixed costs of owning a car
+like depreciation/payments, insurance, and registration,
+which typically represent more than half the financial costs
+and about half the carbon costs.&lt;/p&gt;
+
+&lt;p&gt;Let’s consider the financial cost first.
+If we take the IRS’s 2025 variable/marginal rate of 21 cents per mile
+as the typical cost of driving a car that you already own and have paid the fixed costs on,
+and suppose that an e-bike costs 1 cent per mile to charge
+(this is actually a significant overestimate in most conditions),
+we can suppose that you save
+about 20 cents for every mile you ride an e-bike you already own instead of driving your car,
+excluding the cost of maintenance on the bike.&lt;/p&gt;
+
+&lt;p&gt;What about the maintenance?
+This is hard to find good numbers on,
+especially because it’s obviously going to vary depending on
+the conditions you ride the bike in,
+how much you ride,
+how much work you’re comfortable doing yourself,
+and a bit of dumb luck.
+I got Claude Opus 4.5 to ballpark an estimate for me,
+as I couldn’t find anyone who has actually done this on the web,
+and it came up with a breakdown of costs that felt reasonable,
+working out to a total midpoint of 4 cents per mile
+if you do most of the work yourself,
+or 10 cents if you take it to the shop for everything.
+(If you care about the cost,
+you can definitely learn how to do most of the work yourself.
+Bikes are simple, straightforward machines,
+and the electronic parts of an e-bike rarely need servicing over their lifetime.)
+This will decrease our savings per mile to, respectively, 16 cents and 10 cents.&lt;/p&gt;
+
+&lt;p&gt;Set this against the cost of buying the bike itself.
+We’ll suppose you buy a nice, mid-range e-bike for $2,000.
+At 16 cents savings per mile, you have to ride 12,500 miles in total to break even,
+and at 10 cents, 20,000 miles.&lt;/p&gt;
+
+&lt;p&gt;That’s a lot of miles compared to how much people typically bike,
+but it’s not out of the question for an e-bike.
+Still, the e-bike could be either a good deal or a bad one,
+depending entirely on how much you use the bike.
+If you replace 5 miles a day of travel that were previously taken by car (on average),
+it will take you 6.8 years to break even if you do your own maintenance,
+which is probably going to be close to the lifetime of the bike
+if you’re inclined to replace things on the schedule most people do
+(and to be fair over a long time horizon, we ought to apply discounting,
+which would extend the payback period even further).
+If you have a longer urban commute that gets you to an average of 20 miles a day, though,
+it will only take 1.7 years –
+which is at least as much a reflection on how expensive driving is as how efficient e-bikes are!&lt;/p&gt;
+
+&lt;p&gt;Note that you should take these figures with a grain of salt
+since they’re based on the IRS’s federal mileage rate,
+which is a nationwide compromise for all types of cars and costs of living.
+If you live in a place where gas is expensive and you have a car that’s expensive to operate,
+you might break even sooner;
+if you have a used beater 20-year-old Toyota
+that you maintain yourself with junkyard parts
+and you live in a place where gas is very cheap,
+you might never make it back at all before the bike wears out.&lt;/p&gt;
+
+&lt;p&gt;As silly as it sounds,
+given the small margins involved
+I also have to mention that your food costs might go up if you start riding any kind of bike,
+electric or not, more.
+You probably won’t be inclined to take this into account –
+most of us like eating more food when we have an excuse to
+and will save more money from the health benefits of the exercise than we spend on extra food –
+but if you find yourself really hurting for cash in the short term
+and counting calories per dollar when you plan your meals,
+it could plausibly make a noticeable difference.
+In that case, you could economize by choosing an e-bike with a throttle
+and using the throttle as much as possible
+(as discussed in the previous post,
+the e-bike’s electric motor is much more efficient at turning carbon and money into motive power
+than your legs).&lt;/p&gt;
+
+&lt;p&gt;Finally, sadly, a bike is a lot more likely to be stolen,
+and a lot less likely to be recovered if it is, than a car.
+I won’t try to quantify this because the chances differ enormously depending on
+where you live
+and how securely you’re able to store your bike,
+and reliable statistics are nearly impossible to come by,
+but it’s worth keeping in mind that this will impose some extra cost on average.
+You might choose to insure your bike to reduce the variance,
+but of course if this had positive expected value the insurance company would go bankrupt,
+so it won’t help you save money.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;How about carbon footprint?
+I wasn’t able to find any numbers I felt super confident about
+for the carbon footprint of producing an e-bike,
+but estimates I found on the web ranged from about 130 kg to 250 kg CO2e,
+so I’ll run with 250 kg to be conservative.&lt;/p&gt;
+
+&lt;p&gt;Let’s use fuel as a benchmark.
+Burning a gallon of gas emits about 9 kg CO2e,
+so producing an e-bike is equivalent to burning about 27 gallons of gas.
+If the car you’re replacing gets 30 miles per gallon,
+you therefore need to ride about 840 miles to break even.
+(At 5 miles a day, that will take about 5 months.)
+Buying parts to maintain your bike has a small carbon footprint,
+and charging it has an infintesimal one,
+so in reality the savings will be very slightly less,
+but it’s hard to imagine the difference being enough to change the conclusion.
+And this is ignoring the carbon costs of maintaining a car,
+or the amortized cost of producing it.&lt;/p&gt;
+
+&lt;p&gt;Suffice it to say that,
+provided you actually ride the bike on some fraction of trips you would formerly have taken by car,
+and it doesn’t get destroyed in an accident or stolen within the first few months you own it,
+it’s hard to see any way you could fail to reduce your carbon footprint by getting an e-bike.
+Even if you did, it wouldn’t be by much.&lt;/p&gt;
+
+&lt;p&gt;(Of course, if buying an e-bike allows you to avoid the production of a car entirely,
+there’s no point doing math: the car is an order of magnitude worse at mile zero.)&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;It’s worth pointing out that for many people,
+e-bikes are subject to some &lt;a href=&quot;https://en.wikipedia.org/wiki/Induced_demand&quot;&gt;induced demand&lt;/a&gt;:
+because they’re convenient and fun,
+people end up taking some trips on them that they wouldn’t have taken at all otherwise
+(exploring their city, going for a weekend trail ride, etc.).
+I certainly don’t consider this effect a problem either financially or environmentally,
+because riding an e-bike is so marginally cheap on both counts that you should consider it free
+(it’s several times lower-impact than &lt;em&gt;walking&lt;/em&gt; per mile traveled!).
+But it’s worth considering that your odometer
+might have to climb higher than the break-even numbers we worked out above
+before you can say you’ve come out ahead.&lt;/p&gt;
+
+&lt;p&gt;But of course,
+that line of thought leads us into the softer benefits,
+which shouldn’t be overlooked.
+That induced demand we talked about
+represents an improvement to your life
+gained at extremely low cost.
+On top of that, if you ride an e-bike regularly,
+you’ll surely be healthier than if you drove all those miles,
+and most people who buy e-bikes enjoy riding them.
+You might well see 2 grand as a smashing good deal
+for a few years of exercise and entertainment,
+even if your transportation didn’t get any cheaper at all.
+And every additional mile you ride decreases the effective cost.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[252] You've probably been thinking about e-bikes all wrong</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
-    <pubDate>Tue, 09 Dec 2025 10:30:00 -0000</pubDate>
+    <pubDate>Sun, 07 Dec 2025 10:30:00 -0000</pubDate>
     <link>https://ap.sorenbjornstad.com/#post-252</link>
     <guid isPermaLink="false">https://ap.sorenbjornstad.com/#252</guid>
     <description>
