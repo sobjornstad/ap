@@ -1,3 +1,17 @@
+#256 Misc
+    :date: 2026-03-04 20:40
+    :shortdes: Claude recommends the acoustic ownership test
+    :tags: AI | Humor | Tech
+
+.The acoustic ownership test to figure out if some part of your system is still needed: turn it off and see if anybody yells at you.
+
+.Claude suggested this today to figure out why I put a problematic line in some
+configuration file, and I can't even blame it because that's probably what I
+would have done anyway:
+
+<img class="center" width="695px" loading="lazy" src="assets/images/acoustic.png">
+
+
 #255 Misc
     :date: 2026-02-25 16:00
     :shortdes: The meaning of modern life...
