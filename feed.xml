@@ -15,6 +15,23 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[256] Claude recommends the acoustic ownership test</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Wed, 04 Mar 2026 20:40:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-256</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#256</guid>
+    <description>
+      &lt;p&gt;The acoustic ownership test to figure out if some part of your system is still needed: turn it off and see if anybody yells at you.&lt;/p&gt;
+
+&lt;p&gt;Claude suggested this today to figure out why I put a problematic line in some
+configuration file, and I can&#x27;t even blame it because that&#x27;s probably what I
+would have done anyway:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; width=&quot;695px&quot; loading=&quot;lazy&quot; src=&quot;assets/images/acoustic.png&quot;&gt;
+    </description>
+  </item>
+  <item>
     <title>[255] The meaning of modern life...</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
