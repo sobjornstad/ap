@@ -15,6 +15,54 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[257] Tailscale</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 05 Mar 2026 13:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-257</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#257</guid>
+    <description>
+      &lt;p&gt;(&lt;em&gt;If you don&#x27;t know anything about networking, use multiple computers on a
+daily basis, write code, run servers, etc., this will be uninteresting. If you
+do, and you haven&#x27;t heard of Tailscale, this might be one of the most useful
+things you&#x27;ve read in a while!&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tailscale.com/&quot;&gt;Tailscale&lt;/a&gt; has been a thing for a few
+years now, but I never quite took the time to look into it and understand what
+it did. Recently, Claude recommended it to me to solve a specific problem, and
+having started using it, I am upset I waited this long – it&#x27;s been a huge
+quality-of-life improvement!&lt;/p&gt;
+
+&lt;p&gt;Basically, Tailscale allows you to set up – for free, for up to 3 users, and
+for a very reasonable price if you need more complex security and identity
+management – a virtual local network that can be composed of, essentially, any
+devices connected to the internet, anywhere. You install one piece of software
+and log in on each device, and…that&#x27;s it. I can access my desktop computer or
+my file server network from a coffee shop halfway across the world. Or for that
+matter, access my laptop on mobile hotspot from my desktop! No NAT
+configuration, no dynamic DNS, no SSH tunneling, no extra public server, no
+attack surface created by punching holes in a firewall, it just magically
+works. You can directly connect to things when you&#x27;re off-LAN using the same
+IPs you would use on the LAN (and there are other routing and hostname options
+too if you need them).&lt;/p&gt;
+
+&lt;p&gt;You can also configure most devices as “exit nodes” and allow internet traffic
+to be bounced through them from any other device, if you need to get around
+geolocation blocks that require you to be “at home” or you&#x27;re on a sketchy
+network and want an extra layer of protection.&lt;/p&gt;
+
+&lt;p&gt;It took me a couple of hours to get my network set up, but almost all of that
+time was spent getting the unsupported configuration of Tailscale on a FreeBSD
+NAS serving files via NFS working. If your network configuration is even
+slightly more normal than mine, it would probably take you all of 20 minutes to
+get everything working.&lt;/p&gt;
+
+&lt;p&gt;If you have a hacky system for doing any of this, or if you don&#x27;t have the
+ability to use your home devices when you&#x27;re away from home because it feels
+like too much work to set up, check it out.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[256] Claude recommends the acoustic ownership test</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>

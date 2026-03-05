@@ -107,7 +107,58 @@
         </div>
 
         <div id="content">
-            <div class="post" id="post-256">
+            <div class="post" id="post-257">
+    <a class="post-number" href="#post-257">#257</a>
+    <div class="post-date">2026-03-05 13:15</div>
+    <div class="post-tags">
+        <span class="tag type">Misc</span>
+        <span class="tag">Tech</span>
+    </div>
+    <div class="post-description">Tailscale</div>
+    <p>(<em>If you don't know anything about networking, use multiple computers on a
+daily basis, write code, run servers, etc., this will be uninteresting. If you
+do, and you haven't heard of Tailscale, this might be one of the most useful
+things you've read in a while!</em>)</p>
+
+<p><a href="https://tailscale.com/">Tailscale</a> has been a thing for a few
+years now, but I never quite took the time to look into it and understand what
+it did. Recently, Claude recommended it to me to solve a specific problem, and
+having started using it, I am upset I waited this long – it's been a huge
+quality-of-life improvement!</p>
+
+<p>Basically, Tailscale allows you to set up – for free, for up to 3 users, and
+for a very reasonable price if you need more complex security and identity
+management – a virtual local network that can be composed of, essentially, any
+devices connected to the internet, anywhere. You install one piece of software
+and log in on each device, and…that's it. I can access my desktop computer or
+my file server network from a coffee shop halfway across the world. Or for that
+matter, access my laptop on mobile hotspot from my desktop! No NAT
+configuration, no dynamic DNS, no SSH tunneling, no extra public server, no
+attack surface created by punching holes in a firewall, it just magically
+works. You can directly connect to things when you're off-LAN using the same
+IPs you would use on the LAN (and there are other routing and hostname options
+too if you need them).</p>
+
+<p>You can also configure most devices as “exit nodes” and allow internet traffic
+to be bounced through them from any other device, if you need to get around
+geolocation blocks that require you to be “at home” or you're on a sketchy
+network and want an extra layer of protection.</p>
+
+<p>It took me a couple of hours to get my network set up, but almost all of that
+time was spent getting the unsupported configuration of Tailscale on a FreeBSD
+NAS serving files via NFS working. If your network configuration is even
+slightly more normal than mine, it would probably take you all of 20 minutes to
+get everything working.</p>
+
+<p>If you have a hacky system for doing any of this, or if you don't have the
+ability to use your home devices when you're away from home because it feels
+like too much work to set up, check it out.</p>
+    <div class="backlinks">
+        
+        
+    </div>
+</div>
+<div class="post" id="post-256">
     <a class="post-number" href="#post-256">#256</a>
     <div class="post-date">2026-03-04 20:40</div>
     <div class="post-tags">
