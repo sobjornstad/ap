@@ -15,6 +15,91 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[261] This is why people think AI is so much worse than it is</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 20 Apr 2026 18:20:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-261</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#261</guid>
+    <description>
+      &lt;p&gt;I try to keep up with the latest news on AI of all kinds (which is like
+drinking from a fire hose that&#x27;s spewing a liquid that makes you worried the
+world is going to end, but also seems pretty important for that reason, plus
+it&#x27;s quite relevant to my job and my daily life right now). One thing that
+people keep mentioning is that if you haven&#x27;t tried the latest pro models
+available with a cheap monthly subscription, and instead you&#x27;re using free
+ChatGPT or the AI answers at the top of Google, you&#x27;re using AI that is months
+behind, which is an &lt;em&gt;eternity&lt;/em&gt; right now, and you likely have no clue
+what it&#x27;s actually capable of.&lt;/p&gt;
+
+&lt;p&gt;I&#x27;ve been a happy Claude Max subscriber for many months now, pretty much
+exclusively using &lt;a href=&quot;https://claude.ai&quot;&gt;claude.ai&lt;/a&gt; and Claude Code
+except for a few very specific uses, so I haven&#x27;t witnessed this effect
+firsthand for the most part. Today, out of laziness, I typed in a simple
+question I had into my search engine, &lt;a href=&quot;https://kagi.com&quot;&gt;Kagi&lt;/a&gt;,
+triggering its “quick answer” feature, rather than entering it on claude.ai
+like I normally do – and I was stunned by how useless the result was.&lt;/p&gt;
+
+&lt;p&gt;Here&#x27;s the result I got from “Quick Answer”:
+&lt;img class=&quot;center&quot; width=&quot;695px&quot; loading=&quot;lazy&quot; src=&quot;assets/images/quick-answers-kagi.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The free “quick answer” tool gives a list of slop that does absolutely nothing
+to address my problem. It didn&#x27;t even understand my question – it replaced the
+preposition &lt;em&gt;in&lt;/em&gt; in my question with &lt;em&gt;from&lt;/em&gt;, not understanding
+that I wanted queries issued while editing a particular repository to use a
+particular skill, rather than wanting to make a skill that was in a repository
+available everywhere. And the summary at the bottom basically tells me that
+skills exist and one can use them, which is ridiculous since asking the
+question I did already implies that I know this!&lt;/p&gt;
+
+&lt;p&gt;I could probably click on some of the references and eventually find an
+answer. But if I wanted to look at a bunch of documentation and crappy web
+pages, I would just search Google and click the links; there&#x27;s no reason to ask
+an LLM this question if I&#x27;m going to have to go read web pages anyway.&lt;/p&gt;
+
+&lt;p&gt;Now here&#x27;s the result from Opus 4.7 (the latest Claude model, available
+starting from $20 a month), on the exact same query:
+&lt;img class=&quot;center&quot; width=&quot;695px&quot; loading=&quot;lazy&quot; src=&quot;assets/images/quick-answers-claude.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It turns out that you can&#x27;t in fact do quite what I had wanted to do.
+But this answer understands exactly what I&#x27;m asking and explains that it&#x27;s not
+possible, and also gives me multiple very usable workarounds that I can choose
+from, along with an understanding of how the whole skill-loading framework
+works that will help me to understand and troubleshoot why my skill often isn&#x27;t
+being loaded when it would be useful, if the workarounds don&#x27;t work or aren&#x27;t
+acceptable. It&#x27;s also written at the right level for my knowledge on the topic
+(and it got this bang-on despite having memory off and my prompt being only one
+sentence!). It&#x27;s in a format that sounds more or less like something a normal
+person would write, rather than an annoying list of content-free bullet points.
+And it gives one useful reference link rather than a gazillion of them.&lt;/p&gt;
+
+&lt;p&gt;The answer isn&#x27;t perfect – it has a couple of minor errors (like saying
+“combining 1 and 2”, but the thing it&#x27;s referencing as “1” isn&#x27;t the thing that
+has a number 1 next to it), and I could definitely write a clearer version –
+but, very unlike the “Quick Answer” slop version, it gave me exactly the
+information I needed to solve my problem without needing to think hard or look
+up anything else. And I gave it a frankly awful prompt out of laziness; among
+other things, I didn&#x27;t explain what problem I was actually having (making the
+conversation subject to the &lt;a href=&quot;https://xyproblem.info/&quot;&gt;XY problem&lt;/a&gt;),
+and as it pointed out I didn&#x27;t clarify what “force” meant to me or what would
+count as a solution. I expect I could get an even better result if I gave it
+more context.&lt;/p&gt;
+
+&lt;p&gt;I have to admit now that this example might be slightly cheating because
+Claude has a special “Claude help guide” function built in, so it probably
+knows a bit more about Claude skills than about an average tool. But I didn&#x27;t
+intentionally cherry-pick this one, and the quality is not an outlier – I get
+responses of a similar quality for almost all questions I ask Claude.&lt;/p&gt;
+
+&lt;p&gt;All in all, right now, if you&#x27;ve only tried free AI, or, worse, only the AI
+that&#x27;s at the top of search engines and in customer-service chats, you simply
+can&#x27;t have an informed opinion on what AI (as a whole technology ecosystem) can
+do or whether it is useful. It would be like saying that you don&#x27;t enjoy
+looking at paintings, when you&#x27;ve only ever seen finger-paintings that someone
+else&#x27;s preschooler made.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[260] Forgetting anniversaries</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
