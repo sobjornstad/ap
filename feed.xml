@@ -15,6 +15,37 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[264] Claude suggests logical grouping with parentheses in English prose</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Mon, 27 Apr 2026 12:40:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-264</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#264</guid>
+    <description>
+      &lt;p&gt;Since I have &lt;a href=&quot;#post-186&quot;&gt;over 1 million words&lt;/a&gt; in &lt;a
+href=&quot;https://mosmu.se&quot;&gt;Mosaic Muse&lt;/a&gt; and there is no single “time of
+publication” at which to sit down and proof things, typos and grammatical
+errors created by rearranging clauses and ideas over the course of many edits
+are fairly common. I thought I would vibecode a tool that runs tiddlers
+through Claude Haiku and flags these for me so I could easily improve the
+average quality.&lt;/p&gt;
+
+&lt;p&gt;While I haven&#x27;t accepted all of its suggestions (sometimes it, e.g., nitpicks
+comma usage where I think either having one or not having one is acceptable),
+almost all of the suggestions I&#x27;ve encountered so far are reasonable, and most
+of them are helpful. Except this one, where it reasonably flagged that one of
+the “or”s would be better off as “and”, but its suggested replacement was, uh,
+computer-y:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; src=&quot;assets/images/claude-parenthetical-grouping.png&quot;&gt;
+
+&lt;p&gt;(For the uninitiated, this is a “diff”: the red text is the current version,
+with the parts it&#x27;s suggested removing highlighted, and the green text is the
+new, suggested version, with the parts it&#x27;s suggesting adding/replacing the old
+text with highlighted.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[263] Traffic Control Hall of Shame: just, except bicycles</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
