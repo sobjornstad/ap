@@ -1,3 +1,31 @@
+#264 Misc
+    :date: 2026-04-27 12:40
+    :shortdes: Claude suggests logical grouping with parentheses in English prose
+    :tags: AI | Humor | Language
+
+.Since I have <a href="#post-186">over 1 million words</a> in <a
+href="https://mosmu.se">Mosaic Muse</a> and there is no single “time of
+publication” at which to sit down and proof things, typos and grammatical
+errors created by rearranging clauses and ideas over the course of many edits
+are fairly common. I thought I would vibecode a tool that runs tiddlers
+through Claude Haiku and flags these for me so I could easily improve the
+average quality.
+
+.While I haven't accepted all of its suggestions (sometimes it, e.g., nitpicks
+comma usage where I think either having one or not having one is acceptable),
+almost all of the suggestions I've encountered so far are reasonable, and most
+of them are helpful. Except this one, where it reasonably flagged that one of
+the “or”s would be better off as “and”, but its suggested replacement was, uh,
+computer-y:
+
+<img class="center" loading="lazy" src="assets/images/claude-parenthetical-grouping.png">
+
+.(For the uninitiated, this is a “diff”: the red text is the current version,
+with the parts it's suggested removing highlighted, and the green text is the
+new, suggested version, with the parts it's suggesting adding/replacing the old
+text with highlighted.)
+
+
 #263 Misc
     :date: 2026-04-20 21:45
     :shortdes: Traffic Control Hall of Shame: just, except bicycles
