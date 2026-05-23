@@ -15,6 +15,74 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[267] Focusing on when LLMs are wrong is often missing the point of LLMs</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Sat, 23 May 2026 16:15:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-267</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#267</guid>
+    <description>
+      &lt;p&gt;People often say things like: You can&#x27;t trust LLMs! LLMs hallucinate! Check
+all output from LLMs for accuracy!&lt;/p&gt;
+
+&lt;p&gt;To some extent or another, all of these things are true, even as LLMs get
+better daily and perform better for more experienced users.&lt;/p&gt;
+
+&lt;p&gt;On the other hand: Sometimes it&#x27;s worth spending the time and money required
+to achieve 99% quality and accuracy. Other times, it&#x27;s better to get 80%
+accuracy and an answer in 5 minutes for $0. Knowing the difference, and
+remembering to apply that knowledge, is an important life skill; doing this
+reliably is one of the biggest things that separates highly effective people
+from average people. It would certainly be foolish to ask Claude to represent
+you in court when someone sues you for a million dollars. It is likely smart to
+ask Claude to help you contest an unfair parking ticket.&lt;/p&gt;
+
+&lt;p&gt;Put another way, what excites me about today&#x27;s LLMs is not that they replace
+human expertise or longer, slower, more thorough ways of doing things. It&#x27;s not
+even that they make specific tasks easier and faster (although they sometimes
+do, and this is a real benefit in those cases). What really excites me is that
+they make it easy to do things that otherwise would not have been done, or even
+possible, at all. Many if not most of the complex questions and tasks I present
+to LLMs are questions that would never have been answered and tasks that would
+never have been done if I had had to sit down and do 8 hours of research or
+work to complete them.&lt;/p&gt;
+
+&lt;p&gt;Sure, the quality might be only 80% as good – but it gets done in 5 minutes!
+Come on! 80% of the quality for 1% of the resources is an astoundingly good
+bargain much of the time. Yes, it&#x27;s critically important not to cheap out and
+do an 80% job when a 99% job is warranted. But it&#x27;s just as important not to do
+a 99% job when only an 80% job is warranted; it&#x27;s better to save your resources
+so that you&#x27;ll have them available for the times when a 99% job is needed.
+(&lt;a href=&quot;https://thezvi.wordpress.com/2017/09/30/slack/&quot;&gt;Most times are ordinary. Make an ordinary effort.&lt;/a&gt;)
+And many times, the choice is not between an 80% job and a 99% job, but between
+an 80% job and a 0% job, because the thing would never get done if it was held
+to such high standards.&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+&lt;p&gt;
+Suppose you&#x27;ve just been given a stupid parking ticket for $50 (maybe
+&lt;a href=&quot;https://abc7news.com/post/parking-in-san-francisco-red-zone-sf-ticket-street-pay-ticketsf/12072574/&quot;&gt;the curb was so faded it was impossible to see the red zone&lt;/a&gt;).
+Without the ability to get free, easy-to-follow advice on how to contest the
+ticket in a very small amount of time, most people would just grumble and pay
+the ticket; it&#x27;s not worth the effort to figure out. On the other hand, with an
+AI legal assistance tool, or even just Claude or ChatGPT, you could plausibly
+file an appeal in 30 minutes or less without putting forth much effort, which
+you might win or you might lose. If you contest a parking ticket and lose, it&#x27;s
+highly unlikely anything bad will happen besides having to pay the ticket
+(which you would have had to do anyway). On the other hand, if you win, you
+save $50 and walk around with an enhanced sense of justice for a few days.
+&lt;/p&gt;
+&lt;p&gt;
+In this scenario, how often the AI gives you advice that causes you to lose
+your appeal and have to pay $50 when an expert human could have won it for you
+– say, 1% of the time or 10% of the time – is not really relevant, because your
+other option wasn&#x27;t consulting a lawyer to challenge your $50 parking ticket, it was
+doing nothing at all and paying $50 100% of the time.
+&lt;/p&gt;
+&lt;/div&gt;
+    </description>
+  </item>
+  <item>
     <title>[266] Things that round to free</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
