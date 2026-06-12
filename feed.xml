@@ -15,6 +15,101 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[268] What is the carbon footprint of your personal AI use? (Probably not much)</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 11 Jun 2026 21:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-268</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#268</guid>
+    <description>
+      &lt;p&gt;Andy Masley put together this fantastic
+&lt;a href=&quot;https://www.andymasley.com/visuals/ai-prompt-footprint/&quot;&gt;AI carbon and water footprint calculator&lt;/a&gt;
+recently, which allows you to easily estimate the environmental impact of
+your AI use.&lt;/p&gt;
+
+&lt;p&gt;First of all, you should know that, despite the headlines and general
+hysteria, if you don&#x27;t use AI agents like Claude Code, Codex, or Cowork, there
+is almost no chance that your AI use has any appreciable impact on your carbon
+footprint whatsoever:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+    If you chat with a top-tier model like GPT-5.5 for 180 conversation turns
+    per day (that&#x27;s 11&amp;nbsp;back-and-forths every waking hour, far more than
+    anyone I know chats with AI), drinking a cup of coffee still has a larger
+    carbon footprint than your AI use.
+&lt;/li&gt;
+&lt;li&gt;
+    If you occasionally use ChatGPT instead of googling something (let&#x27;s say, 3
+    times a day), you can make up for that by driving…wait for it…2 miles less
+    &lt;em&gt;per year&lt;/em&gt;. (That comes out to 30 feet less per day.)
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+It&#x27;s true that training AI models also uses energy, but when you divide that
+cost over all the times people use the trained model, the energy used for
+inference (i.e., running the AI models on the input you give them) dominates.
+Even on early models, inference-time compute was over 80% of total lifecycle
+energy cost, and nowadays with more people using each model for more things,
+training probably accounts for even less.
+&lt;/div&gt;
+
+&lt;p&gt;Okay, but what if you do use AI agents sometimes?&lt;/p&gt;
+
+&lt;p&gt;Personally, these days, I have AI coding agents running pretty much all day at
+work, sometimes several at a time, and then I come home and often use AI agents
+some more in the evening and on weekends. There are certainly people who use
+agents even more than I do, but I&#x27;m surely at least above the median of AI
+agent users by token volume. I looked up my actual output token usage in Claude
+Code over the last month (using the &lt;code&gt;ccusage&lt;/code&gt; tool), and estimated a
+little bit extra for my occasional use of Codex. I use about as much energy per
+day for AI as it would cost to drive three miles in a typical gas-powered car,
+or about as much energy per year as taking an extra round-trip flight from
+Minneapolis to San Francisco. It&#x27;s somewhere in the neighborhood of 5% of my
+total carbon footprint.&lt;/p&gt;
+
+&lt;p&gt;This is certainly not nothing! It&#x27;s expensive enough that I&#x27;d say silly
+behaviors like intentionally wasting millions of Opus 4.8 tokens should be
+frowned upon from an environmental perspective, comparable to, say, leaving the
+water running for 20 minutes for no particular reason.&lt;/p&gt;
+
+&lt;p&gt;But when it comes to AI agent use that has real, obvious benefits to the user,
+it doesn&#x27;t seem to me that the energy cost is at all out of proportion to the
+amount of value that&#x27;s coming from it. I&#x27;m using the agents to do my job much
+more effectively; it&#x27;s hard to objectively measure this, but I&#x27;d be quite
+surprised if I&#x27;m not doing at least one and a half times as much work per unit
+of time as I used to when I wrote all my code myself (and I&#x27;m doing many things
+I would not have been able to do at all before because it wouldn&#x27;t have been
+cost-effective). If, outside of the context of AI, I told you I had an
+intervention that would increase your productivity by 50% and your carbon
+footprint by 5%, I doubt you&#x27;d be overly worried about the carbon footprint.
+After all, if you&#x27;re really concerned about that increase, it&#x27;s not very hard
+to decrease your carbon footprint by 5% in some other way, especially if you
+now have 50% more productivity to work with.&lt;/p&gt;
+
+&lt;p&gt;On that note, if you gave me the choice between walking three miles I would
+otherwise drive every day, and never using Opus 4.8, I would happily choose to
+walk the three miles. I&#x27;m totally serious about that – no contest at all, I&#x27;m
+getting more value out of the AI use.&lt;/p&gt;
+
+&lt;p&gt;(Realistically, if you were actually going to cut three miles of driving per
+day to make up for your AI use, you would bike the three miles instead of
+walking, because that&#x27;s actually more carbon-efficient and considerably less
+annoying. I just wanted to emphasize that I find these tools so useful that, on
+cost/benefit grounds, I would rather walk than not use them. Although I do like
+walking.)&lt;/p&gt;
+
+&lt;p&gt;Another way to think about it: I don&#x27;t know anyone who would criticize someone
+for destroying the earth because they moved two miles further away from work
+and had to drive slightly further every day. If you wouldn&#x27;t think worrying
+about that was a good use of your time, you shouldn&#x27;t worry about someone using
+coding agents either. There are bigger fish to fry.&lt;/p&gt;
+
+&lt;p&gt;(Previously, the society-wide version: &lt;a href=&quot;#post-223&quot;&gt;Claims about AI&#x27;s impact on climate are misleading and distracting&lt;/a&gt;.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[267] Focusing on when LLMs are wrong is often missing the point of LLMs</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
