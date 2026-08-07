@@ -15,6 +15,27 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[270] Published: Declarative pipeline pattern</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Thu, 06 Aug 2026 20:30:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-270</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#270</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://mosmu.se/pipeline"&gt;
+              🔗 Declarative pipeline pattern
+          &lt;/a&gt; ()
+      &lt;/p&gt;
+      &lt;p&gt;A useful pattern when going through a project that has many steps is to build
+as many parts of it as possible as a &lt;em&gt;declarative pipeline&lt;/em&gt;. That is,
+rather than just producing a deliverable by some means and then going on to the
+next step based on that deliverable, create executable instructions for each
+step (ideally actual running code or automation) that produce that step&#x27;s
+deliverable. More thoughts on the properties of this pattern.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[269] Unparalleled Security parallel-parked in parallel</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
