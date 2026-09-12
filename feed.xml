@@ -15,6 +15,25 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[271] Published: Experiencing Jujutsu version control</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Published</category>
+    <pubDate>Sat, 12 Sep 2026 09:45:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-271</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#271</guid>
+    <description>
+      &lt;p&gt;
+          &lt;a href="https://www.youtube.com/watch?v=LUwJIi3G1qE"&gt;
+              🔗 Experiencing Jujutsu version control
+          &lt;/a&gt; ()
+      &lt;/p&gt;
+      &lt;p&gt;Jujutsu is the cool new Git-compatible software version control system. Whether
+you hate Git or like it, you&#x27;ll probably love Jujutsu! But most people find it
+hard to understand why it&#x27;s worth it until they see it in action. This is a
+version of a talk I gave at work to demonstrate what it looks like to use.&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[270] Published: Declarative pipeline pattern</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Published</category>
