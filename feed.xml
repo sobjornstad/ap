@@ -15,6 +15,97 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[274] You probably don't need your air filters to be HEPA-rated</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Thu, 15 Oct 2026 20:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-274</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#274</guid>
+    <description>
+      &lt;p&gt;This is a correction to a claim I made in &lt;a href=&quot;#post-241&quot;&gt;#241&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+Every indoor space definitely should have air purifiers and/or true-HEPA
+filtering in the HVAC system though. Filtering room air is not as effective as
+filtering it at your nose, but it also doesn&#x27;t require anyone to wear anything,
+and it&#x27;s largely set-and-forget and surprisingly high-value.
+&lt;/blockquote&gt;
+
+&lt;p&gt;It remains true that every indoor space definitely should have air purifiers or good-quality
+filters in the HVAC system. But the belief that HEPA filters are better at
+cleaning your air than cheaper filters that capture a somewhat smaller
+percentage of particles, such as MERV-13 filters, is both widespread and
+intuitive (thus my falling victim to it early in my acquaintance with air
+filtering), but almost completely wrong for most practical purposes.&lt;/p&gt;
+
+&lt;p&gt;Let&#x27;s start here: the way we measure virus and particulate removal
+effectiveness through air filtration is the &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Clean_air_delivery_rate&quot;&gt;CADR&lt;/a&gt;, or Clean
+Air Delivery Rate – how much volume of air has all of its particulates removed
+by the system per unit of time. (Obviously, this is a mathematical abstraction:
+in reality the exhaust of any actual air filtration system will not normally
+contain &lt;em&gt;zero&lt;/em&gt; particles.) The higher the CADR, the less effectively
+viruses spread and the fewer pollutants you inhale, because when they are
+generated or enter the space from outdoors, they are removed from the air much
+faster. (Particles in the air will settle to the ground or stick to a surface
+sooner or later, and become unavailable to breathe in unless kicked up again.
+But this can take a very long time.)&lt;/p&gt;
+
+&lt;p&gt;The fact that CADR is the important metric means that a filter which captures
+a smaller percentage of particles can often clean a room much faster than one
+which captures a larger percentage of particles. To understand this, notice
+that an HVAC or air purifier filter is filtering mostly or entirely recycled
+air from the room. (Commercial HVACs often automatically mix in a small
+percentage of outdoor air to keep it fresh. Residential units usually rely on
+the building being sufficiently leaky to mix this amount in automatically.)
+Thus, for any pair of less-efficient and more-efficient filters, there is a
+number of times you can pass the same air through the less-efficient filter
+that will provide equivalent performance to the more-efficient filter. For
+example, if you have one filter that captures 50% of particles and one that
+captures 75% of particles, passing all the air in the room through the first
+one twice will give you equivalent performance to passing it through the second
+one once. (The first pass through the less-efficient filter cuts out 50% of the
+particles, and the second 50% of the remaining particles, for 25% remaining,
+the same as after one pass through the more-efficient filter.)&lt;/p&gt;
+
+&lt;p&gt;This is important because, for a given surface area, cost, and amount of air
+resistance (affecting how powerful the fan needs to be and how loud it will be
+in operation), a filter that captures a smaller percentage of particles can
+ordinarily support a much higher flow rate. If you have a HEPA filter that
+captures 99.95% of particles of a given size, and a cheaper filter that
+captures 75% of particles, if you can get 6x the flow rate through the cheaper
+filter – which is often not difficult – you will achieve a better CADR than the
+HEPA filter (this is 0.25, the fraction of particles not removed, to the sixth
+power, to get the fraction of particles left after 6 passes: this is 0.00024,
+less than the HEPA filter&#x27;s single-pass value of 0.0005).&lt;/p&gt;
+
+&lt;p&gt;HEPA filters do make sense when you&#x27;re moving air directly from a dirty space
+into a clean space. For example, the exhaust vent from a vacuum cleaner or a
+hood in a high-security biology lab needs a HEPA filtration system, because you
+don&#x27;t get a second pass to remove more dust or viruses. But in most air
+filtration applications, you&#x27;re taking dirty air from the space and recycling
+somewhat less dirty air into the space. In these cases, this “first-pass
+efficiency” is not important; only the overall CADR of the system is important.&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+
+This is a somewhat oversimplified account. There are many counterintuitive and
+surprising details about air filtering. For instance, we&#x27;ve assumed all
+particles are the same size and equally easily filtered. But did you know that
+an air filter is actually least effective at an &lt;em&gt;intermediate&lt;/em&gt; particle
+size (that is, if a filter is least effective at filtering 2.0μm particles,
+it&#x27;s substantially more effective at filtering both 3.0μm and 1.0μm particles)?
+Or that N95 masks work in significant part by steering particles away from the
+holes into the fibers of the mask using static electricity? This account also
+assumes the air in the room mixes perfectly and that a relatively low amount of
+clean air arrives from outside the room, things which are not always true in
+real-world rooms (in both cases, higher flow rates and less efficient filters
+are even better deals).
+
+&lt;/div&gt;
+    </description>
+  </item>
+  <item>
     <title>[273] The argument for living in the cheapest home that works for you</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
@@ -1475,10 +1566,18 @@ incorporating the cost of wearing masks vs. the benefit of reducing exposure to
 allergens, toxins, and viruses will likely come out negative.&lt;/p&gt;
 
 &lt;p&gt;(Every indoor space &lt;a href=&quot;https://dynomight.net/air/&quot;&gt;definitely&lt;/a&gt; should
-have air purifiers and/or true-HEPA filtering in the HVAC system though. Filtering
+have air purifiers and/or &lt;s&gt;true-HEPA&lt;/s&gt; filtering in the HVAC system though. Filtering
 room air is not as effective as filtering it at your nose, but it also doesn&#x27;t
 require anyone to wear anything, and it&#x27;s largely set-and-forget and surprisingly
 high-value.)&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt;
+
+&lt;strong&gt;Correction:&lt;/strong&gt; Good-quality filtration does not have to use HEPA
+filters, and indeed the most effective way to get nice clean air usually uses
+less expensive filters. See &lt;a href=&quot;#post-274&quot;&gt;#274&lt;/a&gt;.
+
+&lt;/div&gt;
 
 &lt;p&gt;But think about it this way: a small fraction of your time
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_principle&quot;&gt;is likely responsible for&lt;/a&gt;
