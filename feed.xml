@@ -15,6 +15,155 @@
     <webMaster>webmaster@sorenbjornstad.com (Soren Bjornstad)</webMaster>
 
     <item>
+    <title>[277] Design Hall of Shame: Covid NineTeen</title>
+    <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
+    <category>Miscellaneous</category>
+    <pubDate>Tue, 24 Nov 2026 16:00:00 -0000</pubDate>
+    <link>https://ap.sorenbjornstad.com/#post-277</link>
+    <guid isPermaLink="false">https://ap.sorenbjornstad.com/#277</guid>
+    <description>
+      &lt;p&gt;I was feeling a little off yesterday, and thought it was probably just dry air
+and dust allergies, or possibly the beginnings of a mild cold, but especially
+since I had recent close contact with someone who had gotten diagnosed with
+walking pneumonia of unknown cause, which maybe could have been viral, I
+thought it would be prudent to do a rapid flu and COVID test. To my dismay, it
+came up positive for COVID.&lt;/p&gt;
+
+&lt;p&gt;I grabbed my &lt;a href=&quot;https://www.aptitudemedical.com/&quot;&gt;Metrix&lt;/a&gt; and ran a
+much more accurate COVID-specific test to confirm before asking my doctor for a
+prescription for Paxlovid. This one was negative. Huh?&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt; For those unfamiliar: Metrix tests are almost as
+sensitive as lab-conducted &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Polymerase_chain_reaction&quot;&gt;PCR&lt;/a&gt; tests,
+which are known for being &lt;em&gt;irritatingly&lt;/em&gt; sensitive, such that you can
+sometimes continue testing positive for several months after recovering from
+COVID. It would be unsurprising to be negative on a rapid lateral-flow test but
+positive on a Metrix test. But the reverse suggests there&#x27;s a high probability
+one of the tests was invalid or conducted incorrectly. &lt;/div&gt;
+
+&lt;p&gt;I was planning to wait until the next day and do another one, which is the
+usual protocol to resolve unexpected test results, but, curious, I went and
+fished my first test out of the trash to double-check it, and lo and behold:&lt;/p&gt;
+
+&lt;img class=&quot;center&quot; loading=&quot;lazy&quot; width=&quot;500&quot; src=&quot;assets/images/covid-misread.jpeg&quot;&gt;
+
+&lt;p&gt;You probably see the mistake already, because you have the benefit of
+perspective (but if you don&#x27;t, congratulations, you have now also become a
+demonstration of this failure of design). Yes, this test was negative all
+along: only the &lt;strong&gt;C&lt;/strong&gt;ontrol line is visible, and there are no test
+lines for flu or COVID.&lt;/p&gt;
+
+&lt;p&gt;I love this example for thinking about design, because many people, faced with
+such a mistake, just blame themselves for being stupid. And granted, I
+&lt;em&gt;did&lt;/em&gt; read the result hastily and carelessly, and I only skimmed the
+instructions despite having only used this brand of test once before. I had a
+good laugh at myself when I called the people I had warned I had COVID back.
+Also, though, I have done a lot of COVID tests, and I could even explain to you
+roughly how these things work. The problem is not intelligence, knowledge, or
+experience (though I wouldn&#x27;t be surprised if those things somewhat reduced the
+chance of making this mistake).&lt;/p&gt;
+
+&lt;p&gt;No, the real problem is that, after taking a closer look at the test and
+trying to understand what happened, I realized that if I set out to design a
+COVID/flu test that would &lt;strong&gt;maximize users&#x27; chances of making this
+error&lt;/strong&gt;, I could hardly do any better!&lt;/p&gt;
+
+&lt;p&gt;The first thing I noticed is that, as I said before, this is an unfamiliar
+brand of test. On the ones I have usually used in the past, if the test is laid
+out horizontally, the sample well is on the left, and fluid flows from left to
+right through the test. So I was primed to look in the wrong place for the
+COVID line. But it&#x27;s not just my bad luck for being used to a brand that worked
+differently – I would argue that &lt;strong&gt;the iHealth test is objectively in the
+wrong order&lt;/strong&gt;. In the West, we read from left to right and our diagrams
+read from left to right – not just usually, but essentially always. A lateral
+flow test sold to Westerners should also flow from left to right; the reverse
+makes errors more likely. (Not only does failure to standardize mean different
+brands may lay out the same test differently, if you understand how these tests
+work you know that the Control line will always be on the far side of the
+sample well, because one of its main functions is to alert you if the fluid
+fails to travel along the entire test strip.)&lt;/p&gt;
+
+&lt;p&gt;Then: the two-line design for lateral flow tests that test for only one thing,
+like COVID or pregnancy, with Control and Test lines, is inherently a little
+bit confusing all by itself. But when you&#x27;re testing for &lt;em&gt;one&lt;/em&gt; thing and
+you see &lt;em&gt;two&lt;/em&gt; marked positions on the test, you get an automatic,
+obvious intuitive reminder that, clearly, only one of those marks can indicate
+a positive test result, so you&#x27;re reminded that a control line exists and you
+have to pay attention to which one you&#x27;re seeing. So I think making this
+mistake is much harder on single tests; the majority of misreading anecdotes
+I&#x27;ve heard are on these multivalent tests. When you&#x27;re testing for three things
+and there are four lines, it&#x27;s just less obvious that seeing a single line is
+either a negative or an invalid test.&lt;/p&gt;
+
+&lt;p&gt;This doesn&#x27;t mean a test with more than two lines is inherently doomed to be
+misread, though. The manufacturer could have guarded against this mistake, say,
+by adding extra space in the test window between the control line and the three
+test lines, or rendering the “C” line in a different font or in reverse color,
+to clarify that it has a different role than the three test lines.&lt;/p&gt;
+
+&lt;p&gt;And then, the dumbest problem of all: Did you notice that &lt;strong&gt;the COVID
+line is labeled “T”&lt;/strong&gt;, while the influenza A and B lines are labeled “A”
+and “B”? I think even ChatGPT 3.5 &lt;a
+href=&quot;https://sebastianspicker.github.io/posts/strawberry-tokenisation/&quot;&gt;could
+tell you&lt;/a&gt; that the word “COVID” does not contain the letter “T”. But “COVID”
+certainly starts with a “C”. On top of that, the letters “A”, “B”, and “C” are
+a natural triple, while the letter “T” doesn&#x27;t go with any of them. Presumably
+“T” stands for “Test”, like it does on a single-endpoint test, but...are Flu A
+and Flu B not tests? (Maybe they meant “T” for
+COVID-Nine&lt;strong&gt;T&lt;/strong&gt;een?)&lt;/p&gt;
+
+&lt;p&gt;If you had someone who had never used a lateral flow test look at this card,
+knowing only that it tested for COVID, Flu A, and Flu B, there is absolutely no
+way they would possibly guess that, actually, “A”, “B”, and “T” represent one
+kind of thing, while “C” represents another kind of thing, and “T” represents
+COVID. A frazzled brain looking quickly at this is primed to come to the same
+conclusion.&lt;/p&gt;
+
+&lt;p&gt;The biggest shame is that there&#x27;s a trivial way of making this much clearer:
+all other Flu/COVID tests I&#x27;ve used label the COVID test line “COV” or “CoV”,
+rather than the absurd “T”. “COV”, unlike “T”, is self-documenting in the
+context of this test, and surely massively reduces the chance of making this
+mistake. I&#x27;ll note that CorDx&#x27;s tests go even further and put the “C” and the
+“COV” next to each other, while some other brands put the “C” and the “CoV” on
+opposite ends of the strip, as here. The former order is superior because if
+you lay your eyes on the “C” line, you can immediately next to it see another
+label that starts with “C”, which forces you to resolve the ambiguity
+immediately – which you will almost certainly do correctly because “COV” means
+COVID much more obviously than “C”.&lt;/p&gt;
+
+&lt;p&gt;Notably, the horizontal layout of the iHealth test makes it harder to neatly
+write “COV” compared to the common vertical layout – but there&#x27;s absolutely
+still plenty of space to hang &quot;COV&quot; into the margin beyond the end of the test
+window.&lt;/p&gt;
+
+&lt;div class=&quot;callout&quot;&gt; I should also note that part of the problem was that I
+glanced at the test a minute or two in, which the instructions always say not
+to do: they say not to read your results “before fifteen minutes or after
+thirty minutes” (or similar numbers seemingly arbitrarily chosen by different
+brands). At two minutes in, it looked vaguely like there might be a line under
+the “T” mark in addition to the one that was appearing at “C” simply due to the
+wetness of the fluid propagating from the sample well. Coupled with the fact
+that I was expecting to read the test from left to right, I think my
+subconscious read the “T” not-an-actual-mark as the control line, thought “two
+lines, positive”, and then, due to confirmation bias, I never reconsidered this
+when the test actually finished and there was very obviously only a single
+line. I would never have thought of this reason for these instructions, but in
+the future I think I will be refusing to look at the test card until the timer
+goes off! Then again, this seems like a mistake you only make once.&lt;/div&gt;
+
+&lt;p&gt;This is the kind of thing I would love for the FDA to catch during reviews of
+products like these. Consumers misreading the test due to easily avoidable
+design flaws is absolutely an efficacy problem. But instead we mostly seem to
+get slower drug approvals. Ah well. I&#x27;ll take not having COVID (at least for
+now) as a win.&lt;/p&gt;
+
+&lt;p&gt;(Previously in COVID testing: &lt;a
+href=&quot;https://controlaltbackspace.org/covid-testing/&quot;&gt;Understanding False
+Positive COVID Screening Results&lt;/a&gt;.)&lt;/p&gt;
+    </description>
+  </item>
+  <item>
     <title>[276] Possibly the best face masks available: Zimi Air</title>
     <author>contact@sorenbjornstad.com (Soren Bjornstad)</author>
     <category>Miscellaneous</category>
